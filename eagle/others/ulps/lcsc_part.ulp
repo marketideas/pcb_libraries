@@ -1,0 +1,67 @@
+#usage "Run this ULP on a board to list all parts, add LCSC_PART attribute if missing, and report invalid LCSC_PART and DNP parts."
+
+int main() {
+  if (!board) {
+    dlgMessageBox("This ULP must be run on a board file.");
+    exit(1);
+  }
+
+  string all_parts = "";
+  string invalid_lcsc = "";
+  string dnp_parts = "";
+  string commands = "";
+
+  board(B) 
+  {
+    B.parts(P) 
+    {
+      all_parts += sprintf("%s\n", P.name);
+
+      int has_lcsc = 0;
+      string lcsc_value = "";
+      int has_dnp = 0;
+
+      P.attributes(A) {
+        if (strupr(A.name) == "LCSC_PART") {
+          has_lcsc = 1;
+          lcsc_value = A.value;
+        }
+        if (strupr(A.name) == "DNP") {
+          has_dnp = 1;
+        }
+      }
+
+      if (!has_lcsc) {
+        commands += sprintf("ATTRIBUTE '%s' 'LCSC_PART' CONSTANT '' NONE 0 0 0;\n", P.name);
+        invalid_lcsc += sprintf("%s\n", P.name);
+      } else if (lcsc_value == "") {
+        invalid_lcsc += sprintf("%s\n", P.name);
+      }
+
+      if (has_dnp) {
+        dnp_parts += sprintf("%s\n", P.name);
+      }
+    }
+  }
+
+  UL_FILE f = fopen("lcsc_report.txt", "w");
+  if (f) {
+    fprintf(f, "All devices:\n%s\n\n", all_parts);
+    fprintf(f, "Devices without valid LCSC_PART (empty or missing):\n%s\n\n", invalid_lcsc);
+    fprintf(f, "Devices with DNP attribute:\n%s\n", dnp_parts);
+    fclose(f);
+    dlgMessageBox("Report written to lcsc_report.txt");
+  } else {
+    dlgMessageBox("Failed to write report file.");
+  }
+
+  if (commands) {
+    exit(commands);
+  } else {
+    exit(0);
+  }
+
+  return 0;
+}
+
+exit(main());

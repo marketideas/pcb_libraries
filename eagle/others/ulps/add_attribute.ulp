@@ -1,0 +1,82 @@
+// add_missing_attribute.ulp
+// Works in Eagle 9.6.2 - Adds attribute to all parts only if missing
+
+#usage "<b>Add missing attribute to all parts</b>\n"
+       "Run in Board or Schematic editor.";
+
+string attrName = "";
+string attrValue = "";
+int count = 0;
+
+if (!board && !schematic) {
+  dlgMessageBox("This ULP must be run in the Board or Schematic editor!");
+  exit(0);
+}
+
+// Simple dialog
+int result = dlgDialog("Add Missing Attribute")
+{
+  dlgLabel("Add the same attribute to every part that doesn't have it yet.");
+  dlgSpacing(10);
+  dlgLabel("Attribute Name:");
+  dlgStringEdit(attrName);
+  dlgLabel("Default Value:");
+  dlgStringEdit(attrValue);
+};
+
+if (result == 0) exit(0);   // Cancel
+
+if (attrName == "") {
+  dlgMessageBox("Attribute name cannot be empty!");
+  exit(0);
+}
+
+// Process parts and build a script
+string script = "";
+
+if (board) {
+  board(B) {
+    B.parts(P) {
+      int hasAttr = 0;
+      P.attributes(A) {
+        if (A.name == attrName) {
+          hasAttr = 1;
+          exit;
+        }
+      }
+      if (hasAttr == 0) {
+        script += "ATTRIBUTE " + P.name + " '" + attrName + "' '" + attrValue + "';\n";
+        count++;
+      }
+    }
+  }
+}
+else if (schematic) {
+  schematic(S) {
+    S.parts(P) {
+      int hasAttr = 0;
+      P.attributes(A) {
+        if (A.name == attrName) {
+          hasAttr = 1;
+          exit;
+        }
+      }
+      if (hasAttr == 0) {
+        script += "ATTRIBUTE " + P.name + " '" + attrName + "' '" + attrValue + "';\n";
+        count++;
+      }
+    }
+  }
+}
+
+if (count > 0) {
+  script(B) {   // execute the generated script
+    run(script);
+  }
+}
+
+dlgMessageBox("Finished!\n\n" 
+              + count + " parts received the attribute:\n" 
+              + attrName + " = \"" + attrValue + "\"\n"
+              + "(Parts that already had it were left unchanged.)");
+			  

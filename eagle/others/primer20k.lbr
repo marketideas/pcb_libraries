@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="Stiffner" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="sName" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="Ports" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="Port2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="Port3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="mbGlue" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+
+
+	<package name="2-2013289-1">
+<description>&lt;b&gt;2-2013289-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="31.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="2" x="31.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="3" x="31.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="4" x="30.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="5" x="30.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="6" x="30.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="7" x="29.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="8" x="29.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="9" x="29.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="10" x="28.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="11" x="28.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="12" x="28.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="13" x="28.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="14" x="27.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="15" x="27.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="16" x="27.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="17" x="26.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="18" x="26.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="19" x="26.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="20" x="25.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="21" x="25.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="22" x="25.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="23" x="25.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="24" x="24.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="25" x="24.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="26" x="24.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="27" x="23.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="28" x="23.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="29" x="23.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="30" x="22.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="31" x="22.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="32" x="22.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="33" x="22.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="34" x="21.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="35" x="21.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="36" x="21.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="37" x="20.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="38" x="20.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="39" x="20.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="40" x="19.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="41" x="19.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="42" x="19.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="43" x="19.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="44" x="18.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="45" x="18.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="46" x="18.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="47" x="17.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="48" x="17.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="49" x="17.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="50" x="16.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="51" x="16.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="52" x="16.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="53" x="16.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="54" x="15.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="55" x="15.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="56" x="15.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="57" x="14.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="58" x="14.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="59" x="14.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="60" x="13.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="61" x="13.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="62" x="13.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="63" x="13.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="64" x="12.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="65" x="12.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="66" x="12.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="67" x="11.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="68" x="11.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="69" x="11.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="70" x="10.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="71" x="10.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="72" x="10.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="73" x="7.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="74" x="7.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="75" x="7.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="76" x="6.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="77" x="6.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="78" x="6.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="79" x="5.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="80" x="5.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="81" x="5.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="82" x="4.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="83" x="4.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="84" x="4.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="85" x="4.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="86" x="3.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="87" x="3.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="88" x="3.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="89" x="2.851" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="90" x="2.551" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="91" x="2.251" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="92" x="1.951" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="93" x="1.651" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="94" x="1.351" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="95" x="1.051" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="96" x="0.751" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="97" x="0.451" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="98" x="0.151" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="99" x="-0.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="100" x="-0.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="101" x="-0.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="102" x="-1.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="103" x="-1.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="104" x="-1.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="105" x="-1.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="106" x="-2.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="107" x="-2.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="108" x="-2.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="109" x="-3.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="110" x="-3.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="111" x="-3.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="112" x="-4.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="113" x="-4.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="114" x="-4.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="115" x="-4.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="116" x="-5.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="117" x="-5.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="118" x="-5.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="119" x="-6.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="120" x="-6.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="121" x="-6.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="122" x="-7.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="123" x="-7.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="124" x="-7.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="125" x="-7.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="126" x="-8.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="127" x="-8.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="128" x="-8.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="129" x="-9.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="130" x="-9.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="131" x="-9.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="132" x="-10.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="133" x="-10.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="134" x="-10.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="135" x="-10.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="136" x="-11.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="137" x="-11.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="138" x="-11.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="139" x="-12.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="140" x="-12.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="141" x="-12.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="142" x="-13.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="143" x="-13.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="144" x="-13.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="145" x="-13.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="146" x="-14.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="147" x="-14.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="148" x="-14.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="149" x="-15.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="150" x="-15.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="151" x="-15.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="152" x="-16.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="153" x="-16.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="154" x="-16.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="155" x="-16.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="156" x="-17.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="157" x="-17.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="158" x="-17.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="159" x="-18.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="160" x="-18.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="161" x="-18.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="162" x="-19.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="163" x="-19.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="164" x="-19.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="165" x="-19.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="166" x="-20.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="167" x="-20.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="168" x="-20.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="169" x="-21.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="170" x="-21.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="171" x="-21.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="172" x="-22.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="173" x="-22.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="174" x="-22.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="175" x="-22.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="176" x="-23.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="177" x="-23.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="178" x="-23.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="179" x="-24.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="180" x="-24.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="181" x="-24.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="182" x="-25.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="183" x="-25.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="184" x="-25.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="185" x="-25.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="186" x="-26.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="187" x="-26.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="188" x="-26.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="189" x="-27.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="190" x="-27.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="191" x="-27.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="192" x="-28.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="193" x="-28.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="194" x="-28.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="195" x="-28.949" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="196" x="-29.249" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="197" x="-29.549" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="198" x="-29.849" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="199" x="-30.149" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="200" x="-30.449" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="201" x="-30.749" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="202" x="-31.049" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="203" x="-31.349" y="8.164" dx="2" dy="0.35" layer="1" rot="R270"/>
+<smd name="204" x="-31.649" y="-0.036" dx="2" dy="0.35" layer="1" rot="R270"/>
+<pad name="205" x="-33.399" y="4.064" drill="1.15" diameter="1.7" rot="R270"/>
+<pad name="206" x="33.401" y="4.064" drill="1.65" diameter="2.5" rot="R270"/>
+<smd name="207" x="32.801" y="-7.936" dx="4.6" dy="3.5" layer="1" rot="R270"/>
+<smd name="208" x="-32.799" y="-7.936" dx="4.6" dy="3.5" layer="1" rot="R270"/>
+<text x="-31.252" y="-14.238" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-14.742" y="-4.078" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="35.501" y1="9.064" x2="35.501" y2="-17.436" width="0.2" layer="51"/>
+<wire x1="35.501" y1="-17.436" x2="-35.499" y2="-17.436" width="0.2" layer="51"/>
+<wire x1="-35.499" y1="-17.436" x2="-35.499" y2="9.064" width="0.2" layer="51"/>
+<wire x1="-35.499" y1="9.064" x2="35.501" y2="9.064" width="0.2" layer="51"/>
+<wire x1="35.501" y1="9.064" x2="35.501" y2="-17.436" width="0.2" layer="21"/>
+<wire x1="35.501" y1="-17.436" x2="-35.499" y2="-17.436" width="0.2" layer="21"/>
+<wire x1="-35.499" y1="-17.436" x2="-35.499" y2="9.064" width="0.2" layer="21"/>
+<circle x="31.801" y="9.985" radius="0.04" width="0.2" layer="25"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.127" layer="21"/>
+</package>
+
+
+</library>
+
+</drawing>
+
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SIPEED-TANG-PRIMER-25K">
+<smd name="1" x="-5.8" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="3" x="-5.4" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="5" x="-5" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="7" x="-4.6" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="9" x="-4.2" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="11" x="-3.8" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="13" x="-3.4" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="15" x="-3" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="17" x="-2.6" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="19" x="-2.2" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="21" x="-1.8" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="23" x="-1.4" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="25" x="-1" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="27" x="-0.6" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="29" x="-0.2" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="31" x="0.2" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="33" x="0.6" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="35" x="1" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="37" x="1.4" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="39" x="1.8" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="41" x="2.2" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="43" x="2.6" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="45" x="3" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="47" x="3.4" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="49" x="3.8" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="51" x="4.2" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="53" x="4.6" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="55" x="5" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="57" x="5.4" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="59" x="5.8" y="-1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="2" x="-5.8" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="4" x="-5.4" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="6" x="-5" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="8" x="-4.6" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="10" x="-4.2" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="12" x="-3.8" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="14" x="-3.4" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="16" x="-3" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="18" x="-2.6" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="20" x="-2.2" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="22" x="-1.8" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="24" x="-1.4" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="26" x="-1" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="28" x="-0.6" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="30" x="-0.2" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="32" x="0.2" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="34" x="0.6" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="36" x="1" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="38" x="1.4" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="40" x="1.8" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="42" x="2.2" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="44" x="2.6" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="46" x="3" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="48" x="3.4" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="50" x="3.8" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="52" x="4.2" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="54" x="4.6" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="56" x="5" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="58" x="5.4" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="60" x="5.8" y="1.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="61" x="-5.8" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="63" x="-5.4" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="65" x="-5" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="67" x="-4.6" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="69" x="-4.2" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="71" x="-3.8" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="73" x="-3.4" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="75" x="-3" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="77" x="-2.6" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="79" x="-2.2" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="81" x="-1.8" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="83" x="-1.4" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="85" x="-1" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="87" x="-0.6" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="89" x="-0.2" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="91" x="0.2" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="93" x="0.6" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="95" x="1" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="97" x="1.4" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="99" x="1.8" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="101" x="2.2" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="103" x="2.6" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="105" x="3" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="107" x="3.4" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="109" x="3.8" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="111" x="4.2" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="113" x="4.6" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="115" x="5" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="117" x="5.4" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="119" x="5.8" y="12.81" dx="0.2" dy="1.2" layer="1"/>
+<smd name="62" x="-5.8" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="64" x="-5.4" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="66" x="-5" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="68" x="-4.6" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="70" x="-4.2" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="72" x="-3.8" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="74" x="-3.4" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="76" x="-3" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="78" x="-2.6" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="80" x="-2.2" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="82" x="-1.8" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="84" x="-1.4" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="86" x="-1" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="88" x="-0.6" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="90" x="-0.2" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="92" x="0.2" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="94" x="0.6" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="96" x="1" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="98" x="1.4" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="100" x="1.8" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="102" x="2.2" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="104" x="2.6" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="106" x="3" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="108" x="3.4" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="110" x="3.8" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="112" x="4.2" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="114" x="4.6" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="116" x="5" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="118" x="5.4" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+<smd name="120" x="5.8" y="15.19" dx="0.2" dy="1.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TANG-PRIMER-25K">
+<pin name="1_GND" x="-30.48" y="149.86" length="short" direction="pwr"/>
+<pin name="2_VCCIO2_3" x="-30.48" y="144.78" length="short" direction="pwr"/>
+<pin name="3_IOB4A" x="-30.48" y="139.7" length="short"/>
+<pin name="4_VCCIO2_3" x="-30.48" y="134.62" length="short" direction="pwr"/>
+<pin name="5_IOB4B" x="-30.48" y="129.54" length="short"/>
+<pin name="6_IOR18A" x="-30.48" y="124.46" length="short"/>
+<pin name="7_IOB26A" x="-30.48" y="119.38" length="short"/>
+<pin name="8_IOR18B" x="-30.48" y="114.3" length="short"/>
+<pin name="9_IOB26B" x="-30.48" y="109.22" length="short"/>
+<pin name="10_IOR20A" x="-30.48" y="104.14" length="short"/>
+<pin name="11_IOB24A" x="-30.48" y="99.06" length="short"/>
+<pin name="12_IOR20B" x="-30.48" y="93.98" length="short"/>
+<pin name="13_IOB1A" x="-30.48" y="88.9" length="short"/>
+<pin name="14_IOR22A" x="-30.48" y="83.82" length="short"/>
+<pin name="15_IOB12B" x="-30.48" y="78.74" length="short"/>
+<pin name="16_IOR22B" x="-30.48" y="73.66" length="short"/>
+<pin name="17_IOB14B" x="-30.48" y="68.58" length="short"/>
+<pin name="18_IOR24A" x="-30.48" y="63.5" length="short"/>
+<pin name="19_GND" x="-30.48" y="58.42" length="short" direction="pwr"/>
+<pin name="20_IOR24B" x="-30.48" y="53.34" length="short"/>
+<pin name="21_IOR1A" x="-30.48" y="48.26" length="short"/>
+<pin name="22_IOR31A" x="-30.48" y="43.18" length="short"/>
+<pin name="23_IOR3A" x="-30.48" y="38.1" length="short"/>
+<pin name="24_IOR31B" x="-30.48" y="33.02" length="short"/>
+<pin name="25_IOR3B" x="-30.48" y="27.94" length="short"/>
+<pin name="26_IOR33A" x="-30.48" y="22.86" length="short"/>
+<pin name="27_IOR1B" x="-30.48" y="17.78" length="short"/>
+<pin name="28_IOR33B" x="-30.48" y="12.7" length="short"/>
+<pin name="29_GND" x="-30.48" y="7.62" length="short" direction="pwr"/>
+<pin name="30_IOB89A" x="-30.48" y="2.54" length="short"/>
+<pin name="31_MIPI_D3_P" x="-30.48" y="-2.54" length="short"/>
+<pin name="32_IOB89B" x="-30.48" y="-7.62" length="short"/>
+<pin name="33_MIPI_D3_N" x="-30.48" y="-12.7" length="short"/>
+<pin name="34_IOB91A" x="-30.48" y="-17.78" length="short"/>
+<pin name="35_GND" x="-30.48" y="-22.86" length="short" direction="pwr"/>
+<pin name="36_IOB91B" x="-30.48" y="-27.94" length="short"/>
+<pin name="37_MIPI_D2_P" x="-30.48" y="-33.02" length="short"/>
+<pin name="38_VDD_1V8" x="-30.48" y="-38.1" length="short" direction="pwr"/>
+<pin name="39_MIPI_D2_N" x="-30.48" y="-43.18" length="short"/>
+<pin name="40_VDD_1V8" x="-30.48" y="-48.26" length="short" direction="pwr"/>
+<pin name="41_GND" x="-30.48" y="-53.34" length="short" direction="pwr"/>
+<pin name="42_VDD_2V5" x="-30.48" y="-58.42" length="short" direction="pwr"/>
+<pin name="43_MIPI_CK_P" x="-30.48" y="-63.5" length="short"/>
+<pin name="44_VDD_2V5" x="-30.48" y="-68.58" length="short" direction="pwr"/>
+<pin name="45_MIPI_CK_N" x="-30.48" y="-73.66" length="short"/>
+<pin name="46_VDD_3V3" x="-30.48" y="-78.74" length="short" direction="pwr"/>
+<pin name="47_GND" x="-30.48" y="-83.82" length="short" direction="pwr"/>
+<pin name="48_VDD_3V3" x="-30.48" y="-88.9" length="short" direction="pwr"/>
+<pin name="49_MIPI_D1_P" x="-30.48" y="-93.98" length="short"/>
+<pin name="50_VDD_3V3" x="-30.48" y="-99.06" length="short" direction="pwr"/>
+<pin name="51_MIPI_D1_N" x="-30.48" y="-104.14" length="short"/>
+<pin name="52_VDD_5V0" x="-30.48" y="-109.22" length="short" direction="pwr"/>
+<pin name="53_GND" x="-30.48" y="-114.3" length="short" direction="pwr"/>
+<pin name="54_VDD_5V0" x="-30.48" y="-119.38" length="short" direction="pwr"/>
+<pin name="55_MIPI_D0_P" x="-30.48" y="-124.46" length="short"/>
+<pin name="56_VDD_5V0" x="-30.48" y="-129.54" length="short" direction="pwr"/>
+<pin name="57_MIPI_D0_N" x="-30.48" y="-134.62" length="short"/>
+<pin name="58_VDD_5V0" x="-30.48" y="-139.7" length="short" direction="pwr"/>
+<pin name="59_GND" x="-30.48" y="-144.78" length="short" direction="pwr"/>
+<pin name="60_VDD_5V0" x="-30.48" y="-149.86" length="short" direction="pwr"/>
+<pin name="120_GND" x="30.48" y="149.86" length="short" direction="pwr" rot="R180"/>
+<pin name="119_GND" x="30.48" y="144.78" length="short" direction="pwr" rot="R180"/>
+<pin name="118_IOL14B" x="30.48" y="139.7" length="short" rot="R180"/>
+<pin name="117_IOL12B" x="30.48" y="134.62" length="short" rot="R180"/>
+<pin name="116_IOL14A" x="30.48" y="129.54" length="short" rot="R180"/>
+<pin name="115_IOL12A" x="30.48" y="124.46" length="short" rot="R180"/>
+<pin name="114_IOL3B" x="30.48" y="119.38" length="short" rot="R180"/>
+<pin name="113_IOL5B" x="30.48" y="114.3" length="short" rot="R180"/>
+<pin name="112_IOL3A" x="30.48" y="109.22" length="short" rot="R180"/>
+<pin name="111_IOL5A" x="30.48" y="104.14" length="short" rot="R180"/>
+<pin name="110_GND" x="30.48" y="99.06" length="short" direction="pwr" rot="R180"/>
+<pin name="109_IOL9B" x="30.48" y="93.98" length="short" rot="R180"/>
+<pin name="108_IOT11B" x="30.48" y="88.9" length="short" rot="R180"/>
+<pin name="107_IOL9A" x="30.48" y="83.82" length="short" rot="R180"/>
+<pin name="106_IOT11A" x="30.48" y="78.74" length="short" rot="R180"/>
+<pin name="105_GND" x="30.48" y="73.66" length="short" direction="pwr" rot="R180"/>
+<pin name="104_IOT15B" x="30.48" y="68.58" length="short" rot="R180"/>
+<pin name="103_IOT7B" x="30.48" y="63.5" length="short" rot="R180"/>
+<pin name="102_IOT15A" x="30.48" y="58.42" length="short" rot="R180"/>
+<pin name="101_IOT7A" x="30.48" y="53.34" length="short" rot="R180"/>
+<pin name="100_IOT19B" x="30.48" y="48.26" length="short" rot="R180"/>
+<pin name="99_IOT3B" x="30.48" y="43.18" length="short" rot="R180"/>
+<pin name="98_IOT19A" x="30.48" y="38.1" length="short" rot="R180"/>
+<pin name="97_IOT3A" x="30.48" y="33.02" length="short" rot="R180"/>
+<pin name="96_IOT21B" x="30.48" y="27.94" length="short" rot="R180"/>
+<pin name="95_IOT1B" x="30.48" y="22.86" length="short" rot="R180"/>
+<pin name="94_IOT21A" x="30.48" y="17.78" length="short" rot="R180"/>
+<pin name="93_IOT1A" x="30.48" y="12.7" length="short" rot="R180"/>
+<pin name="92_IOT23B" x="30.48" y="7.62" length="short" rot="R180"/>
+<pin name="91_VCCIO6_7" x="30.48" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="90_IOT23A" x="30.48" y="-2.54" length="short" rot="R180"/>
+<pin name="89_VCCIO6_7" x="30.48" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="88_GND" x="30.48" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="87_GND" x="30.48" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="86_VCCIO0_1" x="30.48" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="85_IOB64A" x="30.48" y="-27.94" length="short" rot="R180"/>
+<pin name="84_VCCIO0_1" x="30.48" y="-33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="83_IOB60A" x="30.48" y="-38.1" length="short" rot="R180"/>
+<pin name="82_IOT72B" x="30.48" y="-43.18" length="short" rot="R180"/>
+<pin name="81_IOB56B" x="30.48" y="-48.26" length="short" rot="R180"/>
+<pin name="80_IOT72A" x="30.48" y="-53.34" length="short" rot="R180"/>
+<pin name="79_IOB56A" x="30.48" y="-58.42" length="short" rot="R180"/>
+<pin name="78_IOT68B" x="30.48" y="-63.5" length="short" rot="R180"/>
+<pin name="77_IOB37A" x="30.48" y="-68.58" length="short" rot="R180"/>
+<pin name="76_IOT68A" x="30.48" y="-73.66" length="short" rot="R180"/>
+<pin name="75_GND" x="30.48" y="-78.74" length="short" direction="pwr" rot="R180"/>
+<pin name="74_IOT66B" x="30.48" y="-83.82" length="short" rot="R180"/>
+<pin name="73_IOT58B" x="30.48" y="-88.9" length="short" rot="R180"/>
+<pin name="72_IOT66A" x="30.48" y="-93.98" length="short" rot="R180"/>
+<pin name="71_IOT58A" x="30.48" y="-99.06" length="short" rot="R180"/>
+<pin name="70_IOT63B" x="30.48" y="-104.14" length="short" rot="R180"/>
+<pin name="69_IOT56B" x="30.48" y="-109.22" length="short" rot="R180"/>
+<pin name="68_IOT63A" x="30.48" y="-114.3" length="short" rot="R180"/>
+<pin name="67_IOT56A" x="30.48" y="-119.38" length="short" rot="R180"/>
+<pin name="66_IOT61B" x="30.48" y="-124.46" length="short" rot="R180"/>
+<pin name="65_IOT31B" x="30.48" y="-129.54" length="short" rot="R180"/>
+<pin name="64_IOT61A" x="30.48" y="-134.62" length="short" rot="R180"/>
+<pin name="63_IOT31A" x="30.48" y="-139.7" length="short" rot="R180"/>
+<pin name="62_GND" x="30.48" y="-144.78" length="short" direction="pwr" rot="R180"/>
+<pin name="61_GND" x="30.48" y="-149.86" length="short" direction="pwr" rot="R180"/>
+<wire x1="-27.94" y1="-152.4" x2="27.94" y2="-152.4" width="0" layer="94"/>
+<wire x1="27.94" y1="-152.4" x2="27.94" y2="152.4" width="0" layer="94"/>
+<wire x1="27.94" y1="152.4" x2="-27.94" y2="152.4" width="0" layer="94"/>
+<wire x1="-27.94" y1="152.4" x2="-27.94" y2="-152.4" width="0" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TANG-PRIMER-25K" prefix="U">
+<gates>
+<gate name="G1" symbol="TANG-PRIMER-25K" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIPEED-TANG-PRIMER-25K">
+<connects>
+<connect gate="G1" pin="100_IOT19B" pad="100"/>
+<connect gate="G1" pin="101_IOT7A" pad="101"/>
+<connect gate="G1" pin="102_IOT15A" pad="102"/>
+<connect gate="G1" pin="103_IOT7B" pad="103"/>
+<connect gate="G1" pin="104_IOT15B" pad="104"/>
+<connect gate="G1" pin="105_GND" pad="105"/>
+<connect gate="G1" pin="106_IOT11A" pad="106"/>
+<connect gate="G1" pin="107_IOL9A" pad="107"/>
+<connect gate="G1" pin="108_IOT11B" pad="108"/>
+<connect gate="G1" pin="109_IOL9B" pad="109"/>
+<connect gate="G1" pin="10_IOR20A" pad="10"/>
+<connect gate="G1" pin="110_GND" pad="110"/>
+<connect gate="G1" pin="111_IOL5A" pad="111"/>
+<connect gate="G1" pin="112_IOL3A" pad="112"/>
+<connect gate="G1" pin="113_IOL5B" pad="113"/>
+<connect gate="G1" pin="114_IOL3B" pad="114"/>
+<connect gate="G1" pin="115_IOL12A" pad="115"/>
+<connect gate="G1" pin="116_IOL14A" pad="116"/>
+<connect gate="G1" pin="117_IOL12B" pad="117"/>
+<connect gate="G1" pin="118_IOL14B" pad="118"/>
+<connect gate="G1" pin="119_GND" pad="119"/>
+<connect gate="G1" pin="11_IOB24A" pad="11"/>
+<connect gate="G1" pin="120_GND" pad="120"/>
+<connect gate="G1" pin="12_IOR20B" pad="12"/>
+<connect gate="G1" pin="13_IOB1A" pad="13"/>
+<connect gate="G1" pin="14_IOR22A" pad="14"/>
+<connect gate="G1" pin="15_IOB12B" pad="15"/>
+<connect gate="G1" pin="16_IOR22B" pad="16"/>
+<connect gate="G1" pin="17_IOB14B" pad="17"/>
+<connect gate="G1" pin="18_IOR24A" pad="18"/>
+<connect gate="G1" pin="19_GND" pad="19"/>
+<connect gate="G1" pin="1_GND" pad="1"/>
+<connect gate="G1" pin="20_IOR24B" pad="20"/>
+<connect gate="G1" pin="21_IOR1A" pad="21"/>
+<connect gate="G1" pin="22_IOR31A" pad="22"/>
+<connect gate="G1" pin="23_IOR3A" pad="23"/>
+<connect gate="G1" pin="24_IOR31B" pad="24"/>
+<connect gate="G1" pin="25_IOR3B" pad="25"/>
+<connect gate="G1" pin="26_IOR33A" pad="26"/>
+<connect gate="G1" pin="27_IOR1B" pad="27"/>
+<connect gate="G1" pin="28_IOR33B" pad="28"/>
+<connect gate="G1" pin="29_GND" pad="29"/>
+<connect gate="G1" pin="2_VCCIO2_3" pad="2"/>
+<connect gate="G1" pin="30_IOB89A" pad="30"/>
+<connect gate="G1" pin="31_MIPI_D3_P" pad="31"/>
+<connect gate="G1" pin="32_IOB89B" pad="32"/>
+<connect gate="G1" pin="33_MIPI_D3_N" pad="33"/>
+<connect gate="G1" pin="34_IOB91A" pad="34"/>
+<connect gate="G1" pin="35_GND" pad="35"/>
+<connect gate="G1" pin="36_IOB91B" pad="36"/>
+<connect gate="G1" pin="37_MIPI_D2_P" pad="37"/>
+<connect gate="G1" pin="38_VDD_1V8" pad="38"/>
+<connect gate="G1" pin="39_MIPI_D2_N" pad="39"/>
+<connect gate="G1" pin="3_IOB4A" pad="3"/>
+<connect gate="G1" pin="40_VDD_1V8" pad="40"/>
+<connect gate="G1" pin="41_GND" pad="41"/>
+<connect gate="G1" pin="42_VDD_2V5" pad="42"/>
+<connect gate="G1" pin="43_MIPI_CK_P" pad="43"/>
+<connect gate="G1" pin="44_VDD_2V5" pad="44"/>
+<connect gate="G1" pin="45_MIPI_CK_N" pad="45"/>
+<connect gate="G1" pin="46_VDD_3V3" pad="46"/>
+<connect gate="G1" pin="47_GND" pad="47"/>
+<connect gate="G1" pin="48_VDD_3V3" pad="48"/>
+<connect gate="G1" pin="49_MIPI_D1_P" pad="49"/>
+<connect gate="G1" pin="4_VCCIO2_3" pad="4"/>
+<connect gate="G1" pin="50_VDD_3V3" pad="50"/>
+<connect gate="G1" pin="51_MIPI_D1_N" pad="51"/>
+<connect gate="G1" pin="52_VDD_5V0" pad="52"/>
+<connect gate="G1" pin="53_GND" pad="53"/>
+<connect gate="G1" pin="54_VDD_5V0" pad="54"/>
+<connect gate="G1" pin="55_MIPI_D0_P" pad="55"/>
+<connect gate="G1" pin="56_VDD_5V0" pad="56"/>
+<connect gate="G1" pin="57_MIPI_D0_N" pad="57"/>
+<connect gate="G1" pin="58_VDD_5V0" pad="58"/>
+<connect gate="G1" pin="59_GND" pad="59"/>
+<connect gate="G1" pin="5_IOB4B" pad="5"/>
+<connect gate="G1" pin="60_VDD_5V0" pad="60"/>
+<connect gate="G1" pin="61_GND" pad="61"/>
+<connect gate="G1" pin="62_GND" pad="62"/>
+<connect gate="G1" pin="63_IOT31A" pad="63"/>
+<connect gate="G1" pin="64_IOT61A" pad="64"/>
+<connect gate="G1" pin="65_IOT31B" pad="65"/>
+<connect gate="G1" pin="66_IOT61B" pad="66"/>
+<connect gate="G1" pin="67_IOT56A" pad="67"/>
+<connect gate="G1" pin="68_IOT63A" pad="68"/>
+<connect gate="G1" pin="69_IOT56B" pad="69"/>
+<connect gate="G1" pin="6_IOR18A" pad="6"/>
+<connect gate="G1" pin="70_IOT63B" pad="70"/>
+<connect gate="G1" pin="71_IOT58A" pad="71"/>
+<connect gate="G1" pin="72_IOT66A" pad="72"/>
+<connect gate="G1" pin="73_IOT58B" pad="73"/>
+<connect gate="G1" pin="74_IOT66B" pad="74"/>
+<connect gate="G1" pin="75_GND" pad="75"/>
+<connect gate="G1" pin="76_IOT68A" pad="76"/>
+<connect gate="G1" pin="77_IOB37A" pad="77"/>
+<connect gate="G1" pin="78_IOT68B" pad="78"/>
+<connect gate="G1" pin="79_IOB56A" pad="79"/>
+<connect gate="G1" pin="7_IOB26A" pad="7"/>
+<connect gate="G1" pin="80_IOT72A" pad="80"/>
+<connect gate="G1" pin="81_IOB56B" pad="81"/>
+<connect gate="G1" pin="82_IOT72B" pad="82"/>
+<connect gate="G1" pin="83_IOB60A" pad="83"/>
+<connect gate="G1" pin="84_VCCIO0_1" pad="84"/>
+<connect gate="G1" pin="85_IOB64A" pad="85"/>
+<connect gate="G1" pin="86_VCCIO0_1" pad="86"/>
+<connect gate="G1" pin="87_GND" pad="87"/>
+<connect gate="G1" pin="88_GND" pad="88"/>
+<connect gate="G1" pin="89_VCCIO6_7" pad="89"/>
+<connect gate="G1" pin="8_IOR18B" pad="8"/>
+<connect gate="G1" pin="90_IOT23A" pad="90"/>
+<connect gate="G1" pin="91_VCCIO6_7" pad="91"/>
+<connect gate="G1" pin="92_IOT23B" pad="92"/>
+<connect gate="G1" pin="93_IOT1A" pad="93"/>
+<connect gate="G1" pin="94_IOT21A" pad="94"/>
+<connect gate="G1" pin="95_IOT1B" pad="95"/>
+<connect gate="G1" pin="96_IOT21B" pad="96"/>
+<connect gate="G1" pin="97_IOT3A" pad="97"/>
+<connect gate="G1" pin="98_IOT19A" pad="98"/>
+<connect gate="G1" pin="99_IOT3B" pad="99"/>
+<connect gate="G1" pin="9_IOB26B" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

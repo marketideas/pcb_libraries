@@ -1,0 +1,58 @@
+// find_off_grid_parts.ulp
+// Works in Board Editor only - Eagle 9.6.2
+
+void main()
+{
+    if (!board) 
+    {
+        dlgMessageBox("This script must be run in the Board Editor!");
+        return;
+    }
+
+    int count = 0;
+
+    // Get current grid size (more compatible method)
+    real grid_size = 50;  // default fallback
+    string cmd = "grid";
+    string result = "";
+    
+    // Try to read current grid (this is more reliable in 9.6.2)
+    grid(GRID);
+    grid_size = GRID.grid;
+
+    output("off_grid_parts.txt", "wt") 
+    {
+        printf("=== Parts NOT aligned to grid (%.4f) ===\n\n", grid_size);
+
+        for (element e in board.elements)
+        {
+            if (e.package) 
+            {
+                real x = e.x;
+                real y = e.y;
+
+                real x_snap = round(x / grid_size) * grid_size;
+                real y_snap = round(y / grid_size) * grid_size;
+
+                if (abs(x - x_snap) > 0.01 || abs(y - y_snap) > 0.01)
+                {
+                    count++;
+                    printf("%-12s   X=%9.4f   Y=%9.4f   → snap to (%9.4f, %9.4f)\n", 
+                           e.name, x, y, x_snap, y_snap);
+
+                    e.highlight = 1;
+                }
+            }
+        }
+
+        if (count == 0)
+            printf("All parts are on grid.\n");
+        else
+            printf("\nFound %d off-grid parts.\n", count);
+    }
+
+    if (count > 0)
+        dlgMessageBox("Found " + count + " parts not on grid.\n\nReport saved.\nParts highlighted.");
+    else
+        dlgMessageBox("All parts are snapped to the grid.");
+}

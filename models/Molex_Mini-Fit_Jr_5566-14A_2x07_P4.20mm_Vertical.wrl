@@ -1,0 +1,81 @@
+#VRML V2.0 utf8
+# Simplified model authored from the DLL-5566-14A dimensional drawing.
+
+Transform {
+  translation 0 -0.078740 1.929134
+  children [
+    DEF Housing Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.88 0.84 0.70
+          specularColor 0.15 0.15 0.15
+          shininess 0.2
+        }
+      }
+      geometry Box { size 12.047244 3.700787 3.858268 }
+    }
+  ]
+}
+Transform {
+  translation 0 2.125984 1.929134
+  children [
+    USE Housing
+  ]
+  scale 0.137255 0.191489 1
+}
+
+Transform {
+  translation 4.960630 -1.082677 1.673228
+  children [
+    DEF Pin Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.78 0.62 0.18
+          specularColor 0.45 0.35 0.08
+          shininess 0.5
+        }
+      }
+      geometry Box { size 0.275591 0.275591 4.448819 }
+    }
+  ]
+}
+Transform { translation 3.307087 -1.082677 1.673228 children [ USE Pin ] }
+Transform { translation 1.653543 -1.082677 1.673228 children [ USE Pin ] }
+Transform { translation 0 -1.082677 1.673228 children [ USE Pin ] }
+Transform { translation -1.653543 -1.082677 1.673228 children [ USE Pin ] }
+Transform { translation -3.307087 -1.082677 1.673228 children [ USE Pin ] }
+Transform { translation -4.960630 -1.082677 1.673228 children [ USE Pin ] }
+Transform { translation 4.960630 1.082677 1.673228 children [ USE Pin ] }
+Transform { translation 3.307087 1.082677 1.673228 children [ USE Pin ] }
+Transform { translation 1.653543 1.082677 1.673228 children [ USE Pin ] }
+Transform { translation 0 1.082677 1.673228 children [ USE Pin ] }
+Transform { translation -1.653543 1.082677 1.673228 children [ USE Pin ] }
+Transform { translation -3.307087 1.082677 1.673228 children [ USE Pin ] }
+Transform { translation -4.960630 1.082677 1.673228 children [ USE Pin ] }
+
+Transform {
+  translation 4.960630 -1.082677 3.897638
+  children [
+    DEF Recess Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.16 0.14 0.10
+        }
+      }
+      geometry Box { size 0.590551 0.590551 0.078740 }
+    }
+  ]
+}
+Transform { translation 3.307087 -1.082677 3.897638 children [ USE Recess ] }
+Transform { translation 1.653543 -1.082677 3.897638 children [ USE Recess ] }
+Transform { translation 0 -1.082677 3.897638 children [ USE Recess ] }
+Transform { translation -1.653543 -1.082677 3.897638 children [ USE Recess ] }
+Transform { translation -3.307087 -1.082677 3.897638 children [ USE Recess ] }
+Transform { translation -4.960630 -1.082677 3.897638 children [ USE Recess ] }
+Transform { translation 4.960630 1.082677 3.897638 children [ USE Recess ] }
+Transform { translation 3.307087 1.082677 3.897638 children [ USE Recess ] }
+Transform { translation 1.653543 1.082677 3.897638 children [ USE Recess ] }
+Transform { translation 0 1.082677 3.897638 children [ USE Recess ] }
+Transform { translation -1.653543 1.082677 3.897638 children [ USE Recess ] }
+Transform { translation -3.307087 1.082677 3.897638 children [ USE Recess ] }
+Transform { translation -4.960630 1.082677 3.897638 children [ USE Recess ] }

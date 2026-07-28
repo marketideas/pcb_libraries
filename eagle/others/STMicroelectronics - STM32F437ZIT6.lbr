@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="STMICROELECTRONICS_STM32F437ZIT6_0">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="21" y2="-9.55" width="0.15" x2="9.55" y1="-9.55" x1="-9.55"/>
+                    <wire layer="21" y2="9.55" width="0.15" x2="9.55" y1="9.55" x1="-9.55"/>
+                    <wire layer="21" y2="9.55" width="0.15" x2="9.55" y1="-9.55" x1="9.55"/>
+                    <wire layer="21" y2="9.55" width="0.15" x2="-9.55" y1="-9.55" x1="-9.55"/>
+                    <wire layer="51" y2="-10.0" width="0.1" x2="10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="-10.0" x1="10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="-10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="39" y2="11.4" width="0.1" x2="-11.4" y1="-11.4" x1="-11.4"/>
+                    <wire layer="39" y2="11.4" width="0.1" x2="11.4" y1="11.4" x1="-11.4"/>
+                    <wire layer="39" y2="-11.4" width="0.1" x2="11.4" y1="11.4" x1="11.4"/>
+                    <wire layer="39" y2="-11.4" width="0.1" x2="-11.4" y1="-11.4" x1="11.4"/>
+                    <text layer="25" align="bottom-left" y="11.4" x="-12.4" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="8.55" x="-8.55" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="9.475" x="-10.625" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="9.1" x="-9.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="144" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="143" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="142" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="141" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="140" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="139" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="138" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="137" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="136" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="135" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="134" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="133" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="132" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="131" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="130" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="129" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="128" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="127" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="126" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="125" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="124" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="123" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="122" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="121" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="120" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="119" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="118" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="117" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="116" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="115" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="114" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="113" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="112" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="111" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="110" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="109" stop="yes" roundness="0" dx="0.35" dy="1.35" y="10.625" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="108" stop="yes" roundness="0" dx="0.35" dy="1.35" y="8.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="107" stop="yes" roundness="0" dx="0.35" dy="1.35" y="8.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="106" stop="yes" roundness="0" dx="0.35" dy="1.35" y="7.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="105" stop="yes" roundness="0" dx="0.35" dy="1.35" y="7.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="104" stop="yes" roundness="0" dx="0.35" dy="1.35" y="6.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="103" stop="yes" roundness="0" dx="0.35" dy="1.35" y="6.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="102" stop="yes" roundness="0" dx="0.35" dy="1.35" y="5.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="101" stop="yes" roundness="0" dx="0.35" dy="1.35" y="5.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="100" stop="yes" roundness="0" dx="0.35" dy="1.35" y="4.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="99" stop="yes" roundness="0" dx="0.35" dy="1.35" y="4.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="98" stop="yes" roundness="0" dx="0.35" dy="1.35" y="3.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="97" stop="yes" roundness="0" dx="0.35" dy="1.35" y="3.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="96" stop="yes" roundness="0" dx="0.35" dy="1.35" y="2.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="95" stop="yes" roundness="0" dx="0.35" dy="1.35" y="2.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="94" stop="yes" roundness="0" dx="0.35" dy="1.35" y="1.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="93" stop="yes" roundness="0" dx="0.35" dy="1.35" y="1.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="92" stop="yes" roundness="0" dx="0.35" dy="1.35" y="0.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="91" stop="yes" roundness="0" dx="0.35" dy="1.35" y="0.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="90" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-0.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="89" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-0.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="88" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-1.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="87" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-1.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="86" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-2.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="85" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-2.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="84" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-3.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="83" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-3.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="82" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-4.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="81" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-4.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="80" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-5.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="79" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-5.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="78" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-6.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="77" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-6.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="76" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-7.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="75" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-7.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="74" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-8.25" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="73" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-8.75" x="10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="72" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="71" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="70" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="69" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="68" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="67" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="66" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="65" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-10.625" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-8.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-8.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-7.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-7.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-6.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-6.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-5.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-5.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-4.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-4.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-3.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-3.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-2.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-2.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-1.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-1.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-0.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="0" dx="0.35" dy="1.35" y="-0.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="0" dx="0.35" dy="1.35" y="0.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="0" dx="0.35" dy="1.35" y="0.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="0" dx="0.35" dy="1.35" y="1.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="0" dx="0.35" dy="1.35" y="1.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="0" dx="0.35" dy="1.35" y="2.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="0" dx="0.35" dy="1.35" y="2.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="0" dx="0.35" dy="1.35" y="3.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="0" dx="0.35" dy="1.35" y="3.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="0" dx="0.35" dy="1.35" y="4.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="0" dx="0.35" dy="1.35" y="4.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="0" dx="0.35" dy="1.35" y="5.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="0" dx="0.35" dy="1.35" y="5.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.35" dy="1.35" y="6.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.35" dy="1.35" y="6.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.35" dy="1.35" y="7.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.35" dy="1.35" y="7.75" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.35" dy="1.35" y="8.25" x="-10.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.35" dy="1.35" y="8.75" x="-10.625" rot="R90" cream="yes"/>
+                </package>
+                <package name="STMICROELECTRONICS_STM32F437ZIT6_1">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="21" y2="-9.35" width="0.15" x2="9.35" y1="-9.35" x1="-9.35"/>
+                    <wire layer="21" y2="9.35" width="0.15" x2="9.35" y1="9.35" x1="-9.35"/>
+                    <wire layer="21" y2="9.35" width="0.15" x2="9.35" y1="-9.35" x1="9.35"/>
+                    <wire layer="21" y2="9.35" width="0.15" x2="-9.35" y1="-9.35" x1="-9.35"/>
+                    <wire layer="51" y2="-10.0" width="0.1" x2="10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="-10.0" x1="10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="-10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="39" y2="11.4" width="0.1" x2="-11.4" y1="-11.4" x1="-11.4"/>
+                    <wire layer="39" y2="11.4" width="0.1" x2="11.4" y1="11.4" x1="-11.4"/>
+                    <wire layer="39" y2="-11.4" width="0.1" x2="11.4" y1="11.4" x1="11.4"/>
+                    <wire layer="39" y2="-11.4" width="0.1" x2="-11.4" y1="-11.4" x1="11.4"/>
+                    <text layer="25" align="bottom-left" y="11.4" x="-12.4" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="8.35" x="-8.35" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="9.425" x="-10.525" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="9.1" x="-9.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="144" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="143" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="142" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="141" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="140" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="139" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="138" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="137" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="136" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="135" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="134" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="133" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="132" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="131" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="130" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="129" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="128" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="127" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="126" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="125" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="124" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="123" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="122" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="121" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="120" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="119" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="118" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="117" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="116" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="115" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="114" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="113" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="112" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="111" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="110" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="109" stop="yes" roundness="100" dx="0.25" dy="1.55" y="10.525" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="108" stop="yes" roundness="100" dx="0.25" dy="1.55" y="8.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="107" stop="yes" roundness="100" dx="0.25" dy="1.55" y="8.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="106" stop="yes" roundness="100" dx="0.25" dy="1.55" y="7.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="105" stop="yes" roundness="100" dx="0.25" dy="1.55" y="7.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="104" stop="yes" roundness="100" dx="0.25" dy="1.55" y="6.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="103" stop="yes" roundness="100" dx="0.25" dy="1.55" y="6.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="102" stop="yes" roundness="100" dx="0.25" dy="1.55" y="5.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="101" stop="yes" roundness="100" dx="0.25" dy="1.55" y="5.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="100" stop="yes" roundness="100" dx="0.25" dy="1.55" y="4.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="99" stop="yes" roundness="100" dx="0.25" dy="1.55" y="4.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="98" stop="yes" roundness="100" dx="0.25" dy="1.55" y="3.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="97" stop="yes" roundness="100" dx="0.25" dy="1.55" y="3.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="96" stop="yes" roundness="100" dx="0.25" dy="1.55" y="2.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="95" stop="yes" roundness="100" dx="0.25" dy="1.55" y="2.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="94" stop="yes" roundness="100" dx="0.25" dy="1.55" y="1.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="93" stop="yes" roundness="100" dx="0.25" dy="1.55" y="1.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="92" stop="yes" roundness="100" dx="0.25" dy="1.55" y="0.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="91" stop="yes" roundness="100" dx="0.25" dy="1.55" y="0.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="90" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-0.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="89" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-0.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="88" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-1.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="87" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-1.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="86" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-2.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="85" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-2.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="84" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-3.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="83" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-3.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="82" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-4.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="81" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-4.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="80" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-5.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="79" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-5.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="78" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-6.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="77" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-6.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="76" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-7.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="75" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-7.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="74" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-8.25" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="73" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-8.75" x="10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="72" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="71" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="70" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="69" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="68" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="67" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="66" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="65" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-10.525" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-8.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-8.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-7.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-7.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-6.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-6.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-5.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-5.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-4.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-4.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-3.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-3.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-2.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-2.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-1.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-1.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-0.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.25" dy="1.55" y="-0.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.25" dy="1.55" y="0.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.25" dy="1.55" y="0.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.25" dy="1.55" y="1.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.25" dy="1.55" y="1.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.25" dy="1.55" y="2.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.25" dy="1.55" y="2.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.25" dy="1.55" y="3.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.25" dy="1.55" y="3.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.25" dy="1.55" y="4.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.25" dy="1.55" y="4.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.25" dy="1.55" y="5.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.25" dy="1.55" y="5.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.25" dy="1.55" y="6.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.25" dy="1.55" y="6.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.25" dy="1.55" y="7.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.25" dy="1.55" y="7.75" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.25" dy="1.55" y="8.25" x="-10.525" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.25" dy="1.55" y="8.75" x="-10.525" rot="R90" cream="yes"/>
+                </package>
+                <package name="STMICROELECTRONICS_STM32F437ZIT6_2">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="21" y2="-9.25" width="0.15" x2="9.25" y1="-9.25" x1="-9.25"/>
+                    <wire layer="21" y2="9.25" width="0.15" x2="9.25" y1="9.25" x1="-9.25"/>
+                    <wire layer="21" y2="9.25" width="0.15" x2="9.25" y1="-9.25" x1="9.25"/>
+                    <wire layer="21" y2="9.25" width="0.15" x2="-9.25" y1="-9.25" x1="-9.25"/>
+                    <wire layer="51" y2="-10.0" width="0.1" x2="10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="-10.0" x1="10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="-10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="39" y2="11.7" width="0.1" x2="-11.7" y1="-11.7" x1="-11.7"/>
+                    <wire layer="39" y2="11.7" width="0.1" x2="11.7" y1="11.7" x1="-11.7"/>
+                    <wire layer="39" y2="-11.7" width="0.1" x2="11.7" y1="11.7" x1="11.7"/>
+                    <wire layer="39" y2="-11.7" width="0.1" x2="-11.7" y1="-11.7" x1="11.7"/>
+                    <text layer="25" align="bottom-left" y="11.7" x="-12.7" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="8.25" x="-8.25" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="9.45" x="-10.55" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="9.1" x="-9.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="144" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="143" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="142" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="141" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="140" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="139" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="138" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="137" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="136" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="135" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="134" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="133" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="132" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="131" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="130" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="129" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="128" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="127" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="126" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="125" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="124" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="123" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="122" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="121" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="120" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="119" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="118" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="117" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="116" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="115" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="114" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="113" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="112" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="111" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="110" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="109" stop="yes" roundness="100" dx="0.3" dy="1.8" y="10.55" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="108" stop="yes" roundness="100" dx="0.3" dy="1.8" y="8.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="107" stop="yes" roundness="100" dx="0.3" dy="1.8" y="8.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="106" stop="yes" roundness="100" dx="0.3" dy="1.8" y="7.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="105" stop="yes" roundness="100" dx="0.3" dy="1.8" y="7.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="104" stop="yes" roundness="100" dx="0.3" dy="1.8" y="6.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="103" stop="yes" roundness="100" dx="0.3" dy="1.8" y="6.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="102" stop="yes" roundness="100" dx="0.3" dy="1.8" y="5.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="101" stop="yes" roundness="100" dx="0.3" dy="1.8" y="5.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="100" stop="yes" roundness="100" dx="0.3" dy="1.8" y="4.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="99" stop="yes" roundness="100" dx="0.3" dy="1.8" y="4.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="98" stop="yes" roundness="100" dx="0.3" dy="1.8" y="3.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="97" stop="yes" roundness="100" dx="0.3" dy="1.8" y="3.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="96" stop="yes" roundness="100" dx="0.3" dy="1.8" y="2.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="95" stop="yes" roundness="100" dx="0.3" dy="1.8" y="2.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="94" stop="yes" roundness="100" dx="0.3" dy="1.8" y="1.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="93" stop="yes" roundness="100" dx="0.3" dy="1.8" y="1.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="92" stop="yes" roundness="100" dx="0.3" dy="1.8" y="0.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="91" stop="yes" roundness="100" dx="0.3" dy="1.8" y="0.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="90" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-0.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="89" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-0.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="88" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-1.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="87" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-1.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="86" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-2.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="85" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-2.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="84" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-3.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="83" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-3.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="82" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-4.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="81" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-4.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="80" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-5.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="79" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-5.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="78" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-6.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="77" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-6.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="76" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-7.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="75" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-7.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="74" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-8.25" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="73" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-8.75" x="10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="72" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="71" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="70" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="69" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="68" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="67" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="66" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="65" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-10.55" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-8.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-8.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-7.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-7.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-6.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-6.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-5.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-5.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-4.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-4.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-3.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-3.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-2.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-2.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-1.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-1.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-0.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.3" dy="1.8" y="-0.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.3" dy="1.8" y="0.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.3" dy="1.8" y="0.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.3" dy="1.8" y="1.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.3" dy="1.8" y="1.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.3" dy="1.8" y="2.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.3" dy="1.8" y="2.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.3" dy="1.8" y="3.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.3" dy="1.8" y="3.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.3" dy="1.8" y="4.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.3" dy="1.8" y="4.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.3" dy="1.8" y="5.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.3" dy="1.8" y="5.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.3" dy="1.8" y="6.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.3" dy="1.8" y="6.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.3" dy="1.8" y="7.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.3" dy="1.8" y="7.75" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.3" dy="1.8" y="8.25" x="-10.55" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.3" dy="1.8" y="8.75" x="-10.55" rot="R90" cream="yes"/>
+                </package>
+                <package name="STMICROELECTRONICS_STM32F437ZIT6_3">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="21" y2="-9.15" width="0.15" x2="9.15" y1="-9.15" x1="-9.15"/>
+                    <wire layer="21" y2="9.15" width="0.15" x2="9.15" y1="9.15" x1="-9.15"/>
+                    <wire layer="21" y2="9.15" width="0.15" x2="9.15" y1="-9.15" x1="9.15"/>
+                    <wire layer="21" y2="9.15" width="0.15" x2="-9.15" y1="-9.15" x1="-9.15"/>
+                    <wire layer="51" y2="-10.0" width="0.1" x2="10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="10.0" x1="-10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="10.0" y1="-10.0" x1="10.0"/>
+                    <wire layer="51" y2="10.0" width="0.1" x2="-10.0" y1="-10.0" x1="-10.0"/>
+                    <wire layer="39" y2="12.15" width="0.1" x2="-12.15" y1="-12.15" x1="-12.15"/>
+                    <wire layer="39" y2="12.15" width="0.1" x2="12.15" y1="12.15" x1="-12.15"/>
+                    <wire layer="39" y2="-12.15" width="0.1" x2="12.15" y1="12.15" x1="12.15"/>
+                    <wire layer="39" y2="-12.15" width="0.1" x2="-12.15" y1="-12.15" x1="12.15"/>
+                    <text layer="25" align="bottom-left" y="12.15" x="-13.15" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="8.15" x="-8.15" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="9.45" x="-10.6" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="9.1" x="-9.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="144" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="143" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="142" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="141" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="140" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="139" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="138" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="137" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="136" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="135" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="134" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="133" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="132" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="131" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="130" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="129" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="128" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="127" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="126" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="125" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="124" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="123" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="122" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="121" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="120" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="119" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="118" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="117" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="116" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="115" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="114" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="113" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="112" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="111" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="110" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="109" stop="yes" roundness="100" dx="0.3" dy="2.1" y="10.6" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="108" stop="yes" roundness="100" dx="0.3" dy="2.1" y="8.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="107" stop="yes" roundness="100" dx="0.3" dy="2.1" y="8.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="106" stop="yes" roundness="100" dx="0.3" dy="2.1" y="7.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="105" stop="yes" roundness="100" dx="0.3" dy="2.1" y="7.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="104" stop="yes" roundness="100" dx="0.3" dy="2.1" y="6.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="103" stop="yes" roundness="100" dx="0.3" dy="2.1" y="6.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="102" stop="yes" roundness="100" dx="0.3" dy="2.1" y="5.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="101" stop="yes" roundness="100" dx="0.3" dy="2.1" y="5.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="100" stop="yes" roundness="100" dx="0.3" dy="2.1" y="4.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="99" stop="yes" roundness="100" dx="0.3" dy="2.1" y="4.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="98" stop="yes" roundness="100" dx="0.3" dy="2.1" y="3.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="97" stop="yes" roundness="100" dx="0.3" dy="2.1" y="3.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="96" stop="yes" roundness="100" dx="0.3" dy="2.1" y="2.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="95" stop="yes" roundness="100" dx="0.3" dy="2.1" y="2.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="94" stop="yes" roundness="100" dx="0.3" dy="2.1" y="1.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="93" stop="yes" roundness="100" dx="0.3" dy="2.1" y="1.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="92" stop="yes" roundness="100" dx="0.3" dy="2.1" y="0.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="91" stop="yes" roundness="100" dx="0.3" dy="2.1" y="0.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="90" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-0.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="89" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-0.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="88" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-1.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="87" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-1.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="86" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-2.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="85" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-2.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="84" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-3.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="83" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-3.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="82" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-4.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="81" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-4.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="80" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-5.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="79" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-5.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="78" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-6.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="77" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-6.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="76" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-7.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="75" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-7.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="74" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-8.25" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="73" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-8.75" x="10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="72" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="71" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="70" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="69" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="68" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="67" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="66" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="65" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-4.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-4.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-5.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-6.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-6.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-7.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-7.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-8.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-10.6" x="-8.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-8.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-8.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-7.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-7.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-6.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-6.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-5.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-5.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-4.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-4.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-3.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-3.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-2.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-2.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-1.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-1.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-0.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.3" dy="2.1" y="-0.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.3" dy="2.1" y="0.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.3" dy="2.1" y="0.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.3" dy="2.1" y="1.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.3" dy="2.1" y="1.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.3" dy="2.1" y="2.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.3" dy="2.1" y="2.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.3" dy="2.1" y="3.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.3" dy="2.1" y="3.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.3" dy="2.1" y="4.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.3" dy="2.1" y="4.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.3" dy="2.1" y="5.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.3" dy="2.1" y="5.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.3" dy="2.1" y="6.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.3" dy="2.1" y="6.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.3" dy="2.1" y="7.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.3" dy="2.1" y="7.75" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.3" dy="2.1" y="8.25" x="-10.6" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.3" dy="2.1" y="8.75" x="-10.6" rot="R90" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="STMICROELECTRONICS_STM32F437ZIT6_0_0">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-96.52" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="35.56" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-96.52" width="0.508" x2="35.56" y1="-5.08" x1="35.56"/>
+                    <wire layer="94" y2="-96.52" width="0.508" x2="0.0" y1="-96.52" x1="35.56"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="0.0" y1="-22.86" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="35.56" y1="-7.62" x1="35.56"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="35.56" y1="-10.16" x1="35.56"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="35.56" y1="-12.7" x1="35.56"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="35.56" y1="-35.56" x1="35.56"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="35.56" y1="-38.1" x1="35.56"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="35.56" y1="-40.64" x1="35.56"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="35.56" y1="-43.18" x1="35.56"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="35.56" y1="-45.72" x1="35.56"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="35.56" y1="-48.26" x1="35.56"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="0.0" y1="-35.56" x1="0.0"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="0.0" y1="-38.1" x1="0.0"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="0.0" y1="-40.64" x1="0.0"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="0.0" y1="-43.18" x1="0.0"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="0.0" y1="-45.72" x1="0.0"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="0.0" y1="-48.26" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="35.56" y1="-15.24" x1="35.56"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="35.56" y1="-17.78" x1="35.56"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="35.56" y1="-20.32" x1="35.56"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="35.56" y1="-22.86" x1="35.56"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="35.56" y1="-25.4" x1="35.56"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="35.56" y1="-30.48" x1="35.56"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="35.56" y1="-33.02" x1="35.56"/>
+                    <wire layer="94" y2="-88.9" width="0.15" x2="0.0" y1="-88.9" x1="0.0"/>
+                    <wire layer="94" y2="-91.44" width="0.15" x2="0.0" y1="-91.44" x1="0.0"/>
+                    <wire layer="94" y2="-93.98" width="0.15" x2="0.0" y1="-93.98" x1="0.0"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="0.0" y1="-53.34" x1="0.0"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="0.0" y1="-55.88" x1="0.0"/>
+                    <wire layer="94" y2="-58.42" width="0.15" x2="0.0" y1="-58.42" x1="0.0"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="0.0" y1="-60.96" x1="0.0"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="0.0" y1="-63.5" x1="0.0"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="0.0" y1="-66.04" x1="0.0"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="0.0" y1="-68.58" x1="0.0"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="0.0" y1="-71.12" x1="0.0"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="0.0" y1="-76.2" x1="0.0"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="0.0" y1="-78.74" x1="0.0"/>
+                    <wire layer="94" y2="-81.28" width="0.15" x2="0.0" y1="-81.28" x1="0.0"/>
+                    <wire layer="94" y2="-83.82" width="0.15" x2="0.0" y1="-83.82" x1="0.0"/>
+                    <wire layer="94" y2="-86.36" width="0.15" x2="0.0" y1="-86.36" x1="0.0"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="35.56" y1="-76.2" x1="35.56"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="35.56" y1="-78.74" x1="35.56"/>
+                    <wire layer="94" y2="-81.28" width="0.15" x2="35.56" y1="-81.28" x1="35.56"/>
+                    <wire layer="94" y2="-83.82" width="0.15" x2="35.56" y1="-83.82" x1="35.56"/>
+                    <wire layer="94" y2="-86.36" width="0.15" x2="35.56" y1="-86.36" x1="35.56"/>
+                    <wire layer="94" y2="-88.9" width="0.15" x2="35.56" y1="-88.9" x1="35.56"/>
+                    <wire layer="94" y2="-91.44" width="0.15" x2="35.56" y1="-91.44" x1="35.56"/>
+                    <wire layer="94" y2="-93.98" width="0.15" x2="35.56" y1="-93.98" x1="35.56"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="35.56" y1="-53.34" x1="35.56"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="35.56" y1="-55.88" x1="35.56"/>
+                    <wire layer="94" y2="-58.42" width="0.15" x2="35.56" y1="-58.42" x1="35.56"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="35.56" y1="-60.96" x1="35.56"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="35.56" y1="-63.5" x1="35.56"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="35.56" y1="-66.04" x1="35.56"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="35.56" y1="-68.58" x1="35.56"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="35.56" y1="-71.12" x1="35.56"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-101.6" x="0.0" rot="R0" size="2.54">STM32F437ZIT6</text>
+                    <pin direction="io" name="PA0-WKUP(PA0)" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="io" name="PA1" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="io" name="PA2" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="io" name="PA3" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="io" name="PA4" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                    <pin direction="io" name="PA5" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                    <pin direction="io" name="PA6" visible="both" length="middle" y="-22.86" x="-5.08"/>
+                    <pin direction="io" name="PA7" visible="both" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="io" name="PB0" visible="both" length="middle" y="-7.62" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB1" visible="both" length="middle" y="-10.16" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB2-BOOT1(PB2)" visible="both" length="middle" y="-12.7" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB10" visible="both" length="middle" y="-35.56" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB11" visible="both" length="middle" y="-38.1" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB12" visible="both" length="middle" y="-40.64" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB13" visible="both" length="middle" y="-43.18" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB14" visible="both" length="middle" y="-45.72" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB15" visible="both" length="middle" y="-48.26" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PA8" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="io" name="PA9" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="io" name="PA10" visible="both" length="middle" y="-35.56" x="-5.08"/>
+                    <pin direction="io" name="PA11" visible="both" length="middle" y="-38.1" x="-5.08"/>
+                    <pin direction="io" name="PA12" visible="both" length="middle" y="-40.64" x="-5.08"/>
+                    <pin direction="io" name="PA13(JTMS-SWDIO)" visible="both" length="middle" y="-43.18" x="-5.08"/>
+                    <pin direction="io" name="PA14(JTCK-SWCLK)" visible="both" length="middle" y="-45.72" x="-5.08"/>
+                    <pin direction="io" name="PA15(JTDI)" visible="both" length="middle" y="-48.26" x="-5.08"/>
+                    <pin direction="io" name="PB3(JTDO/TRACESWO)" visible="both" length="middle" y="-15.24" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB4(NJTRST)" visible="both" length="middle" y="-17.78" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB5" visible="both" length="middle" y="-20.32" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB6" visible="both" length="middle" y="-22.86" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB7" visible="both" length="middle" y="-25.4" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB8" visible="both" length="middle" y="-30.48" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PB9" visible="both" length="middle" y="-33.02" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PC13" visible="both" length="middle" y="-88.9" x="-5.08"/>
+                    <pin direction="io" name="PC14-OSC32_IN(PC14)" visible="both" length="middle" y="-91.44" x="-5.08"/>
+                    <pin direction="io" name="PC15-OSC32_OUT(PC15)" visible="both" length="middle" y="-93.98" x="-5.08"/>
+                    <pin direction="io" name="PC0" visible="both" length="middle" y="-53.34" x="-5.08"/>
+                    <pin direction="io" name="PC1" visible="both" length="middle" y="-55.88" x="-5.08"/>
+                    <pin direction="io" name="PC2" visible="both" length="middle" y="-58.42" x="-5.08"/>
+                    <pin direction="io" name="PC3" visible="both" length="middle" y="-60.96" x="-5.08"/>
+                    <pin direction="io" name="PC4" visible="both" length="middle" y="-63.5" x="-5.08"/>
+                    <pin direction="io" name="PC5" visible="both" length="middle" y="-66.04" x="-5.08"/>
+                    <pin direction="io" name="PC6" visible="both" length="middle" y="-68.58" x="-5.08"/>
+                    <pin direction="io" name="PC7" visible="both" length="middle" y="-71.12" x="-5.08"/>
+                    <pin direction="io" name="PC8" visible="both" length="middle" y="-76.2" x="-5.08"/>
+                    <pin direction="io" name="PC9" visible="both" length="middle" y="-78.74" x="-5.08"/>
+                    <pin direction="io" name="PC10" visible="both" length="middle" y="-81.28" x="-5.08"/>
+                    <pin direction="io" name="PC11" visible="both" length="middle" y="-83.82" x="-5.08"/>
+                    <pin direction="io" name="PC12" visible="both" length="middle" y="-86.36" x="-5.08"/>
+                    <pin direction="io" name="PD8" visible="both" length="middle" y="-76.2" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD9" visible="both" length="middle" y="-78.74" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD10" visible="both" length="middle" y="-81.28" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD11" visible="both" length="middle" y="-83.82" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD12" visible="both" length="middle" y="-86.36" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD13" visible="both" length="middle" y="-88.9" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD14" visible="both" length="middle" y="-91.44" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD15" visible="both" length="middle" y="-93.98" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD0" visible="both" length="middle" y="-53.34" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD1" visible="both" length="middle" y="-55.88" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD2" visible="both" length="middle" y="-58.42" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD3" visible="both" length="middle" y="-60.96" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD4" visible="both" length="middle" y="-63.5" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD5" visible="both" length="middle" y="-66.04" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD6" visible="both" length="middle" y="-68.58" x="40.64" rot="R180"/>
+                    <pin direction="io" name="PD7" visible="both" length="middle" y="-71.12" x="40.64" rot="R180"/>
+                </symbol>
+                <symbol name="STMICROELECTRONICS_STM32F437ZIT6_0_1">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-96.52" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="30.48" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-96.52" width="0.508" x2="30.48" y1="-5.08" x1="30.48"/>
+                    <wire layer="94" y2="-96.52" width="0.508" x2="0.0" y1="-96.52" x1="30.48"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="30.48" y1="-53.34" x1="30.48"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="30.48" y1="-55.88" x1="30.48"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="0.0" y1="-53.34" x1="0.0"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="0.0" y1="-55.88" x1="0.0"/>
+                    <wire layer="94" y2="-58.42" width="0.15" x2="0.0" y1="-58.42" x1="0.0"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="0.0" y1="-60.96" x1="0.0"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="0.0" y1="-63.5" x1="0.0"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="0.0" y1="-66.04" x1="0.0"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="0.0" y1="-68.58" x1="0.0"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="0.0" y1="-71.12" x1="0.0"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="0.0" y1="-76.2" x1="0.0"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="0.0" y1="-78.74" x1="0.0"/>
+                    <wire layer="94" y2="-81.28" width="0.15" x2="0.0" y1="-81.28" x1="0.0"/>
+                    <wire layer="94" y2="-83.82" width="0.15" x2="0.0" y1="-83.82" x1="0.0"/>
+                    <wire layer="94" y2="-86.36" width="0.15" x2="0.0" y1="-86.36" x1="0.0"/>
+                    <wire layer="94" y2="-88.9" width="0.15" x2="0.0" y1="-88.9" x1="0.0"/>
+                    <wire layer="94" y2="-91.44" width="0.15" x2="0.0" y1="-91.44" x1="0.0"/>
+                    <wire layer="94" y2="-93.98" width="0.15" x2="0.0" y1="-93.98" x1="0.0"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="30.48" y1="-66.04" x1="30.48"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="30.48" y1="-76.2" x1="30.48"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="30.48" y1="-78.74" x1="30.48"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="30.48" y1="-60.96" x1="30.48"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="30.48" y1="-71.12" x1="30.48"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="0.0" y1="-22.86" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="0.0" y1="-35.56" x1="0.0"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="0.0" y1="-38.1" x1="0.0"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="0.0" y1="-40.64" x1="0.0"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="0.0" y1="-43.18" x1="0.0"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="0.0" y1="-45.72" x1="0.0"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="0.0" y1="-48.26" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="30.48" y1="-7.62" x1="30.48"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="30.48" y1="-10.16" x1="30.48"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="30.48" y1="-12.7" x1="30.48"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="30.48" y1="-15.24" x1="30.48"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="30.48" y1="-17.78" x1="30.48"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="30.48" y1="-20.32" x1="30.48"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="30.48" y1="-22.86" x1="30.48"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="30.48" y1="-25.4" x1="30.48"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="30.48" y1="-30.48" x1="30.48"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="30.48" y1="-33.02" x1="30.48"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="30.48" y1="-35.56" x1="30.48"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="30.48" y1="-38.1" x1="30.48"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="30.48" y1="-40.64" x1="30.48"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="30.48" y1="-43.18" x1="30.48"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="30.48" y1="-45.72" x1="30.48"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="30.48" y1="-48.26" x1="30.48"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-101.6" x="0.0" rot="R0" size="2.54">STM32F437ZIT6</text>
+                    <pin direction="io" name="PH0-OSC_IN(PH0)" visible="both" length="middle" y="-53.34" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PH1-OSC_OUT(PH1)" visible="both" length="middle" y="-55.88" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PG0" visible="both" length="middle" y="-53.34" x="-5.08"/>
+                    <pin direction="io" name="PG1" visible="both" length="middle" y="-55.88" x="-5.08"/>
+                    <pin direction="io" name="PG2" visible="both" length="middle" y="-58.42" x="-5.08"/>
+                    <pin direction="io" name="PG3" visible="both" length="middle" y="-60.96" x="-5.08"/>
+                    <pin direction="io" name="PG4" visible="both" length="middle" y="-63.5" x="-5.08"/>
+                    <pin direction="io" name="PG5" visible="both" length="middle" y="-66.04" x="-5.08"/>
+                    <pin direction="io" name="PG6" visible="both" length="middle" y="-68.58" x="-5.08"/>
+                    <pin direction="io" name="PG7" visible="both" length="middle" y="-71.12" x="-5.08"/>
+                    <pin direction="io" name="PG8" visible="both" length="middle" y="-76.2" x="-5.08"/>
+                    <pin direction="io" name="PG9" visible="both" length="middle" y="-78.74" x="-5.08"/>
+                    <pin direction="io" name="PG10" visible="both" length="middle" y="-81.28" x="-5.08"/>
+                    <pin direction="io" name="PG11" visible="both" length="middle" y="-83.82" x="-5.08"/>
+                    <pin direction="io" name="PG12" visible="both" length="middle" y="-86.36" x="-5.08"/>
+                    <pin direction="io" name="PG13" visible="both" length="middle" y="-88.9" x="-5.08"/>
+                    <pin direction="io" name="PG14" visible="both" length="middle" y="-91.44" x="-5.08"/>
+                    <pin direction="io" name="PG15" visible="both" length="middle" y="-93.98" x="-5.08"/>
+                    <pin direction="io" name="NRST" visible="both" length="middle" y="-66.04" x="35.56" rot="R180"/>
+                    <pin direction="pwr" name="VCAP_1" visible="both" length="middle" y="-76.2" x="35.56" rot="R180"/>
+                    <pin direction="pwr" name="VCAP_2" visible="both" length="middle" y="-78.74" x="35.56" rot="R180"/>
+                    <pin direction="in" name="BOOT0" visible="both" length="middle" y="-60.96" x="35.56" rot="R180"/>
+                    <pin direction="in" name="PDR_ON" visible="both" length="middle" y="-71.12" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PE2" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="io" name="PE3" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="io" name="PE4" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                    <pin direction="io" name="PE5" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                    <pin direction="io" name="PE6" visible="both" length="middle" y="-22.86" x="-5.08"/>
+                    <pin direction="io" name="PE7" visible="both" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="io" name="PE8" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="io" name="PE9" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="io" name="PE10" visible="both" length="middle" y="-35.56" x="-5.08"/>
+                    <pin direction="io" name="PE11" visible="both" length="middle" y="-38.1" x="-5.08"/>
+                    <pin direction="io" name="PE12" visible="both" length="middle" y="-40.64" x="-5.08"/>
+                    <pin direction="io" name="PE13" visible="both" length="middle" y="-43.18" x="-5.08"/>
+                    <pin direction="io" name="PE14" visible="both" length="middle" y="-45.72" x="-5.08"/>
+                    <pin direction="io" name="PE15" visible="both" length="middle" y="-48.26" x="-5.08"/>
+                    <pin direction="io" name="PE0" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="io" name="PE1" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="io" name="PF0" visible="both" length="middle" y="-7.62" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF1" visible="both" length="middle" y="-10.16" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF2" visible="both" length="middle" y="-12.7" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF3" visible="both" length="middle" y="-15.24" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF4" visible="both" length="middle" y="-17.78" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF5" visible="both" length="middle" y="-20.32" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF6" visible="both" length="middle" y="-22.86" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF7" visible="both" length="middle" y="-25.4" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF8" visible="both" length="middle" y="-30.48" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF9" visible="both" length="middle" y="-33.02" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF10" visible="both" length="middle" y="-35.56" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF11" visible="both" length="middle" y="-38.1" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF12" visible="both" length="middle" y="-40.64" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF13" visible="both" length="middle" y="-43.18" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF14" visible="both" length="middle" y="-45.72" x="35.56" rot="R180"/>
+                    <pin direction="io" name="PF15" visible="both" length="middle" y="-48.26" x="35.56" rot="R180"/>
+                </symbol>
+                <symbol name="STMICROELECTRONICS_STM32F437ZIT6_0_2">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-48.26" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="20.32" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-48.26" width="0.508" x2="20.32" y1="-5.08" x1="20.32"/>
+                    <wire layer="94" y2="-48.26" width="0.508" x2="0.0" y1="-48.26" x1="20.32"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="20.32" y1="-20.32" x1="20.32"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="20.32" y1="-45.72" x1="20.32"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="20.32" y1="-7.62" x1="20.32"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="0.0" y1="-45.72" x1="0.0"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="20.32" y1="-22.86" x1="20.32"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="20.32" y1="-27.94" x1="20.32"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="0.0" y1="-22.86" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="20.32" y1="-30.48" x1="20.32"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="0.0" y1="-27.94" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="20.32" y1="-33.02" x1="20.32"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="20.32" y1="-35.56" x1="20.32"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="20.32" y1="-38.1" x1="20.32"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="0.0" y1="-35.56" x1="0.0"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="20.32" y1="-40.64" x1="20.32"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="0.0" y1="-38.1" x1="0.0"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="0.0" y1="-40.64" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="20.32" y1="-25.4" x1="20.32"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-53.34" x="0.0" rot="R0" size="2.54">STM32F437ZIT6</text>
+                    <pin direction="pwr" name="VBAT" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="4_VSS" visible="both" length="middle" y="-20.32" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="5_VDD" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="pwr" name="6_VDD" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="pwr" name="VSSA" visible="both" length="middle" y="-45.72" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="VREF+" visible="both" length="middle" y="-7.62" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="VDDA" visible="both" length="middle" y="-45.72" x="-5.08"/>
+                    <pin direction="pwr" name="5_VSS" visible="both" length="middle" y="-22.86" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="7_VDD" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                    <pin direction="pwr" name="7_VSS" visible="both" length="middle" y="-27.94" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="9_VDD" visible="both" length="middle" y="-22.86" x="-5.08"/>
+                    <pin direction="pwr" name="10_VDD" visible="both" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="pwr" name="8_VSS" visible="both" length="middle" y="-30.48" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="11_VDD" visible="both" length="middle" y="-27.94" x="-5.08"/>
+                    <pin direction="pwr" name="9_VSS" visible="both" length="middle" y="-33.02" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="12_VDD" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="pwr" name="1_VSS" visible="both" length="middle" y="-35.56" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="1_VDD" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="pwr" name="2_VSS" visible="both" length="middle" y="-38.1" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="2_VDD" visible="both" length="middle" y="-35.56" x="-5.08"/>
+                    <pin direction="pwr" name="3_VSS" visible="both" length="middle" y="-40.64" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="3_VDD" visible="both" length="middle" y="-38.1" x="-5.08"/>
+                    <pin direction="pwr" name="4_VDD" visible="both" length="middle" y="-40.64" x="-5.08"/>
+                    <pin direction="pwr" name="6_VSS" visible="both" length="middle" y="-25.4" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="8_VDD" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="STMICROELECTRONICS_STM32F437ZIT6">
+                    <description>MC-ARM-STM32F437-SQ144</description>
+                    <gates>
+                        <gate name="A" symbol="STMICROELECTRONICS_STM32F437ZIT6_0_0" x="0"/>
+                        <gate name="B" symbol="STMICROELECTRONICS_STM32F437ZIT6_0_1" x="55.56"/>
+                        <gate name="C" symbol="STMICROELECTRONICS_STM32F437ZIT6_0_2" x="106.04"/>
+                    </gates>
+                    <devices>
+                        <device name="STMICROELECTRONICS_STM32F437ZIT6_0_0" package="STMICROELECTRONICS_STM32F437ZIT6_0">
+                            <connects>
+                                <connect gate="B" pad="1" pin="PE2"/>
+                                <connect gate="B" pad="10" pin="PF0"/>
+                                <connect gate="A" pad="100" pin="PA8"/>
+                                <connect gate="A" pad="101" pin="PA9"/>
+                                <connect gate="A" pad="102" pin="PA10"/>
+                                <connect gate="A" pad="103" pin="PA11"/>
+                                <connect gate="A" pad="104" pin="PA12"/>
+                                <connect gate="A" pad="105" pin="PA13(JTMS-SWDIO)"/>
+                                <connect gate="B" pad="106" pin="VCAP_2"/>
+                                <connect gate="C" pad="107" pin="1_VSS"/>
+                                <connect gate="C" pad="108" pin="1_VDD"/>
+                                <connect gate="A" pad="109" pin="PA14(JTCK-SWCLK)"/>
+                                <connect gate="B" pad="11" pin="PF1"/>
+                                <connect gate="A" pad="110" pin="PA15(JTDI)"/>
+                                <connect gate="A" pad="111" pin="PC10"/>
+                                <connect gate="A" pad="112" pin="PC11"/>
+                                <connect gate="A" pad="113" pin="PC12"/>
+                                <connect gate="A" pad="114" pin="PD0"/>
+                                <connect gate="A" pad="115" pin="PD1"/>
+                                <connect gate="A" pad="116" pin="PD2"/>
+                                <connect gate="A" pad="117" pin="PD3"/>
+                                <connect gate="A" pad="118" pin="PD4"/>
+                                <connect gate="A" pad="119" pin="PD5"/>
+                                <connect gate="B" pad="12" pin="PF2"/>
+                                <connect gate="C" pad="120" pin="2_VSS"/>
+                                <connect gate="C" pad="121" pin="2_VDD"/>
+                                <connect gate="A" pad="122" pin="PD6"/>
+                                <connect gate="A" pad="123" pin="PD7"/>
+                                <connect gate="B" pad="124" pin="PG9"/>
+                                <connect gate="B" pad="125" pin="PG10"/>
+                                <connect gate="B" pad="126" pin="PG11"/>
+                                <connect gate="B" pad="127" pin="PG12"/>
+                                <connect gate="B" pad="128" pin="PG13"/>
+                                <connect gate="B" pad="129" pin="PG14"/>
+                                <connect gate="B" pad="13" pin="PF3"/>
+                                <connect gate="C" pad="130" pin="3_VSS"/>
+                                <connect gate="C" pad="131" pin="3_VDD"/>
+                                <connect gate="B" pad="132" pin="PG15"/>
+                                <connect gate="A" pad="133" pin="PB3(JTDO/TRACESWO)"/>
+                                <connect gate="A" pad="134" pin="PB4(NJTRST)"/>
+                                <connect gate="A" pad="135" pin="PB5"/>
+                                <connect gate="A" pad="136" pin="PB6"/>
+                                <connect gate="A" pad="137" pin="PB7"/>
+                                <connect gate="B" pad="138" pin="BOOT0"/>
+                                <connect gate="A" pad="139" pin="PB8"/>
+                                <connect gate="B" pad="14" pin="PF4"/>
+                                <connect gate="A" pad="140" pin="PB9"/>
+                                <connect gate="B" pad="141" pin="PE0"/>
+                                <connect gate="B" pad="142" pin="PE1"/>
+                                <connect gate="B" pad="143" pin="PDR_ON"/>
+                                <connect gate="C" pad="144" pin="4_VDD"/>
+                                <connect gate="B" pad="15" pin="PF5"/>
+                                <connect gate="C" pad="16" pin="4_VSS"/>
+                                <connect gate="C" pad="17" pin="5_VDD"/>
+                                <connect gate="B" pad="18" pin="PF6"/>
+                                <connect gate="B" pad="19" pin="PF7"/>
+                                <connect gate="B" pad="2" pin="PE3"/>
+                                <connect gate="B" pad="20" pin="PF8"/>
+                                <connect gate="B" pad="21" pin="PF9"/>
+                                <connect gate="B" pad="22" pin="PF10"/>
+                                <connect gate="B" pad="23" pin="PH0-OSC_IN(PH0)"/>
+                                <connect gate="B" pad="24" pin="PH1-OSC_OUT(PH1)"/>
+                                <connect gate="B" pad="25" pin="NRST"/>
+                                <connect gate="A" pad="26" pin="PC0"/>
+                                <connect gate="A" pad="27" pin="PC1"/>
+                                <connect gate="A" pad="28" pin="PC2"/>
+                                <connect gate="A" pad="29" pin="PC3"/>
+                                <connect gate="B" pad="3" pin="PE4"/>
+                                <connect gate="C" pad="30" pin="6_VDD"/>
+                                <connect gate="C" pad="31" pin="VSSA"/>
+                                <connect gate="C" pad="32" pin="VREF+"/>
+                                <connect gate="C" pad="33" pin="VDDA"/>
+                                <connect gate="A" pad="34" pin="PA0-WKUP(PA0)"/>
+                                <connect gate="A" pad="35" pin="PA1"/>
+                                <connect gate="A" pad="36" pin="PA2"/>
+                                <connect gate="A" pad="37" pin="PA3"/>
+                                <connect gate="C" pad="38" pin="5_VSS"/>
+                                <connect gate="C" pad="39" pin="7_VDD"/>
+                                <connect gate="B" pad="4" pin="PE5"/>
+                                <connect gate="A" pad="40" pin="PA4"/>
+                                <connect gate="A" pad="41" pin="PA5"/>
+                                <connect gate="A" pad="42" pin="PA6"/>
+                                <connect gate="A" pad="43" pin="PA7"/>
+                                <connect gate="A" pad="44" pin="PC4"/>
+                                <connect gate="A" pad="45" pin="PC5"/>
+                                <connect gate="A" pad="46" pin="PB0"/>
+                                <connect gate="A" pad="47" pin="PB1"/>
+                                <connect gate="A" pad="48" pin="PB2-BOOT1(PB2)"/>
+                                <connect gate="B" pad="49" pin="PF11"/>
+                                <connect gate="B" pad="5" pin="PE6"/>
+                                <connect gate="B" pad="50" pin="PF12"/>
+                                <connect gate="C" pad="51" pin="6_VSS"/>
+                                <connect gate="C" pad="52" pin="8_VDD"/>
+                                <connect gate="B" pad="53" pin="PF13"/>
+                                <connect gate="B" pad="54" pin="PF14"/>
+                                <connect gate="B" pad="55" pin="PF15"/>
+                                <connect gate="B" pad="56" pin="PG0"/>
+                                <connect gate="B" pad="57" pin="PG1"/>
+                                <connect gate="B" pad="58" pin="PE7"/>
+                                <connect gate="B" pad="59" pin="PE8"/>
+                                <connect gate="C" pad="6" pin="VBAT"/>
+                                <connect gate="B" pad="60" pin="PE9"/>
+                                <connect gate="C" pad="61" pin="7_VSS"/>
+                                <connect gate="C" pad="62" pin="9_VDD"/>
+                                <connect gate="B" pad="63" pin="PE10"/>
+                                <connect gate="B" pad="64" pin="PE11"/>
+                                <connect gate="B" pad="65" pin="PE12"/>
+                                <connect gate="B" pad="66" pin="PE13"/>
+                                <connect gate="B" pad="67" pin="PE14"/>
+                                <connect gate="B" pad="68" pin="PE15"/>
+                                <connect gate="A" pad="69" pin="PB10"/>
+                                <connect gate="A" pad="7" pin="PC13"/>
+                                <connect gate="A" pad="70" pin="PB11"/>
+                                <connect gate="B" pad="71" pin="VCAP_1"/>
+                                <connect gate="C" pad="72" pin="10_VDD"/>
+                                <connect gate="A" pad="73" pin="PB12"/>
+                                <connect gate="A" pad="74" pin="PB13"/>
+                                <connect gate="A" pad="75" pin="PB14"/>
+                                <connect gate="A" pad="76" pin="PB15"/>
+                                <connect gate="A" pad="77" pin="PD8"/>
+                                <connect gate="A" pad="78" pin="PD9"/>
+                                <connect gate="A" pad="79" pin="PD10"/>
+                                <connect gate="A" pad="8" pin="PC14-OSC32_IN(PC14)"/>
+                                <connect gate="A" pad="80" pin="PD11"/>
+                                <connect gate="A" pad="81" pin="PD12"/>
+                                <connect gate="A" pad="82" pin="PD13"/>
+                                <connect gate="C" pad="83" pin="8_VSS"/>
+                                <connect gate="C" pad="84" pin="11_VDD"/>
+                                <connect gate="A" pad="85" pin="PD14"/>
+                                <connect gate="A" pad="86" pin="PD15"/>
+                                <connect gate="B" pad="87" pin="PG2"/>
+                                <connect gate="B" pad="88" pin="PG3"/>
+                                <connect gate="B" pad="89" pin="PG4"/>
+                                <connect gate="A" pad="9" pin="PC15-OSC32_OUT(PC15)"/>
+                                <connect gate="B" pad="90" pin="PG5"/>
+                                <connect gate="B" pad="91" pin="PG6"/>
+                                <connect gate="B" pad="92" pin="PG7"/>
+                                <connect gate="B" pad="93" pin="PG8"/>
+                                <connect gate="C" pad="94" pin="9_VSS"/>
+                                <connect gate="C" pad="95" pin="12_VDD"/>
+                                <connect gate="A" pad="96" pin="PC6"/>
+                                <connect gate="A" pad="97" pin="PC7"/>
+                                <connect gate="A" pad="98" pin="PC8"/>
+                                <connect gate="A" pad="99" pin="PC9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Package_Description" value="144-Pin Low Profile Quad Flat Package, 20 x 20 mm Body, 0.5 mm Pitch"/>
+                                    <attribute name="IOs_High_Current" value="114"/>
+                                    <attribute name="DA_Converter" value="2x12-bit"/>
+                                    <attribute name="MPN" value="STM32F437ZIT6"/>
+                                    <attribute name="Datasheet_Version" value="Rev. 1"/>
+                                    <attribute name="Supply_VoltageVcc_min_V" value="1.8"/>
+                                    <attribute name="Core" value="ARM Cortex-M4"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"/>
+                                    <attribute name="Internal_RAM_Size_kB" value="256"/>
+                                    <attribute name="ciiva_ids" value="7705876"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.st.com/web/en/home.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="Packing" value="Tray"/>
+                                    <attribute name="release_date" value="1387196203"/>
+                                    <attribute name="vault_revision" value="2E9AF7EC-3498-428C-A92A-A0BCF88D039F"/>
+                                    <attribute name="Supply_VoltageVcc_max_V" value="3.6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="FLASH_Size_Prog_kB" value="2048"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="datasheet" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00077036.pdf"/>
+                                    <attribute name="vault_guid" value="D3D6096F-742B-42C3-945A-7ED59D569CD5"/>
+                                    <attribute name="import_ts" value="1521844075"/>
+                                    <attribute name="Operating_FrequencyF_Processor_speed_MHz" value="168"/>
+                                    <attribute name="Package_Version" value="Rev. 4, 06/2013"/>
+                                    <attribute name="footprint_variant_name_0" value="STM-LQFP144_V"/>
+                                    <attribute name="footprint_variant_name_1" value="Level C"/>
+                                    <attribute name="footprint_variant_name_2" value="Level B"/>
+                                    <attribute name="footprint_variant_name_3" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="package" value="LQFP144"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="STMICROELECTRONICS_STM32F437ZIT6_0_1" package="STMICROELECTRONICS_STM32F437ZIT6_1">
+                            <connects>
+                                <connect gate="B" pad="1" pin="PE2"/>
+                                <connect gate="B" pad="10" pin="PF0"/>
+                                <connect gate="A" pad="100" pin="PA8"/>
+                                <connect gate="A" pad="101" pin="PA9"/>
+                                <connect gate="A" pad="102" pin="PA10"/>
+                                <connect gate="A" pad="103" pin="PA11"/>
+                                <connect gate="A" pad="104" pin="PA12"/>
+                                <connect gate="A" pad="105" pin="PA13(JTMS-SWDIO)"/>
+                                <connect gate="B" pad="106" pin="VCAP_2"/>
+                                <connect gate="C" pad="107" pin="1_VSS"/>
+                                <connect gate="C" pad="108" pin="1_VDD"/>
+                                <connect gate="A" pad="109" pin="PA14(JTCK-SWCLK)"/>
+                                <connect gate="B" pad="11" pin="PF1"/>
+                                <connect gate="A" pad="110" pin="PA15(JTDI)"/>
+                                <connect gate="A" pad="111" pin="PC10"/>
+                                <connect gate="A" pad="112" pin="PC11"/>
+                                <connect gate="A" pad="113" pin="PC12"/>
+                                <connect gate="A" pad="114" pin="PD0"/>
+                                <connect gate="A" pad="115" pin="PD1"/>
+                                <connect gate="A" pad="116" pin="PD2"/>
+                                <connect gate="A" pad="117" pin="PD3"/>
+                                <connect gate="A" pad="118" pin="PD4"/>
+                                <connect gate="A" pad="119" pin="PD5"/>
+                                <connect gate="B" pad="12" pin="PF2"/>
+                                <connect gate="C" pad="120" pin="2_VSS"/>
+                                <connect gate="C" pad="121" pin="2_VDD"/>
+                                <connect gate="A" pad="122" pin="PD6"/>
+                                <connect gate="A" pad="123" pin="PD7"/>
+                                <connect gate="B" pad="124" pin="PG9"/>
+                                <connect gate="B" pad="125" pin="PG10"/>
+                                <connect gate="B" pad="126" pin="PG11"/>
+                                <connect gate="B" pad="127" pin="PG12"/>
+                                <connect gate="B" pad="128" pin="PG13"/>
+                                <connect gate="B" pad="129" pin="PG14"/>
+                                <connect gate="B" pad="13" pin="PF3"/>
+                                <connect gate="C" pad="130" pin="3_VSS"/>
+                                <connect gate="C" pad="131" pin="3_VDD"/>
+                                <connect gate="B" pad="132" pin="PG15"/>
+                                <connect gate="A" pad="133" pin="PB3(JTDO/TRACESWO)"/>
+                                <connect gate="A" pad="134" pin="PB4(NJTRST)"/>
+                                <connect gate="A" pad="135" pin="PB5"/>
+                                <connect gate="A" pad="136" pin="PB6"/>
+                                <connect gate="A" pad="137" pin="PB7"/>
+                                <connect gate="B" pad="138" pin="BOOT0"/>
+                                <connect gate="A" pad="139" pin="PB8"/>
+                                <connect gate="B" pad="14" pin="PF4"/>
+                                <connect gate="A" pad="140" pin="PB9"/>
+                                <connect gate="B" pad="141" pin="PE0"/>
+                                <connect gate="B" pad="142" pin="PE1"/>
+                                <connect gate="B" pad="143" pin="PDR_ON"/>
+                                <connect gate="C" pad="144" pin="4_VDD"/>
+                                <connect gate="B" pad="15" pin="PF5"/>
+                                <connect gate="C" pad="16" pin="4_VSS"/>
+                                <connect gate="C" pad="17" pin="5_VDD"/>
+                                <connect gate="B" pad="18" pin="PF6"/>
+                                <connect gate="B" pad="19" pin="PF7"/>
+                                <connect gate="B" pad="2" pin="PE3"/>
+                                <connect gate="B" pad="20" pin="PF8"/>
+                                <connect gate="B" pad="21" pin="PF9"/>
+                                <connect gate="B" pad="22" pin="PF10"/>
+                                <connect gate="B" pad="23" pin="PH0-OSC_IN(PH0)"/>
+                                <connect gate="B" pad="24" pin="PH1-OSC_OUT(PH1)"/>
+                                <connect gate="B" pad="25" pin="NRST"/>
+                                <connect gate="A" pad="26" pin="PC0"/>
+                                <connect gate="A" pad="27" pin="PC1"/>
+                                <connect gate="A" pad="28" pin="PC2"/>
+                                <connect gate="A" pad="29" pin="PC3"/>
+                                <connect gate="B" pad="3" pin="PE4"/>
+                                <connect gate="C" pad="30" pin="6_VDD"/>
+                                <connect gate="C" pad="31" pin="VSSA"/>
+                                <connect gate="C" pad="32" pin="VREF+"/>
+                                <connect gate="C" pad="33" pin="VDDA"/>
+                                <connect gate="A" pad="34" pin="PA0-WKUP(PA0)"/>
+                                <connect gate="A" pad="35" pin="PA1"/>
+                                <connect gate="A" pad="36" pin="PA2"/>
+                                <connect gate="A" pad="37" pin="PA3"/>
+                                <connect gate="C" pad="38" pin="5_VSS"/>
+                                <connect gate="C" pad="39" pin="7_VDD"/>
+                                <connect gate="B" pad="4" pin="PE5"/>
+                                <connect gate="A" pad="40" pin="PA4"/>
+                                <connect gate="A" pad="41" pin="PA5"/>
+                                <connect gate="A" pad="42" pin="PA6"/>
+                                <connect gate="A" pad="43" pin="PA7"/>
+                                <connect gate="A" pad="44" pin="PC4"/>
+                                <connect gate="A" pad="45" pin="PC5"/>
+                                <connect gate="A" pad="46" pin="PB0"/>
+                                <connect gate="A" pad="47" pin="PB1"/>
+                                <connect gate="A" pad="48" pin="PB2-BOOT1(PB2)"/>
+                                <connect gate="B" pad="49" pin="PF11"/>
+                                <connect gate="B" pad="5" pin="PE6"/>
+                                <connect gate="B" pad="50" pin="PF12"/>
+                                <connect gate="C" pad="51" pin="6_VSS"/>
+                                <connect gate="C" pad="52" pin="8_VDD"/>
+                                <connect gate="B" pad="53" pin="PF13"/>
+                                <connect gate="B" pad="54" pin="PF14"/>
+                                <connect gate="B" pad="55" pin="PF15"/>
+                                <connect gate="B" pad="56" pin="PG0"/>
+                                <connect gate="B" pad="57" pin="PG1"/>
+                                <connect gate="B" pad="58" pin="PE7"/>
+                                <connect gate="B" pad="59" pin="PE8"/>
+                                <connect gate="C" pad="6" pin="VBAT"/>
+                                <connect gate="B" pad="60" pin="PE9"/>
+                                <connect gate="C" pad="61" pin="7_VSS"/>
+                                <connect gate="C" pad="62" pin="9_VDD"/>
+                                <connect gate="B" pad="63" pin="PE10"/>
+                                <connect gate="B" pad="64" pin="PE11"/>
+                                <connect gate="B" pad="65" pin="PE12"/>
+                                <connect gate="B" pad="66" pin="PE13"/>
+                                <connect gate="B" pad="67" pin="PE14"/>
+                                <connect gate="B" pad="68" pin="PE15"/>
+                                <connect gate="A" pad="69" pin="PB10"/>
+                                <connect gate="A" pad="7" pin="PC13"/>
+                                <connect gate="A" pad="70" pin="PB11"/>
+                                <connect gate="B" pad="71" pin="VCAP_1"/>
+                                <connect gate="C" pad="72" pin="10_VDD"/>
+                                <connect gate="A" pad="73" pin="PB12"/>
+                                <connect gate="A" pad="74" pin="PB13"/>
+                                <connect gate="A" pad="75" pin="PB14"/>
+                                <connect gate="A" pad="76" pin="PB15"/>
+                                <connect gate="A" pad="77" pin="PD8"/>
+                                <connect gate="A" pad="78" pin="PD9"/>
+                                <connect gate="A" pad="79" pin="PD10"/>
+                                <connect gate="A" pad="8" pin="PC14-OSC32_IN(PC14)"/>
+                                <connect gate="A" pad="80" pin="PD11"/>
+                                <connect gate="A" pad="81" pin="PD12"/>
+                                <connect gate="A" pad="82" pin="PD13"/>
+                                <connect gate="C" pad="83" pin="8_VSS"/>
+                                <connect gate="C" pad="84" pin="11_VDD"/>
+                                <connect gate="A" pad="85" pin="PD14"/>
+                                <connect gate="A" pad="86" pin="PD15"/>
+                                <connect gate="B" pad="87" pin="PG2"/>
+                                <connect gate="B" pad="88" pin="PG3"/>
+                                <connect gate="B" pad="89" pin="PG4"/>
+                                <connect gate="A" pad="9" pin="PC15-OSC32_OUT(PC15)"/>
+                                <connect gate="B" pad="90" pin="PG5"/>
+                                <connect gate="B" pad="91" pin="PG6"/>
+                                <connect gate="B" pad="92" pin="PG7"/>
+                                <connect gate="B" pad="93" pin="PG8"/>
+                                <connect gate="C" pad="94" pin="9_VSS"/>
+                                <connect gate="C" pad="95" pin="12_VDD"/>
+                                <connect gate="A" pad="96" pin="PC6"/>
+                                <connect gate="A" pad="97" pin="PC7"/>
+                                <connect gate="A" pad="98" pin="PC8"/>
+                                <connect gate="A" pad="99" pin="PC9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Package_Description" value="144-Pin Low Profile Quad Flat Package, 20 x 20 mm Body, 0.5 mm Pitch"/>
+                                    <attribute name="IOs_High_Current" value="114"/>
+                                    <attribute name="DA_Converter" value="2x12-bit"/>
+                                    <attribute name="MPN" value="STM32F437ZIT6"/>
+                                    <attribute name="Datasheet_Version" value="Rev. 1"/>
+                                    <attribute name="Supply_VoltageVcc_min_V" value="1.8"/>
+                                    <attribute name="Core" value="ARM Cortex-M4"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"/>
+                                    <attribute name="Internal_RAM_Size_kB" value="256"/>
+                                    <attribute name="ciiva_ids" value="7705876"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.st.com/web/en/home.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="Packing" value="Tray"/>
+                                    <attribute name="release_date" value="1387196203"/>
+                                    <attribute name="vault_revision" value="2E9AF7EC-3498-428C-A92A-A0BCF88D039F"/>
+                                    <attribute name="Supply_VoltageVcc_max_V" value="3.6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="FLASH_Size_Prog_kB" value="2048"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="datasheet" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00077036.pdf"/>
+                                    <attribute name="vault_guid" value="D3D6096F-742B-42C3-945A-7ED59D569CD5"/>
+                                    <attribute name="import_ts" value="1521844075"/>
+                                    <attribute name="Operating_FrequencyF_Processor_speed_MHz" value="168"/>
+                                    <attribute name="Package_Version" value="Rev. 4, 06/2013"/>
+                                    <attribute name="footprint_variant_name_0" value="STM-LQFP144_V"/>
+                                    <attribute name="footprint_variant_name_1" value="Level C"/>
+                                    <attribute name="footprint_variant_name_2" value="Level B"/>
+                                    <attribute name="footprint_variant_name_3" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="package" value="LQFP144"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="STMICROELECTRONICS_STM32F437ZIT6_0_2" package="STMICROELECTRONICS_STM32F437ZIT6_2">
+                            <connects>
+                                <connect gate="B" pad="1" pin="PE2"/>
+                                <connect gate="B" pad="10" pin="PF0"/>
+                                <connect gate="A" pad="100" pin="PA8"/>
+                                <connect gate="A" pad="101" pin="PA9"/>
+                                <connect gate="A" pad="102" pin="PA10"/>
+                                <connect gate="A" pad="103" pin="PA11"/>
+                                <connect gate="A" pad="104" pin="PA12"/>
+                                <connect gate="A" pad="105" pin="PA13(JTMS-SWDIO)"/>
+                                <connect gate="B" pad="106" pin="VCAP_2"/>
+                                <connect gate="C" pad="107" pin="1_VSS"/>
+                                <connect gate="C" pad="108" pin="1_VDD"/>
+                                <connect gate="A" pad="109" pin="PA14(JTCK-SWCLK)"/>
+                                <connect gate="B" pad="11" pin="PF1"/>
+                                <connect gate="A" pad="110" pin="PA15(JTDI)"/>
+                                <connect gate="A" pad="111" pin="PC10"/>
+                                <connect gate="A" pad="112" pin="PC11"/>
+                                <connect gate="A" pad="113" pin="PC12"/>
+                                <connect gate="A" pad="114" pin="PD0"/>
+                                <connect gate="A" pad="115" pin="PD1"/>
+                                <connect gate="A" pad="116" pin="PD2"/>
+                                <connect gate="A" pad="117" pin="PD3"/>
+                                <connect gate="A" pad="118" pin="PD4"/>
+                                <connect gate="A" pad="119" pin="PD5"/>
+                                <connect gate="B" pad="12" pin="PF2"/>
+                                <connect gate="C" pad="120" pin="2_VSS"/>
+                                <connect gate="C" pad="121" pin="2_VDD"/>
+                                <connect gate="A" pad="122" pin="PD6"/>
+                                <connect gate="A" pad="123" pin="PD7"/>
+                                <connect gate="B" pad="124" pin="PG9"/>
+                                <connect gate="B" pad="125" pin="PG10"/>
+                                <connect gate="B" pad="126" pin="PG11"/>
+                                <connect gate="B" pad="127" pin="PG12"/>
+                                <connect gate="B" pad="128" pin="PG13"/>
+                                <connect gate="B" pad="129" pin="PG14"/>
+                                <connect gate="B" pad="13" pin="PF3"/>
+                                <connect gate="C" pad="130" pin="3_VSS"/>
+                                <connect gate="C" pad="131" pin="3_VDD"/>
+                                <connect gate="B" pad="132" pin="PG15"/>
+                                <connect gate="A" pad="133" pin="PB3(JTDO/TRACESWO)"/>
+                                <connect gate="A" pad="134" pin="PB4(NJTRST)"/>
+                                <connect gate="A" pad="135" pin="PB5"/>
+                                <connect gate="A" pad="136" pin="PB6"/>
+                                <connect gate="A" pad="137" pin="PB7"/>
+                                <connect gate="B" pad="138" pin="BOOT0"/>
+                                <connect gate="A" pad="139" pin="PB8"/>
+                                <connect gate="B" pad="14" pin="PF4"/>
+                                <connect gate="A" pad="140" pin="PB9"/>
+                                <connect gate="B" pad="141" pin="PE0"/>
+                                <connect gate="B" pad="142" pin="PE1"/>
+                                <connect gate="B" pad="143" pin="PDR_ON"/>
+                                <connect gate="C" pad="144" pin="4_VDD"/>
+                                <connect gate="B" pad="15" pin="PF5"/>
+                                <connect gate="C" pad="16" pin="4_VSS"/>
+                                <connect gate="C" pad="17" pin="5_VDD"/>
+                                <connect gate="B" pad="18" pin="PF6"/>
+                                <connect gate="B" pad="19" pin="PF7"/>
+                                <connect gate="B" pad="2" pin="PE3"/>
+                                <connect gate="B" pad="20" pin="PF8"/>
+                                <connect gate="B" pad="21" pin="PF9"/>
+                                <connect gate="B" pad="22" pin="PF10"/>
+                                <connect gate="B" pad="23" pin="PH0-OSC_IN(PH0)"/>
+                                <connect gate="B" pad="24" pin="PH1-OSC_OUT(PH1)"/>
+                                <connect gate="B" pad="25" pin="NRST"/>
+                                <connect gate="A" pad="26" pin="PC0"/>
+                                <connect gate="A" pad="27" pin="PC1"/>
+                                <connect gate="A" pad="28" pin="PC2"/>
+                                <connect gate="A" pad="29" pin="PC3"/>
+                                <connect gate="B" pad="3" pin="PE4"/>
+                                <connect gate="C" pad="30" pin="6_VDD"/>
+                                <connect gate="C" pad="31" pin="VSSA"/>
+                                <connect gate="C" pad="32" pin="VREF+"/>
+                                <connect gate="C" pad="33" pin="VDDA"/>
+                                <connect gate="A" pad="34" pin="PA0-WKUP(PA0)"/>
+                                <connect gate="A" pad="35" pin="PA1"/>
+                                <connect gate="A" pad="36" pin="PA2"/>
+                                <connect gate="A" pad="37" pin="PA3"/>
+                                <connect gate="C" pad="38" pin="5_VSS"/>
+                                <connect gate="C" pad="39" pin="7_VDD"/>
+                                <connect gate="B" pad="4" pin="PE5"/>
+                                <connect gate="A" pad="40" pin="PA4"/>
+                                <connect gate="A" pad="41" pin="PA5"/>
+                                <connect gate="A" pad="42" pin="PA6"/>
+                                <connect gate="A" pad="43" pin="PA7"/>
+                                <connect gate="A" pad="44" pin="PC4"/>
+                                <connect gate="A" pad="45" pin="PC5"/>
+                                <connect gate="A" pad="46" pin="PB0"/>
+                                <connect gate="A" pad="47" pin="PB1"/>
+                                <connect gate="A" pad="48" pin="PB2-BOOT1(PB2)"/>
+                                <connect gate="B" pad="49" pin="PF11"/>
+                                <connect gate="B" pad="5" pin="PE6"/>
+                                <connect gate="B" pad="50" pin="PF12"/>
+                                <connect gate="C" pad="51" pin="6_VSS"/>
+                                <connect gate="C" pad="52" pin="8_VDD"/>
+                                <connect gate="B" pad="53" pin="PF13"/>
+                                <connect gate="B" pad="54" pin="PF14"/>
+                                <connect gate="B" pad="55" pin="PF15"/>
+                                <connect gate="B" pad="56" pin="PG0"/>
+                                <connect gate="B" pad="57" pin="PG1"/>
+                                <connect gate="B" pad="58" pin="PE7"/>
+                                <connect gate="B" pad="59" pin="PE8"/>
+                                <connect gate="C" pad="6" pin="VBAT"/>
+                                <connect gate="B" pad="60" pin="PE9"/>
+                                <connect gate="C" pad="61" pin="7_VSS"/>
+                                <connect gate="C" pad="62" pin="9_VDD"/>
+                                <connect gate="B" pad="63" pin="PE10"/>
+                                <connect gate="B" pad="64" pin="PE11"/>
+                                <connect gate="B" pad="65" pin="PE12"/>
+                                <connect gate="B" pad="66" pin="PE13"/>
+                                <connect gate="B" pad="67" pin="PE14"/>
+                                <connect gate="B" pad="68" pin="PE15"/>
+                                <connect gate="A" pad="69" pin="PB10"/>
+                                <connect gate="A" pad="7" pin="PC13"/>
+                                <connect gate="A" pad="70" pin="PB11"/>
+                                <connect gate="B" pad="71" pin="VCAP_1"/>
+                                <connect gate="C" pad="72" pin="10_VDD"/>
+                                <connect gate="A" pad="73" pin="PB12"/>
+                                <connect gate="A" pad="74" pin="PB13"/>
+                                <connect gate="A" pad="75" pin="PB14"/>
+                                <connect gate="A" pad="76" pin="PB15"/>
+                                <connect gate="A" pad="77" pin="PD8"/>
+                                <connect gate="A" pad="78" pin="PD9"/>
+                                <connect gate="A" pad="79" pin="PD10"/>
+                                <connect gate="A" pad="8" pin="PC14-OSC32_IN(PC14)"/>
+                                <connect gate="A" pad="80" pin="PD11"/>
+                                <connect gate="A" pad="81" pin="PD12"/>
+                                <connect gate="A" pad="82" pin="PD13"/>
+                                <connect gate="C" pad="83" pin="8_VSS"/>
+                                <connect gate="C" pad="84" pin="11_VDD"/>
+                                <connect gate="A" pad="85" pin="PD14"/>
+                                <connect gate="A" pad="86" pin="PD15"/>
+                                <connect gate="B" pad="87" pin="PG2"/>
+                                <connect gate="B" pad="88" pin="PG3"/>
+                                <connect gate="B" pad="89" pin="PG4"/>
+                                <connect gate="A" pad="9" pin="PC15-OSC32_OUT(PC15)"/>
+                                <connect gate="B" pad="90" pin="PG5"/>
+                                <connect gate="B" pad="91" pin="PG6"/>
+                                <connect gate="B" pad="92" pin="PG7"/>
+                                <connect gate="B" pad="93" pin="PG8"/>
+                                <connect gate="C" pad="94" pin="9_VSS"/>
+                                <connect gate="C" pad="95" pin="12_VDD"/>
+                                <connect gate="A" pad="96" pin="PC6"/>
+                                <connect gate="A" pad="97" pin="PC7"/>
+                                <connect gate="A" pad="98" pin="PC8"/>
+                                <connect gate="A" pad="99" pin="PC9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Package_Description" value="144-Pin Low Profile Quad Flat Package, 20 x 20 mm Body, 0.5 mm Pitch"/>
+                                    <attribute name="IOs_High_Current" value="114"/>
+                                    <attribute name="DA_Converter" value="2x12-bit"/>
+                                    <attribute name="MPN" value="STM32F437ZIT6"/>
+                                    <attribute name="Datasheet_Version" value="Rev. 1"/>
+                                    <attribute name="Supply_VoltageVcc_min_V" value="1.8"/>
+                                    <attribute name="Core" value="ARM Cortex-M4"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"/>
+                                    <attribute name="Internal_RAM_Size_kB" value="256"/>
+                                    <attribute name="ciiva_ids" value="7705876"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.st.com/web/en/home.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="Packing" value="Tray"/>
+                                    <attribute name="release_date" value="1387196203"/>
+                                    <attribute name="vault_revision" value="2E9AF7EC-3498-428C-A92A-A0BCF88D039F"/>
+                                    <attribute name="Supply_VoltageVcc_max_V" value="3.6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="FLASH_Size_Prog_kB" value="2048"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="datasheet" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00077036.pdf"/>
+                                    <attribute name="vault_guid" value="D3D6096F-742B-42C3-945A-7ED59D569CD5"/>
+                                    <attribute name="import_ts" value="1521844075"/>
+                                    <attribute name="Operating_FrequencyF_Processor_speed_MHz" value="168"/>
+                                    <attribute name="Package_Version" value="Rev. 4, 06/2013"/>
+                                    <attribute name="footprint_variant_name_0" value="STM-LQFP144_V"/>
+                                    <attribute name="footprint_variant_name_1" value="Level C"/>
+                                    <attribute name="footprint_variant_name_2" value="Level B"/>
+                                    <attribute name="footprint_variant_name_3" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="package" value="LQFP144"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="STMICROELECTRONICS_STM32F437ZIT6_0_3" package="STMICROELECTRONICS_STM32F437ZIT6_3">
+                            <connects>
+                                <connect gate="B" pad="1" pin="PE2"/>
+                                <connect gate="B" pad="10" pin="PF0"/>
+                                <connect gate="A" pad="100" pin="PA8"/>
+                                <connect gate="A" pad="101" pin="PA9"/>
+                                <connect gate="A" pad="102" pin="PA10"/>
+                                <connect gate="A" pad="103" pin="PA11"/>
+                                <connect gate="A" pad="104" pin="PA12"/>
+                                <connect gate="A" pad="105" pin="PA13(JTMS-SWDIO)"/>
+                                <connect gate="B" pad="106" pin="VCAP_2"/>
+                                <connect gate="C" pad="107" pin="1_VSS"/>
+                                <connect gate="C" pad="108" pin="1_VDD"/>
+                                <connect gate="A" pad="109" pin="PA14(JTCK-SWCLK)"/>
+                                <connect gate="B" pad="11" pin="PF1"/>
+                                <connect gate="A" pad="110" pin="PA15(JTDI)"/>
+                                <connect gate="A" pad="111" pin="PC10"/>
+                                <connect gate="A" pad="112" pin="PC11"/>
+                                <connect gate="A" pad="113" pin="PC12"/>
+                                <connect gate="A" pad="114" pin="PD0"/>
+                                <connect gate="A" pad="115" pin="PD1"/>
+                                <connect gate="A" pad="116" pin="PD2"/>
+                                <connect gate="A" pad="117" pin="PD3"/>
+                                <connect gate="A" pad="118" pin="PD4"/>
+                                <connect gate="A" pad="119" pin="PD5"/>
+                                <connect gate="B" pad="12" pin="PF2"/>
+                                <connect gate="C" pad="120" pin="2_VSS"/>
+                                <connect gate="C" pad="121" pin="2_VDD"/>
+                                <connect gate="A" pad="122" pin="PD6"/>
+                                <connect gate="A" pad="123" pin="PD7"/>
+                                <connect gate="B" pad="124" pin="PG9"/>
+                                <connect gate="B" pad="125" pin="PG10"/>
+                                <connect gate="B" pad="126" pin="PG11"/>
+                                <connect gate="B" pad="127" pin="PG12"/>
+                                <connect gate="B" pad="128" pin="PG13"/>
+                                <connect gate="B" pad="129" pin="PG14"/>
+                                <connect gate="B" pad="13" pin="PF3"/>
+                                <connect gate="C" pad="130" pin="3_VSS"/>
+                                <connect gate="C" pad="131" pin="3_VDD"/>
+                                <connect gate="B" pad="132" pin="PG15"/>
+                                <connect gate="A" pad="133" pin="PB3(JTDO/TRACESWO)"/>
+                                <connect gate="A" pad="134" pin="PB4(NJTRST)"/>
+                                <connect gate="A" pad="135" pin="PB5"/>
+                                <connect gate="A" pad="136" pin="PB6"/>
+                                <connect gate="A" pad="137" pin="PB7"/>
+                                <connect gate="B" pad="138" pin="BOOT0"/>
+                                <connect gate="A" pad="139" pin="PB8"/>
+                                <connect gate="B" pad="14" pin="PF4"/>
+                                <connect gate="A" pad="140" pin="PB9"/>
+                                <connect gate="B" pad="141" pin="PE0"/>
+                                <connect gate="B" pad="142" pin="PE1"/>
+                                <connect gate="B" pad="143" pin="PDR_ON"/>
+                                <connect gate="C" pad="144" pin="4_VDD"/>
+                                <connect gate="B" pad="15" pin="PF5"/>
+                                <connect gate="C" pad="16" pin="4_VSS"/>
+                                <connect gate="C" pad="17" pin="5_VDD"/>
+                                <connect gate="B" pad="18" pin="PF6"/>
+                                <connect gate="B" pad="19" pin="PF7"/>
+                                <connect gate="B" pad="2" pin="PE3"/>
+                                <connect gate="B" pad="20" pin="PF8"/>
+                                <connect gate="B" pad="21" pin="PF9"/>
+                                <connect gate="B" pad="22" pin="PF10"/>
+                                <connect gate="B" pad="23" pin="PH0-OSC_IN(PH0)"/>
+                                <connect gate="B" pad="24" pin="PH1-OSC_OUT(PH1)"/>
+                                <connect gate="B" pad="25" pin="NRST"/>
+                                <connect gate="A" pad="26" pin="PC0"/>
+                                <connect gate="A" pad="27" pin="PC1"/>
+                                <connect gate="A" pad="28" pin="PC2"/>
+                                <connect gate="A" pad="29" pin="PC3"/>
+                                <connect gate="B" pad="3" pin="PE4"/>
+                                <connect gate="C" pad="30" pin="6_VDD"/>
+                                <connect gate="C" pad="31" pin="VSSA"/>
+                                <connect gate="C" pad="32" pin="VREF+"/>
+                                <connect gate="C" pad="33" pin="VDDA"/>
+                                <connect gate="A" pad="34" pin="PA0-WKUP(PA0)"/>
+                                <connect gate="A" pad="35" pin="PA1"/>
+                                <connect gate="A" pad="36" pin="PA2"/>
+                                <connect gate="A" pad="37" pin="PA3"/>
+                                <connect gate="C" pad="38" pin="5_VSS"/>
+                                <connect gate="C" pad="39" pin="7_VDD"/>
+                                <connect gate="B" pad="4" pin="PE5"/>
+                                <connect gate="A" pad="40" pin="PA4"/>
+                                <connect gate="A" pad="41" pin="PA5"/>
+                                <connect gate="A" pad="42" pin="PA6"/>
+                                <connect gate="A" pad="43" pin="PA7"/>
+                                <connect gate="A" pad="44" pin="PC4"/>
+                                <connect gate="A" pad="45" pin="PC5"/>
+                                <connect gate="A" pad="46" pin="PB0"/>
+                                <connect gate="A" pad="47" pin="PB1"/>
+                                <connect gate="A" pad="48" pin="PB2-BOOT1(PB2)"/>
+                                <connect gate="B" pad="49" pin="PF11"/>
+                                <connect gate="B" pad="5" pin="PE6"/>
+                                <connect gate="B" pad="50" pin="PF12"/>
+                                <connect gate="C" pad="51" pin="6_VSS"/>
+                                <connect gate="C" pad="52" pin="8_VDD"/>
+                                <connect gate="B" pad="53" pin="PF13"/>
+                                <connect gate="B" pad="54" pin="PF14"/>
+                                <connect gate="B" pad="55" pin="PF15"/>
+                                <connect gate="B" pad="56" pin="PG0"/>
+                                <connect gate="B" pad="57" pin="PG1"/>
+                                <connect gate="B" pad="58" pin="PE7"/>
+                                <connect gate="B" pad="59" pin="PE8"/>
+                                <connect gate="C" pad="6" pin="VBAT"/>
+                                <connect gate="B" pad="60" pin="PE9"/>
+                                <connect gate="C" pad="61" pin="7_VSS"/>
+                                <connect gate="C" pad="62" pin="9_VDD"/>
+                                <connect gate="B" pad="63" pin="PE10"/>
+                                <connect gate="B" pad="64" pin="PE11"/>
+                                <connect gate="B" pad="65" pin="PE12"/>
+                                <connect gate="B" pad="66" pin="PE13"/>
+                                <connect gate="B" pad="67" pin="PE14"/>
+                                <connect gate="B" pad="68" pin="PE15"/>
+                                <connect gate="A" pad="69" pin="PB10"/>
+                                <connect gate="A" pad="7" pin="PC13"/>
+                                <connect gate="A" pad="70" pin="PB11"/>
+                                <connect gate="B" pad="71" pin="VCAP_1"/>
+                                <connect gate="C" pad="72" pin="10_VDD"/>
+                                <connect gate="A" pad="73" pin="PB12"/>
+                                <connect gate="A" pad="74" pin="PB13"/>
+                                <connect gate="A" pad="75" pin="PB14"/>
+                                <connect gate="A" pad="76" pin="PB15"/>
+                                <connect gate="A" pad="77" pin="PD8"/>
+                                <connect gate="A" pad="78" pin="PD9"/>
+                                <connect gate="A" pad="79" pin="PD10"/>
+                                <connect gate="A" pad="8" pin="PC14-OSC32_IN(PC14)"/>
+                                <connect gate="A" pad="80" pin="PD11"/>
+                                <connect gate="A" pad="81" pin="PD12"/>
+                                <connect gate="A" pad="82" pin="PD13"/>
+                                <connect gate="C" pad="83" pin="8_VSS"/>
+                                <connect gate="C" pad="84" pin="11_VDD"/>
+                                <connect gate="A" pad="85" pin="PD14"/>
+                                <connect gate="A" pad="86" pin="PD15"/>
+                                <connect gate="B" pad="87" pin="PG2"/>
+                                <connect gate="B" pad="88" pin="PG3"/>
+                                <connect gate="B" pad="89" pin="PG4"/>
+                                <connect gate="A" pad="9" pin="PC15-OSC32_OUT(PC15)"/>
+                                <connect gate="B" pad="90" pin="PG5"/>
+                                <connect gate="B" pad="91" pin="PG6"/>
+                                <connect gate="B" pad="92" pin="PG7"/>
+                                <connect gate="B" pad="93" pin="PG8"/>
+                                <connect gate="C" pad="94" pin="9_VSS"/>
+                                <connect gate="C" pad="95" pin="12_VDD"/>
+                                <connect gate="A" pad="96" pin="PC6"/>
+                                <connect gate="A" pad="97" pin="PC7"/>
+                                <connect gate="A" pad="98" pin="PC8"/>
+                                <connect gate="A" pad="99" pin="PC9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Package_Description" value="144-Pin Low Profile Quad Flat Package, 20 x 20 mm Body, 0.5 mm Pitch"/>
+                                    <attribute name="IOs_High_Current" value="114"/>
+                                    <attribute name="DA_Converter" value="2x12-bit"/>
+                                    <attribute name="MPN" value="STM32F437ZIT6"/>
+                                    <attribute name="Datasheet_Version" value="Rev. 1"/>
+                                    <attribute name="Supply_VoltageVcc_min_V" value="1.8"/>
+                                    <attribute name="Core" value="ARM Cortex-M4"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"/>
+                                    <attribute name="Internal_RAM_Size_kB" value="256"/>
+                                    <attribute name="ciiva_ids" value="7705876"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.st.com/web/en/home.html"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="Packing" value="Tray"/>
+                                    <attribute name="release_date" value="1387196203"/>
+                                    <attribute name="vault_revision" value="2E9AF7EC-3498-428C-A92A-A0BCF88D039F"/>
+                                    <attribute name="Supply_VoltageVcc_max_V" value="3.6"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="FLASH_Size_Prog_kB" value="2048"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="datasheet" value="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00077036.pdf"/>
+                                    <attribute name="vault_guid" value="D3D6096F-742B-42C3-945A-7ED59D569CD5"/>
+                                    <attribute name="import_ts" value="1521844075"/>
+                                    <attribute name="Operating_FrequencyF_Processor_speed_MHz" value="168"/>
+                                    <attribute name="Package_Version" value="Rev. 4, 06/2013"/>
+                                    <attribute name="footprint_variant_name_0" value="STM-LQFP144_V"/>
+                                    <attribute name="footprint_variant_name_1" value="Level C"/>
+                                    <attribute name="footprint_variant_name_2" value="Level B"/>
+                                    <attribute name="footprint_variant_name_3" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="package" value="LQFP144"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>

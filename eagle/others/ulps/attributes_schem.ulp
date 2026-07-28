@@ -1,0 +1,48 @@
+
+string fileName;
+
+int fDisplay = 1;
+
+string strCmd;     // script command text
+
+strCmd="";
+if (schematic)
+{
+    schematic(SCH)
+    {
+        fileName = filesetext(SCH.name, "_AddAttrib.scr");
+
+        //string title = "Add Attribute - v" + Version;
+
+		SCH.sheets(S)
+        {
+            S.parts(P)
+            {
+				string tmp;
+				tmp = "";
+				sprintf(tmp,"Attribute %s MOUSER_PART_NUMBER delete;",P.name);
+				strCmd+=tmp;
+				sprintf(tmp,"Attribute %s MYATTRIB delete;",P.name);
+				strCmd+=tmp;
+				sprintf(tmp, "CHANGE DISPLAY %s;\n", "OFF");
+                strCmd += tmp;
+				sprintf(tmp,"Attribute %s MYATTRIB '123 456';",P.name);
+				strCmd+=tmp;
+				sprintf(tmp,"Attribute %s JLC_ROTATION '0';",P.name);
+				strCmd+=tmp;
+				sprintf(tmp,"Attribute %s JLC_X '0';",P.name);
+				strCmd+=tmp;
+				sprintf(tmp,"Attribute %s JLC_Y '0';",P.name);
+				strCmd+=tmp;
+				sprintf(tmp,"Attribute %s LCSC_PART '';",P.name);
+				strCmd+=tmp;
+
+			}
+		}
+	}
+}
+if (board)
+{
+
+}
+exit (strCmd);

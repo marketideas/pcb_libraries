@@ -1,0 +1,209 @@
+{
+  "success": true,
+  "code": 0,
+  "result": {
+    "uuid": "d1c719dfe031427392220c222a1a8783",
+    "title": "FC31M2-32.768-NTLNNDTL",
+    "description": "",
+    "docType": 2,
+    "type": 3,
+    "thumb": "//image.lceda.cn/components/d1c719dfe031427392220c222a1a8783.png",
+    "lcsc": {
+      "id": 5705379,
+      "number": "C5120559"
+    },
+    "szlcsc": {
+      "id": 5705379,
+      "number": "C5120559"
+    },
+    "owner": {
+      "uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "username": "lcsc",
+      "nickname": "LCSC",
+      "avatar": "//image.lceda.cn/avatars/2018/6/kFlrasi7W06gTdBLAqW3fkrqbDhbowynuSzkjqso.png"
+    },
+    "tags": [
+      "Crystals"
+    ],
+    "updateTime": 1740750380,
+    "updated_at": "2025-02-28 13:53:33",
+    "dataStr": {
+      "head": {
+        "docType": "2",
+        "editorVersion": "6.5.42",
+        "x": 400,
+        "y": 300,
+        "c_para": {
+          "pre": "U?",
+          "name": "FC31M2-32.768-NTLNNDTL",
+          "package": "CRYSTAL-SMD_L3.2-W1.5",
+          "Supplier": "LCSC",
+          "Supplier Part": "C5120559",
+          "Manufacturer": "HCI(杭晶)",
+          "Manufacturer Part": "FC31M2-32.768-NTLNNDTL",
+          "nameAlias": "Value",
+          "Value": "32.768kHz",
+          "JLCPCB Part Class": "Extended Part",
+          "Contributor": "lcsc"
+        },
+        "uuid": "d1c719dfe031427392220c222a1a8783",
+        "puuid": "54713642d1be4b8eb9d6dfcdd2c26e86",
+        "importFlag": 0,
+        "c_spiceCmd": null,
+        "hasIdFlag": true,
+        "utime": 1714368536
+      },
+      "canvas": "CA~1000~1000~#FFFFFF~yes~#CCCCCC~10~1000~1000~line~5~pixel~1~400~300",
+      "shape": [
+        "PL~404 300 410 300~#8D2323~1~0~none~gge47~0",
+        "PL~390 300 396 300~#8D2323~1~0~none~gge50~0",
+        "PL~404 293 404 307~#8D2323~1~0~none~gge53~0",
+        "P~show~0~2~420~300~0~gge56~0^^420~300^^M 420 300 h -10~#8D2323^^0~407~303~0~2~end~~~#8D2323^^0~411~299~0~2~start~~~#8D2323^^0~413~300^^0~M 410 297 L 407 300 L 410 303",
+        "P~show~0~1~380~300~180~gge77~0^^380~300^^M 380 300 h 10~#8D2323^^0~393~303~0~1~start~~~#8D2323^^0~389~299~0~1~end~~~#8D2323^^0~387~300^^0~M 390 303 L 393 300 L 390 297",
+        "R~398~293~~~4~14~#880000~1~0~none~gge98~0~",
+        "PL~396 293 396 307~#8D2323~1~0~none~gge101~0"
+      ],
+      "BBox": {
+        "x": 379,
+        "y": 293,
+        "width": 42,
+        "height": 14
+      },
+      "colors": []
+    },
+    "jlcOnSale": 1,
+    "datastrid": "b7814ecdfdfa4e058b2fa3e064a6063f",
+    "verify": true,
+    "SMT": true,
+    "writable": false,
+    "isFavorite": false,
+    "packageDetail": {
+      "uuid": "54713642d1be4b8eb9d6dfcdd2c26e86",
+      "title": "CRYSTAL-SMD_L3.2-W1.5",
+      "docType": 4,
+      "updateTime": 1766728666,
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "username": "lcsc",
+        "nickname": "LCSC",
+        "avatar": "//image.lceda.cn/avatars/2018/6/kFlrasi7W06gTdBLAqW3fkrqbDhbowynuSzkjqso.png"
+      },
+      "datastrid": "ef4324b9e4c34f72a724beafd2b36c57",
+      "writable": false,
+      "dataStr": {
+        "head": {
+          "docType": "4",
+          "editorVersion": "6.5.51",
+          "c_para": {
+            "package": "CRYSTAL-SMD_L3.2-W1.5",
+            "pre": "U?",
+            "Contributor": "lcsc",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20171201/C156245_15121213439061157573.pdf",
+            "3DModel": "CRYSTAL-SMD_L3.2-W1.5-1"
+          },
+          "hasIdFlag": true,
+          "x": 3999.99,
+          "y": 3000,
+          "utime": 1766728665,
+          "uuid": "54713642d1be4b8eb9d6dfcdd2c26e86",
+          "importFlag": 0,
+          "transformList": "",
+          "uuid_3d": "011a8483172a445a9f4c9e0329f930f7"
+        },
+        "canvas": "CA~1000~1000~#000000~yes~#FFFFFF~10~1000~1000~line~0.590551~mm~1~45~visible~0.5~3999.99~3000~0~yes",
+        "shape": [
+          "CIRCLE~3993.701~3002.953~0.118~0.2362~101~gge141~0~~",
+          "SOLIDREGION~99~~M 3993.7008 3002.9528 L 3993.7008 2997.0473 L 4006.2992 2997.0473 L 4006.2992 3002.9528 Z ~solid~gge117~~~~0",
+          "TRACK~1~3~~4006.2793 2995.51 3993.6808 2995.51~gge140~0",
+          "TRACK~1~3~~3993.7007 3004.49 4006.2992 3004.49~gge27~0",
+          "PAD~RECT~4005.14~3000~3.7402~6.2992~1~~2~0~4003.2695 2996.8504 4007.0097 2996.8504 4007.0097 3003.1496 4003.2695 3003.1496~0~gge175~0~~Y~0~0~0.2~4005.1396,3000",
+          "PAD~RECT~3994.84~3000~3.7402~6.2992~1~~1~0~3996.7105 3003.1496 3992.9703 3003.1496 3992.9703 2996.8504 3996.7105 2996.8504~180~gge178~0~~Y~0~0~0.2~3994.8404,3000",
+          "SOLIDREGION~100~~M 4003.3466 3002.5591 L 4003.3466 2997.4409 L 4006.2994 2997.4409 L 4006.2994 3002.5591 Z ~solid~gge118~~~~0",
+          "SOLIDREGION~100~~M 3993.7006 3002.5591 L 3993.7006 2997.4409 L 3996.6534 2997.4409 L 3996.6534 3002.5591 Z ~solid~gge119~~~~0",
+          "SVGNODE~{\"gId\":\"g1_outline\",\"nodeName\":\"g\",\"nodeType\":1,\"layerid\":\"19\",\"attrs\":{\"c_width\":\"12.5984\",\"c_height\":\"5.9055\",\"c_rotation\":\"0,0,0\",\"z\":\"0\",\"c_origin\":\"3999.99,3000\",\"uuid\":\"eac14d4facdb45dfa3b66d00e2a3c6e4\",\"c_etype\":\"outline3D\",\"id\":\"g1_outline\",\"title\":\"CRYSTAL-SMD_L3.2-W1.5-1\",\"layerid\":\"19\",\"transform\":\"scale(1) translate(0, 0)\"},\"childNodes\":[{\"gId\":\"g1_outline_line0\",\"nodeName\":\"polyline\",\"nodeType\":1,\"attrs\":{\"fill\":\"none\",\"id\":\"g1_outline_line0\",\"c_shapetype\":\"line\",\"points\":\"3993.6908 2997.2835 3993.6908 2997.3228 3993.6908 2997.8346 3993.6908 3002.1653 3993.6908 3002.6378 3993.6908 3002.6772 3993.7695 3002.7165 3993.8089 3002.7165 3993.8876 3002.7559 3993.927 3002.8346 3993.927 3002.874 3993.9664 3002.9527 3994.0058 3002.9527 3994.4782 3002.9527 3999.7538 3002.9527 4005.5018 3002.9527 4006.0136 3002.9527 4006.053 3002.9527 4006.053 3002.874 4006.053 3002.8346 4006.0923 3002.7559 4006.1711 3002.7165 4006.2105 3002.7165 4006.2892 3002.6772 4006.2892 3002.6378 4006.2892 3002.1653 4006.2892 2997.8346 4006.2892 2997.3228 4006.2892 2997.2835 4006.2105 2997.2835 4006.1711 2997.2835 4006.0923 2997.2441 4006.053 2997.1654 4006.053 2997.126 4006.053 2997.0472 4006.0136 2997.0472 4005.5018 2997.0472 4005.4624 2997.0472 4000.305 2997.0866 3999.7538 2997.0472 4005.5018 2997.0472 4005.5018 2997.1654 4004.9112 2997.1654 4005.4624 2997.0472 4005.5018 2997.0472 4006.0136 2997.0472 4005.5412 2997.1654 4005.5018 2997.0472 3999.7538 2997.0472 3994.4782 2997.0472 3994.0058 2997.0472 3993.9664 2997.0472 3993.927 2997.126 3993.927 2997.1654 3993.8876 2997.2441 3993.8089 2997.2835 3993.7695 2997.2835 3993.6908 2997.2835 3993.6908 2997.2835\"}}]}"
+        ],
+        "layers": [
+          "1~TopLayer~#FF0000~true~false~true~",
+          "2~BottomLayer~#0000FF~true~false~true~",
+          "3~TopSilkLayer~#FFCC00~true~false~true~",
+          "4~BottomSilkLayer~#66CC33~true~false~true~",
+          "5~TopPasteMaskLayer~#808080~true~false~true~",
+          "6~BottomPasteMaskLayer~#800000~true~false~true~",
+          "7~TopSolderMaskLayer~#800080~true~false~true~0.3",
+          "8~BottomSolderMaskLayer~#AA00FF~true~false~true~0.3",
+          "9~Ratlines~#6464FF~true~false~true~",
+          "10~BoardOutLine~#FF00FF~true~false~true~",
+          "11~Multi-Layer~#FFFFFF~true~false~true~0.5",
+          "12~Document~#FFFFFF~true~false~true~",
+          "13~TopAssembly~#33CC99~true~false~true~",
+          "14~BottomAssembly~#5555FF~true~false~true~",
+          "15~Mechanical~#F022F0~true~false~true~",
+          "19~3DModel~#66CCFF~true~false~true~",
+          "21~Inner1~#800000~false~false~false~~",
+          "22~Inner2~#008000~false~false~false~~",
+          "23~Inner3~#00FF00~false~false~false~~",
+          "24~Inner4~#BC8E00~false~false~false~~",
+          "25~Inner5~#70DBFA~false~false~false~~",
+          "26~Inner6~#00CC66~false~false~false~~",
+          "27~Inner7~#9966FF~false~false~false~~",
+          "28~Inner8~#800080~false~false~false~~",
+          "29~Inner9~#008080~false~false~false~~",
+          "30~Inner10~#15935F~false~false~false~~",
+          "31~Inner11~#000080~false~false~false~~",
+          "32~Inner12~#00B400~false~false~false~~",
+          "33~Inner13~#2E4756~false~false~false~~",
+          "34~Inner14~#99842F~false~false~false~~",
+          "35~Inner15~#FFFFAA~false~false~false~~",
+          "36~Inner16~#99842F~false~false~false~~",
+          "37~Inner17~#2E4756~false~false~false~~",
+          "38~Inner18~#3535FF~false~false~false~~",
+          "39~Inner19~#8000BC~false~false~false~~",
+          "40~Inner20~#43AE5F~false~false~false~~",
+          "41~Inner21~#C3ECCE~false~false~false~~",
+          "42~Inner22~#728978~false~false~false~~",
+          "43~Inner23~#39503F~false~false~false~~",
+          "44~Inner24~#0C715D~false~false~false~~",
+          "45~Inner25~#5A8A80~false~false~false~~",
+          "46~Inner26~#2B937E~false~false~false~~",
+          "47~Inner27~#23999D~false~false~false~~",
+          "48~Inner28~#45B4E3~false~false~false~~",
+          "49~Inner29~#215DA1~false~false~false~~",
+          "50~Inner30~#4564D7~false~false~false~~",
+          "51~Inner31~#6969E9~false~false~false~~",
+          "52~Inner32~#9069E9~false~false~false~~",
+          "99~ComponentShapeLayer~#00CCCC~true~false~true~0.4",
+          "100~LeadShapeLayer~#CC9999~true~true~true~",
+          "101~ComponentPolarityLayer~#66FFCC~true~false~true~",
+          "Hole~Hole~#222222~false~false~true~",
+          "DRCError~DRCError~#FAD609~false~false~true~"
+        ],
+        "objects": [
+          "All~true~false",
+          "Component~true~true",
+          "Prefix~true~true",
+          "Name~true~false",
+          "Track~true~true",
+          "Pad~true~true",
+          "Via~true~true",
+          "Hole~true~true",
+          "Copper_Area~true~true",
+          "Circle~true~true",
+          "Arc~true~true",
+          "Solid_Region~true~true",
+          "Text~true~true",
+          "Image~true~true",
+          "Rect~true~true",
+          "Dimension~true~true",
+          "Protractor~true~true"
+        ],
+        "BBox": {
+          "x": 3993,
+          "y": 2995.5,
+          "width": 14,
+          "height": 9
+        },
+        "netColors": []
+      }
+    }
+  }
+}

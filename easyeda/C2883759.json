@@ -1,0 +1,212 @@
+{
+  "success": true,
+  "code": 0,
+  "result": {
+    "uuid": "767b6984b09645d5a1eaf6fb5edb9dec",
+    "title": "X6511WVS-02H-C60D48R2",
+    "description": "",
+    "docType": 2,
+    "type": 3,
+    "thumb": "//image.lceda.cn/components/767b6984b09645d5a1eaf6fb5edb9dec.png",
+    "lcsc": {
+      "id": 3094251,
+      "number": "C2883759"
+    },
+    "szlcsc": {
+      "id": 3094251,
+      "number": "C2883759"
+    },
+    "owner": {
+      "uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "username": "LCSC",
+      "nickname": "LCSC",
+      "avatar": "//image.lceda.cn/avatars/2018/6/kFlrasi7W06gTdBLAqW3fkrqbDhbowynuSzkjqso.png"
+    },
+    "tags": [
+      "Pin Headers"
+    ],
+    "updateTime": 1744299829,
+    "updated_at": "2025-04-10 15:46:33",
+    "dataStr": {
+      "head": {
+        "docType": "2",
+        "editorVersion": "6.5.1",
+        "x": 400,
+        "y": 300,
+        "c_para": {
+          "pre": "H?",
+          "name": "X6511WVS-02H-C60D48R2",
+          "package": "HDR-SMD_2P-P2.54_XKB_X6511WVS-02H-C60D48R2",
+          "Contributor": "LCSC",
+          "Supplier": "LCSC",
+          "Supplier Part": "C2883759",
+          "Manufacturer": "XKB Connection(中国星坤)",
+          "Manufacturer Part": "X6511WVS-02H-C60D48R2",
+          "JLCPCB Part Class": "Extended Part"
+        },
+        "uuid": "767b6984b09645d5a1eaf6fb5edb9dec",
+        "utime": 1647765702,
+        "puuid": "a8fd2e35718b498295620ac672b34f8a",
+        "importFlag": 0,
+        "c_spiceCmd": null,
+        "pre": "H?",
+        "name": "X6511WVS-02H-C60D48R2",
+        "hasIdFlag": true
+      },
+      "canvas": "CA~1000~1000~#FFFFFF~yes~#CCCCCC~5~1000~1000~line~5~pixel~5~400~300",
+      "shape": [
+        "R~390~285~2~2~20~30~#880000~1~0~none~gge1~0~",
+        "E~395~290~1.5~1.5~#880000~1~0~#880000~gge2~0",
+        "P~show~0~1~380~295~180~gge5~0^^380~295^^M380,295h10~#880000^^1~393.7~299~0~1~start~~~#0000FF^^1~389.5~294~0~1~end~~~#0000FF^^0~387~295^^0~M 390 298 L 393 295 L 390 292",
+        "P~show~0~2~380~305~180~gge6~0^^380~305^^M380,305h10~#880000^^1~393.7~309~0~2~start~~~#0000FF^^1~389.5~304~0~2~end~~~#0000FF^^0~387~305^^0~M 390 308 L 393 305 L 390 302"
+      ],
+      "BBox": {
+        "x": 378,
+        "y": 285,
+        "width": 32,
+        "height": 30
+      },
+      "colors": []
+    },
+    "datastrid": "c22cdb682f0e42f7bc6a702e275f31cf",
+    "verify": true,
+    "jlcOnSale": 1,
+    "SMT": true,
+    "writable": false,
+    "isFavorite": false,
+    "packageDetail": {
+      "uuid": "a8fd2e35718b498295620ac672b34f8a",
+      "title": "HDR-SMD_2P-P2.54_XKB_X6511WVS-02H-C60D48R2",
+      "docType": 4,
+      "updateTime": 1714888632,
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "username": "lcsc",
+        "nickname": "LCSC",
+        "avatar": "//image.lceda.cn/avatars/2018/6/kFlrasi7W06gTdBLAqW3fkrqbDhbowynuSzkjqso.png"
+      },
+      "datastrid": "eac38de30d034290a2200cf1a176ec78",
+      "writable": false,
+      "dataStr": {
+        "head": {
+          "docType": "4",
+          "editorVersion": "6.5.23",
+          "newgId": true,
+          "c_para": {
+            "package": "HDR-SMD_2P-P2.54_XKB_X6511WVS-02H-C60D48R2",
+            "pre": "U?",
+            "Contributor": "lcsc",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20200909/C780060_F941EB1B69F43B5D6329EAF74E2E27BB.pdf",
+            "3DModel": "HDR-SMD_2P-P2.54_XKB_X6511WVS-02H-C60D48R2"
+          },
+          "x": 3977,
+          "y": 2993.913,
+          "hasIdFlag": true,
+          "uuid": "a8fd2e35718b498295620ac672b34f8a",
+          "utime": 1672968264,
+          "importFlag": 0,
+          "transformList": "",
+          "uuid_3d": "0d9e46989b434783b82be9b451331259"
+        },
+        "canvas": "CA~1000~1000~#000000~yes~#FFFFFF~10~1000~1000~line~0.5~mm~1~45~visible~0.5~3977~2993.913~0~none",
+        "shape": [
+          "SOLIDREGION~100~~M 3980.7402 2984.4639 L 3983.2598 2984.4639 L 3983.2598 2990.3694 L 3980.7402 2990.3694 Z ~solid~gge3296~~~~0",
+          "SOLIDREGION~100~~M 3970.7402 2997.4568 L 3973.2598 2997.4568 L 3973.2598 3003.3623 L 3970.7402 3003.3623 Z ~solid~gge3299~~~~0",
+          "SOLIDREGION~99~~M 3967 2998.9129 L 3967 2988.9129 L 3987 2988.9129 L 3987 2998.9129 Z ~solid~gge3281~~~~0",
+          "TRACK~1~3~~3987 2988.91 3985.41 2988.91~gge3268~0",
+          "TRACK~1~3~~3987 2998.91 3975.41 2998.91~gge3262~0",
+          "TRACK~1~3~~3987 2988.91 3987 2998.91~gge3151~0",
+          "TRACK~1~3~~3967 2998.9131 3967 2988.9131~gge3148~0",
+          "TRACK~1~3~~3968.5901 2998.9131 3967 2998.9131~gge3145~0",
+          "TRACK~1~3~~3967 2988.9131 3978.5901 2988.9131~gge3109~0",
+          "CIRCLE~3967~3002.413~0.591~1.1811~3~gge3106~0~~",
+          "PAD~RECT~3982~2986.826~5~8.6614~1~~2~0~3979.5 2982.4956 3984.5 2982.4956 3984.5 2991.157 3979.5 2991.157~0~gge3190~0~~Y~0~0.0000~0.2000~3982,2986.8259",
+          "PAD~RECT~3972~3001~5~8.6614~1~~1~0~3969.5 2996.6689 3974.5 2996.6689 3974.5 3005.3303 3969.5 3005.3303~0~gge3196~0~~Y~0~0.0000~0.2000~3972,3000.9998",
+          "CIRCLE~3967~3003.3623~0.1181~0.2362~101~gge3302~0~~",
+          "SVGNODE~{\"gId\":\"g1_outline\",\"nodeName\":\"g\",\"nodeType\":1,\"layerid\":\"19\",\"attrs\":{\"c_width\":\"20\",\"c_height\":\"18.8976\",\"c_rotation\":\"0,0,0\",\"z\":\"0\",\"c_origin\":\"3977,2993.913\",\"uuid\":\"9581a5ddedc64439ab0fc109cd3888fd\",\"c_etype\":\"outline3D\",\"id\":\"g1_outline\",\"title\":\"HDR-SMD_2P-P2.54_XKB_X6511WVS-02H-C60D48R2\",\"layerid\":\"19\",\"transform\":\"scale(1) translate(0, 0)\"},\"childNodes\":[{\"gId\":\"g1_outline_line0\",\"nodeName\":\"polyline\",\"nodeType\":1,\"attrs\":{\"fill\":\"none\",\"id\":\"g1_outline_line0\",\"c_shapetype\":\"line\",\"points\":\"3967 2991.3539 3967 2992.1807 3967 2996.472 3968.5748 2998.8342 3970.7402 2998.8342 3970.7402 3001.3933 3971.1339 3003.3618 3972.8661 3003.3618 3973.2598 3001.3933 3973.2598 2998.8342 3975.4252 2998.8342 3976.8819 2996.6689 3977 2996.472 3978.5748 2998.8342 3985.4252 2998.8342 3987 2996.472 3987 2992.1807 3987 2991.3539 3985.4252 2988.9917 3983.2598 2988.9917 3983.2598 2986.4327 3982.8661 2984.4642 3981.1338 2984.4642 3980.7401 2986.4327 3980.7401 2988.9917 3978.5748 2988.9917 3977 2991.3539 3976.8819 2991.1571 3975.4252 2988.9917 3968.5748 2988.9917 3967 2991.3539 3967 2991.3539\"}}]}"
+        ],
+        "layers": [
+          "1~TopLayer~#FF0000~true~false~true~",
+          "2~BottomLayer~#0000FF~true~false~true~",
+          "3~TopSilkLayer~#FFCC00~true~false~true~",
+          "4~BottomSilkLayer~#66CC33~true~false~true~",
+          "5~TopPasteMaskLayer~#808080~true~false~true~",
+          "6~BottomPasteMaskLayer~#800000~true~false~true~",
+          "7~TopSolderMaskLayer~#800080~true~false~true~0.3",
+          "8~BottomSolderMaskLayer~#AA00FF~true~false~true~0.3",
+          "9~Ratlines~#6464FF~true~false~true~",
+          "10~BoardOutLine~#FF00FF~true~false~true~",
+          "11~Multi-Layer~#C0C0C0~true~false~true~",
+          "12~Document~#FFFFFF~true~false~true~",
+          "13~TopAssembly~#33CC99~true~false~true~",
+          "14~BottomAssembly~#5555FF~true~false~true~",
+          "15~Mechanical~#F022F0~true~false~true~",
+          "19~3DModel~#66CCFF~true~false~true~",
+          "21~Inner1~#999966~false~false~false~~",
+          "22~Inner2~#008000~false~false~false~~",
+          "23~Inner3~#00FF00~false~false~false~~",
+          "24~Inner4~#BC8E00~false~false~false~~",
+          "25~Inner5~#70DBFA~false~false~false~~",
+          "26~Inner6~#00CC66~false~false~false~~",
+          "27~Inner7~#9966FF~false~false~false~~",
+          "28~Inner8~#800080~false~false~false~~",
+          "29~Inner9~#008080~false~false~false~~",
+          "30~Inner10~#15935F~false~false~false~~",
+          "31~Inner11~#000080~false~false~false~~",
+          "32~Inner12~#00B400~false~false~false~~",
+          "33~Inner13~#2E4756~false~false~false~~",
+          "34~Inner14~#99842F~false~false~false~~",
+          "35~Inner15~#FFFFAA~false~false~false~~",
+          "36~Inner16~#99842F~false~false~false~~",
+          "37~Inner17~#2E4756~false~false~false~~",
+          "38~Inner18~#3535FF~false~false~false~~",
+          "39~Inner19~#8000BC~false~false~false~~",
+          "40~Inner20~#43AE5F~false~false~false~~",
+          "41~Inner21~#C3ECCE~false~false~false~~",
+          "42~Inner22~#728978~false~false~false~~",
+          "43~Inner23~#39503F~false~false~false~~",
+          "44~Inner24~#0C715D~false~false~false~~",
+          "45~Inner25~#5A8A80~false~false~false~~",
+          "46~Inner26~#2B937E~false~false~false~~",
+          "47~Inner27~#23999D~false~false~false~~",
+          "48~Inner28~#45B4E3~false~false~false~~",
+          "49~Inner29~#215DA1~false~false~false~~",
+          "50~Inner30~#4564D7~false~false~false~~",
+          "51~Inner31~#6969E9~false~false~false~~",
+          "52~Inner32~#9069E9~false~false~false~~",
+          "99~ComponentShapeLayer~#00CCCC~true~false~true~0.4",
+          "100~LeadShapeLayer~#CC9999~true~false~true~",
+          "101~ComponentMarkingLayer~#66FFCC~true~true~true~",
+          "Hole~Hole~#222222~false~false~true~",
+          "DRCError~DRCError~#FAD609~false~false~true~"
+        ],
+        "objects": [
+          "All~true~false",
+          "Component~true~true",
+          "Prefix~true~true",
+          "Name~true~false",
+          "Track~true~true",
+          "Pad~true~true",
+          "Via~true~true",
+          "Hole~true~true",
+          "Copper_Area~true~true",
+          "Circle~true~true",
+          "Arc~true~true",
+          "Solid_Region~true~true",
+          "Text~true~true",
+          "Image~true~true",
+          "Rect~true~true",
+          "Dimension~true~true",
+          "Protractor~true~true"
+        ],
+        "BBox": {
+          "x": 3966.4,
+          "y": 2982.5,
+          "width": 20.6,
+          "height": 22.8
+        },
+        "netColors": []
+      }
+    }
+  }
+}

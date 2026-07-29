@@ -51,7 +51,7 @@
 	(fp_line (start -3.00 -1.94) (end 3.00 -1.94) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.00 -1.94) (end 3.00 0.96) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.00 0.96) (end -3.00 0.96) (layer F.CrtYd) (width 0.05))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/CONN-SMD_4P-L6.0-W2.9-H4.3-P1.0.wrl"
+	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/CONN-SMD_4P-L6.0-W2.9-H4.3-P1.0.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

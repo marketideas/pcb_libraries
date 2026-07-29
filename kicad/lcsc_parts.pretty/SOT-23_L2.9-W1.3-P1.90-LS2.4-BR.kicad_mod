@@ -29,7 +29,7 @@
 	(fp_poly (pts (xy 0.800024 -0.749960) (xy 0.800024 -1.149960) (xy 1.200023 -1.149960) (xy 1.200023 -0.749960) (xy 0.800024 -0.749960)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy -0.809981 0.200000) (xy -0.809981 -0.200000) (xy -0.639978 -0.200000) (xy -0.639978 0.200000) (xy -0.809981 0.200000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy -1.199972 0.200000) (xy -1.199972 -0.200000) (xy -0.799973 -0.200000) (xy -0.799973 0.200000) (xy -1.199972 0.200000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

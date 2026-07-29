@@ -153,7 +153,7 @@
 	(fp_poly (pts (xy 7.412507 -5.344998) (xy 7.412507 -5.069992) (xy 7.787488 -5.069992) (xy 7.787488 -5.344998) (xy 7.412507 -5.344998)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 8.212506 -5.879998) (xy 8.212506 -5.334991) (xy 8.587511 -5.334991) (xy 8.587511 -5.879998) (xy 8.212506 -5.879998)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 8.212506 -5.344998) (xy 8.212506 -5.069992) (xy 8.587511 -5.069992) (xy 8.587511 -5.344998) (xy 8.212506 -5.344998)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/TSOP-44_L18.4-W10.2-H1.0-LS11.8-P0.80.wrl"
+	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/TSOP-44_L18.4-W10.2-H1.0-LS11.8-P0.80.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

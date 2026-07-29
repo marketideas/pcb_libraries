@@ -29,7 +29,7 @@
 	(fp_line (start -3.00 1.60) (end -3.00 -1.60) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.00 -1.60) (end 3.00 -1.60) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 5.207000 -1.905000) (xy 5.207000 1.930400) (xy 4.648200 1.930400) (xy 4.597400 1.879600) (xy 4.597400 -1.854200) (xy 4.597400 -1.854200) (xy 5.207000 -1.905000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/CASE-C_L6.0-W3.2-H2.7.wrl"
+	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/CASE-C_L6.0-W3.2-H2.7.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

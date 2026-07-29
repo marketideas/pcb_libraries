@@ -2833,6 +2833,62 @@
 <hole x="-2.8900" y="1.2200" drill="0.6000"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL">
+<wire x1="1.4100" y1="-0.5000" x2="-1.3900" y2="-0.5000" width="0.2500" layer="21"/>
+<wire x1="-1.3900" y1="-0.5000" x2="-1.3900" y2="0.5000" width="0.2500" layer="21"/>
+<wire x1="-1.3900" y1="0.5000" x2="1.4100" y2="0.5000" width="0.2500" layer="21"/>
+<wire x1="1.4100" y1="0.5000" x2="1.4100" y2="-0.5000" width="0.2500" layer="21"/>
+<wire x1="-1.4500" y1="-0.8000" x2="-1.4500" y2="0.8000" width="0.0500" layer="51"/>
+<wire x1="-1.4500" y1="0.8000" x2="1.4500" y2="0.8000" width="0.0500" layer="51"/>
+<wire x1="1.4500" y1="0.8000" x2="1.4500" y2="-0.8000" width="0.0500" layer="51"/>
+<wire x1="1.4500" y1="-0.8000" x2="-1.4500" y2="-0.8000" width="0.0500" layer="51"/>
+<circle x="-1.4500" y="-1.4000" radius="0.0300" width="0.06" layer="21"/>
+<circle x="-1.0200" y="-1.4000" radius="0.1300" width="0.06" layer="51"/>
+<polygon width="0.01" layer="51"><vertex x="0.7492" y="-1.2100"/><vertex x="0.7492" y="-0.7900"/><vertex x="1.1492" y="-0.7900"/><vertex x="1.1492" y="-1.2100"/><vertex x="0.7492" y="-1.2100"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7492" y="-1.4000"/><vertex x="0.7492" y="-1.2000"/><vertex x="1.1492" y="-1.2000"/><vertex x="1.1492" y="-1.4000"/><vertex x="0.7492" y="-1.4000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.2006" y="-1.2100"/><vertex x="-0.2006" y="-0.7900"/><vertex x="0.1994" y="-0.7900"/><vertex x="0.1994" y="-1.2100"/><vertex x="-0.2006" y="-1.2100"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.2006" y="-1.4000"/><vertex x="-0.2006" y="-1.2000"/><vertex x="0.1994" y="-1.2000"/><vertex x="0.1994" y="-1.4000"/><vertex x="-0.2006" y="-1.4000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1498" y="-1.2100"/><vertex x="-1.1498" y="-0.7900"/><vertex x="-0.7498" y="-0.7900"/><vertex x="-0.7498" y="-1.2100"/><vertex x="-1.1498" y="-1.2100"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1498" y="-1.4000"/><vertex x="-1.1498" y="-1.2000"/><vertex x="-0.7498" y="-1.2000"/><vertex x="-0.7498" y="-1.4000"/><vertex x="-1.1498" y="-1.4000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1498" y="0.7900"/><vertex x="-1.1498" y="1.2100"/><vertex x="-0.7498" y="1.2100"/><vertex x="-0.7498" y="0.7900"/><vertex x="-1.1498" y="0.7900"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1498" y="1.2000"/><vertex x="-1.1498" y="1.4000"/><vertex x="-0.7498" y="1.4000"/><vertex x="-0.7498" y="1.2000"/><vertex x="-1.1498" y="1.2000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7492" y="0.7900"/><vertex x="0.7492" y="1.2100"/><vertex x="1.1492" y="1.2100"/><vertex x="1.1492" y="0.7900"/><vertex x="0.7492" y="0.7900"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7492" y="1.2000"/><vertex x="0.7492" y="1.4000"/><vertex x="1.1492" y="1.4000"/><vertex x="1.1492" y="1.2000"/><vertex x="0.7492" y="1.2000"/></polygon>
+<smd name="4" x="0.9500" y="1.3000" dx="0.6220" dy="1.1050" layer="1"/>
+<smd name="5" x="-0.9500" y="1.3000" dx="0.6220" dy="1.1050" layer="1"/>
+<smd name="1" x="-0.9500" y="-1.3000" dx="0.6220" dy="1.1050" layer="1"/>
+<smd name="2" x="-0.0000" y="-1.3000" dx="0.6220" dy="1.1050" layer="1"/>
+<smd name="3" x="0.9500" y="-1.3000" dx="0.6220" dy="1.1050" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="SOT-23-5_L3.0-W1.7-P0.95-LS2.8-TL">
+<wire x1="0.8900" y1="0.3800" x2="0.8900" y2="-0.4200" width="0.2500" layer="21"/>
+<wire x1="0.8900" y1="1.6500" x2="-0.9100" y2="1.6500" width="0.2500" layer="21"/>
+<wire x1="0.9700" y1="-1.5200" x2="-0.8300" y2="-1.5200" width="0.2500" layer="21"/>
+<wire x1="-0.8000" y1="1.4500" x2="0.8000" y2="1.4500" width="0.0500" layer="51"/>
+<wire x1="0.8000" y1="1.4500" x2="0.8000" y2="-1.4500" width="0.0500" layer="51"/>
+<wire x1="0.8000" y1="-1.4500" x2="-0.8000" y2="-1.4500" width="0.0500" layer="51"/>
+<wire x1="-0.8000" y1="-1.4500" x2="-0.8000" y2="1.4500" width="0.0500" layer="51"/>
+<circle x="-1.6500" y="1.0200" radius="0.1300" width="0.06" layer="51"/>
+<circle x="-1.4000" y="1.6500" radius="0.1300" width="0.06" layer="21"/>
+<circle x="-1.3200" y="1.5400" radius="0.0300" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-0.9601" y="1.1500"/><vertex x="-0.7901" y="1.1500"/><vertex x="-0.7901" y="0.7500"/><vertex x="-0.9601" y="0.7500"/><vertex x="-0.9601" y="1.1500"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.4001" y="1.1500"/><vertex x="-0.9501" y="1.1500"/><vertex x="-0.9501" y="0.7500"/><vertex x="-1.4001" y="0.7500"/><vertex x="-1.4001" y="1.1500"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.9601" y="0.2001"/><vertex x="-0.7901" y="0.2001"/><vertex x="-0.7901" y="-0.1999"/><vertex x="-0.9601" y="-0.1999"/><vertex x="-0.9601" y="0.2001"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.4001" y="0.2001"/><vertex x="-0.9501" y="0.2001"/><vertex x="-0.9501" y="-0.1999"/><vertex x="-1.4001" y="-0.1999"/><vertex x="-1.4001" y="0.2001"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.9601" y="-0.7499"/><vertex x="-0.7901" y="-0.7499"/><vertex x="-0.7901" y="-1.1499"/><vertex x="-0.9601" y="-1.1499"/><vertex x="-0.9601" y="-0.7499"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.4001" y="-0.7499"/><vertex x="-0.9501" y="-0.7499"/><vertex x="-0.9501" y="-1.1499"/><vertex x="-1.4001" y="-1.1499"/><vertex x="-1.4001" y="-0.7499"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7899" y="-0.7499"/><vertex x="0.9599" y="-0.7499"/><vertex x="0.9599" y="-1.1499"/><vertex x="0.7899" y="-1.1499"/><vertex x="0.7899" y="-0.7499"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.9499" y="-0.7499"/><vertex x="1.3999" y="-0.7499"/><vertex x="1.3999" y="-1.1499"/><vertex x="0.9499" y="-1.1499"/><vertex x="0.9499" y="-0.7499"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7899" y="1.1500"/><vertex x="0.9599" y="1.1500"/><vertex x="0.9599" y="0.7500"/><vertex x="0.7899" y="0.7500"/><vertex x="0.7899" y="1.1500"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.9499" y="1.1500"/><vertex x="1.3999" y="1.1500"/><vertex x="1.3999" y="0.7500"/><vertex x="0.9499" y="0.7500"/><vertex x="0.9499" y="1.1500"/></polygon>
+<smd name="5" x="1.2700" y="0.9500" dx="0.5500" dy="1.0000" layer="1" rot="R270"/>
+<smd name="4" x="1.2700" y="-0.9500" dx="0.5500" dy="1.0000" layer="1" rot="R270"/>
+<smd name="3" x="-1.2700" y="-0.9500" dx="0.5500" dy="1.0000" layer="1" rot="R270"/>
+<smd name="2" x="-1.2700" y="-0.0000" dx="0.5500" dy="1.0000" layer="1" rot="R270"/>
+<smd name="1" x="-1.2700" y="0.9500" dx="0.5500" dy="1.0000" layer="1" rot="R270"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AMS1117-3.3_LCSC">
@@ -4287,6 +4343,47 @@
 <pin name="SBU2" x="-6.3500" y="-8.8900" length="short" direction="io" rot="R0" visible="both"/>
 <text x="0" y="18.5100" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="20.5100" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="AP2112K-3.3TRG1_LCSC">
+<wire x1="-10.1600" y1="5.0800" x2="10.1600" y2="5.0800" width="0.2540" layer="94"/>
+<wire x1="10.1600" y1="5.0800" x2="10.1600" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="10.1600" y1="-5.0800" x2="-10.1600" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="-10.1600" y1="-5.0800" x2="-10.1600" y2="5.0800" width="0.2540" layer="94"/>
+<circle x="-8.8900" y="3.8100" radius="0.3800" width="0.2540" layer="94"/>
+<pin name="VIN" x="-12.7000" y="2.5400" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="GND" x="-12.7000" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="EN" x="-12.7000" y="-2.5400" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="NC" x="12.7000" y="-2.5400" length="short" direction="io" rot="R180" visible="both"/>
+<pin name="VOUT" x="12.7000" y="2.5400" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="7.0800" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="9.0800" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MIC5504-3.3YM5-TR_LCSC">
+<wire x1="-10.1600" y1="5.0800" x2="10.1600" y2="5.0800" width="0.2540" layer="94"/>
+<wire x1="10.1600" y1="5.0800" x2="10.1600" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="10.1600" y1="-5.0800" x2="-10.1600" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="-10.1600" y1="-5.0800" x2="-10.1600" y2="5.0800" width="0.2540" layer="94"/>
+<circle x="-8.8900" y="3.8100" radius="0.3800" width="0.2540" layer="94"/>
+<pin name="VIN" x="-12.7000" y="2.5400" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="GND" x="-12.7000" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="EN" x="-12.7000" y="-2.5400" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="NC" x="12.7000" y="-2.5400" length="short" direction="io" rot="R180" visible="both"/>
+<pin name="VOUT" x="12.7000" y="2.5400" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="7.0800" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="9.0800" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TLV73333PDBVR_LCSC">
+<wire x1="-7.6200" y1="5.0800" x2="7.6200" y2="5.0800" width="0.2540" layer="94"/>
+<wire x1="7.6200" y1="5.0800" x2="7.6200" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="7.6200" y1="-5.0800" x2="-7.6200" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="-7.6200" y1="-5.0800" x2="-7.6200" y2="5.0800" width="0.2540" layer="94"/>
+<pin name="IN" x="-12.7000" y="2.5400" length="long" direction="io" rot="R0" visible="both"/>
+<pin name="GND" x="-12.7000" y="-0.0000" length="long" direction="io" rot="R0" visible="both"/>
+<pin name="EN" x="-12.7000" y="-2.5400" length="long" direction="io" rot="R0" visible="both"/>
+<pin name="NC" x="12.7000" y="-2.5400" length="long" direction="io" rot="R180" visible="both"/>
+<pin name="OUT" x="12.7000" y="2.5400" length="long" direction="io" rot="R180" visible="both"/>
+<text x="0" y="7.0800" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="9.0800" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7115,6 +7212,126 @@
 <attribute name="VOLTAGE_RATING" value="5V" constant="no"/>
 <attribute name="CURRENT_RATING_POWER" value="3A" constant="no"/>
 <attribute name="NUMBER_OF_CONTACTS" value="16P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2112K-3.3TRG1_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 3.3V Positive Fixed SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; DIODES&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; AP2112K-3.3TRG1&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C51118&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Voltage Regulators - Linear, Low Drop Out (LDO) Regulators&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/5b29baebdc4332b382a530ff21092301.pdf?productCode=C51118</description>
+<gates>
+<gate name="G$1" symbol="AP2112K-3.3TRG1_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL">
+<connects>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C51118" constant="no"/>
+<attribute name="MPN" value="AP2112K-3.3TRG1" constant="no"/>
+<attribute name="PARTNO" value="AP2112K-3.3TRG1" constant="no"/>
+<attribute name="MANUFACTURER" value="DIODES" constant="no"/>
+<attribute name="DESCRIPTION" value="3.3V Positive Fixed SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS" constant="no"/>
+<attribute name="CATEGORY" value="Voltage Regulators - Linear, Low Drop Out (LDO) Regulators" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/5b29baebdc4332b382a530ff21092301.pdf?productCode=C51118" constant="no"/>
+<attribute name="PRICING_50" value="$0.1356/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.105/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="12860" constant="no"/>
+<attribute name="OPERATING_VOLTAGE" value="6V" constant="no"/>
+<attribute name="FEATURES" value="Enable control;Output discharge;Short Circuit Protection;Thermal shutdown;Over Current Protection" constant="no"/>
+<attribute name="OUTPUT_TYPE" value="Fixed" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40℃~+85℃@(Ta)" constant="no"/>
+<attribute name="SUPPLY_CURRENT_IQ" value="55uA" constant="no"/>
+<attribute name="OUTPUT_CURRENT" value="600mA" constant="no"/>
+<attribute name="OUTPUT_VOLTAGE" value="3.3V" constant="no"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1" constant="no"/>
+<attribute name="OUTPUT_CONFIGURATION" value="Positive" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5504-3.3YM5-TR_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 3.3V Positive Fixed SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; MICROCHIP&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; MIC5504-3.3YM5-TR&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C88419&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Voltage Regulators - Linear, Low Drop Out (LDO) Regulators&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/c98548f6fd360db5200b25efc9432615.pdf?productCode=C88419</description>
+<gates>
+<gate name="G$1" symbol="MIC5504-3.3YM5-TR_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5_L3.0-W1.7-P0.95-LS2.8-TL">
+<connects>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C88419" constant="no"/>
+<attribute name="MPN" value="MIC5504-3.3YM5-TR" constant="no"/>
+<attribute name="PARTNO" value="MIC5504-3.3YM5-TR" constant="no"/>
+<attribute name="MANUFACTURER" value="MICROCHIP" constant="no"/>
+<attribute name="DESCRIPTION" value="3.3V Positive Fixed SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS" constant="no"/>
+<attribute name="CATEGORY" value="Voltage Regulators - Linear, Low Drop Out (LDO) Regulators" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/c98548f6fd360db5200b25efc9432615.pdf?productCode=C88419" constant="no"/>
+<attribute name="PRICING_50" value="$0.1999/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.147/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="25380" constant="no"/>
+<attribute name="OPERATING_VOLTAGE" value="5.5V" constant="no"/>
+<attribute name="FEATURES" value="Enable control;Output discharge;Thermal shutdown;Over Current Protection" constant="no"/>
+<attribute name="OUTPUT_TYPE" value="Fixed" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40℃~+125℃@(Tj)" constant="no"/>
+<attribute name="SUPPLY_CURRENT_IQ" value="38uA" constant="no"/>
+<attribute name="OUTPUT_CURRENT" value="300mA" constant="no"/>
+<attribute name="OUTPUT_VOLTAGE" value="3.3V" constant="no"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1" constant="no"/>
+<attribute name="OUTPUT_CONFIGURATION" value="Positive" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV73333PDBVR_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; TI&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; TLV73333PDBVR&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C134139&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Voltage Regulators - Linear, Low Drop Out (LDO) Regulators&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/208d50b2ab344cb89b5550bc48116e70.pdf?productCode=C134139</description>
+<gates>
+<gate name="G$1" symbol="TLV73333PDBVR_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C134139" constant="no"/>
+<attribute name="MPN" value="TLV73333PDBVR" constant="no"/>
+<attribute name="PARTNO" value="TLV73333PDBVR" constant="no"/>
+<attribute name="MANUFACTURER" value="TI" constant="no"/>
+<attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5" constant="no"/>
+<attribute name="CATEGORY" value="Voltage Regulators - Linear, Low Drop Out (LDO) Regulators" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/208d50b2ab344cb89b5550bc48116e70.pdf?productCode=C134139" constant="no"/>
+<attribute name="PRICING_50" value="$0.0908/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0706/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="40565" constant="no"/>
+<attribute name="OPERATING_VOLTAGE" value="5.5V" constant="no"/>
+<attribute name="FEATURES" value="Enable control;Input under-voltage protection;Output discharge;Over Current Protection;Thermal shutdown" constant="no"/>
+<attribute name="OUTPUT_TYPE" value="Fixed" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40℃~+125℃@(Tj)" constant="no"/>
+<attribute name="SUPPLY_CURRENT_IQ" value="34uA" constant="no"/>
+<attribute name="OUTPUT_CURRENT" value="300mA" constant="no"/>
+<attribute name="OUTPUT_VOLTAGE" value="3.3V" constant="no"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1" constant="no"/>
+<attribute name="OUTPUT_CONFIGURATION" value="Positive" constant="no"/>
 </technology>
 </technologies>
 </device>

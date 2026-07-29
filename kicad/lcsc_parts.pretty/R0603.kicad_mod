@@ -1,4 +1,5 @@
 (module easyeda2kicad:R0603 (layer F.Cu) (tedit 5DC5F6A4)
+	(descr "10KΩ (1002) ±1%")
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -4.000) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))
@@ -26,7 +27,7 @@
 	(fp_line (start 0.80 0.40) (end -0.80 0.40) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 1.195019 -0.449986) (xy 0.395021 -0.449986) (xy 0.345008 -0.399974) (xy 0.345008 -0.172009) (xy 0.715010 -0.172009) (xy 0.715010 0.157988) (xy 0.345008 0.157988) (xy 0.345008 0.400025) (xy 0.395021 0.450012) (xy 1.195019 0.450012) (xy 1.245006 0.400025) (xy 1.245006 -0.399974) (xy 1.195019 -0.449986)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste"))
 	(fp_poly (pts (xy -1.195019 0.449986) (xy -0.395021 0.449986) (xy -0.345008 0.399974) (xy -0.345008 0.172009) (xy -0.715010 0.172009) (xy -0.715010 -0.157988) (xy -0.345008 -0.157988) (xy -0.345008 -0.400025) (xy -0.395021 -0.450012) (xy -1.195019 -0.450012) (xy -1.245006 -0.400025) (xy -1.245006 0.399974) (xy -1.195019 0.449986)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste"))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/R0603.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/R0603.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

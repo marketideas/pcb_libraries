@@ -34,7 +34,7 @@
 	(fp_line (start -2.95 -2.81) (end 2.95 -2.81) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.95 -2.81) (end 2.95 1.69) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.95 1.69) (end -2.95 1.69) (layer F.CrtYd) (width 0.05))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/CONN-TH_2P-P2.00_2B-PH-KL.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/CONN-TH_2P-P2.00_2B-PH-KL.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

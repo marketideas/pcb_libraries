@@ -1505,8 +1505,8 @@
 <circle x="2.9500" y="2.8100" radius="0.0300" width="0.06" layer="21"/>
 <polygon width="0.01" layer="51"><vertex x="-1.2500" y="0.2500"/><vertex x="-0.7500" y="0.2500"/><vertex x="-0.7500" y="-0.2500"/><vertex x="-1.2500" y="-0.2500"/><vertex x="-1.2500" y="0.2500"/></polygon>
 <polygon width="0.01" layer="51"><vertex x="0.7500" y="0.2500"/><vertex x="1.2500" y="0.2500"/><vertex x="1.2500" y="-0.2500"/><vertex x="0.7500" y="-0.2500"/><vertex x="0.7500" y="0.2500"/></polygon>
-<smd name="1" x="1.0000" y="-0.0000" dx="1.4000" dy="1.4000" layer="1"/>
-<smd name="2" x="-1.0000" y="-0.0000" dx="1.4000" dy="1.4000" layer="1"/>
+<pad name="1" x="1.0000" y="-0.0000" drill="0.8000" diameter="1.4000" shape="round"/>
+<pad name="2" x="-1.0000" y="-0.0000" drill="0.8000" diameter="1.4000" shape="round"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="HDR-SMD_2P-P2.54_XKB_X6511WVS-02H-C60D48R2">
@@ -2419,12 +2419,12 @@
 <smd name="B7" x="-0.7500" y="2.5500" dx="0.3000" dy="1.4500" layer="1"/>
 <smd name="A5" x="-1.2500" y="2.5500" dx="0.3000" dy="1.4500" layer="1"/>
 <smd name="B8" x="-1.7500" y="2.5500" dx="0.3000" dy="1.4500" layer="1"/>
-<smd name="3" x="-4.3200" y="-2.5500" dx="1.0000" dy="1.8000" layer="1"/>
-<smd name="2" x="4.3200" y="1.6300" dx="1.0000" dy="2.1000" layer="1"/>
-<smd name="1" x="-4.3200" y="1.6300" dx="1.0000" dy="2.1000" layer="1"/>
-<smd name="4" x="4.3200" y="-2.5500" dx="1.0000" dy="1.8000" layer="1"/>
-<smd name="MP" x="2.8900" y="1.1000" dx="0.6500" dy="0.6500" layer="1"/>
-<smd name="MP_2" x="-2.8900" y="1.1000" dx="0.6500" dy="0.6500" layer="1"/>
+<pad name="3" x="-4.3200" y="-2.5500" drill="0.6000" diameter="0.6000" shape="long" rot="R90"/>
+<pad name="2" x="4.3200" y="1.6300" drill="0.6000" diameter="0.6000" shape="long" rot="R90"/>
+<pad name="1" x="-4.3200" y="1.6300" drill="0.6000" diameter="0.6000" shape="long" rot="R90"/>
+<pad name="4" x="4.3200" y="-2.5500" drill="0.6000" diameter="0.6000" shape="long" rot="R90"/>
+<hole x="2.8900" y="1.1000" drill="0.6500"/>
+<hole x="-2.8900" y="1.1000" drill="0.6500"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="OSC-SMD_4P-L3.2-W2.5-BL">
@@ -2771,6 +2771,66 @@
 <smd name="98" x="-5.0000" y="7.6000" dx="0.2800" dy="1.7150" layer="1"/>
 <smd name="99" x="-5.5000" y="7.6000" dx="0.2800" dy="1.7150" layer="1"/>
 <smd name="100" x="-6.0000" y="7.6000" dx="0.2800" dy="1.7150" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="USB-TYPE-C-SMD_TYPE-C-16P-QTWT">
+<wire x1="0.0200" y1="1.2000" x2="0.0200" y2="-5.0500" width="0.2500" layer="21"/>
+<wire x1="3.1900" y1="0.4000" x2="3.1900" y2="-5.0500" width="0.2500" layer="21"/>
+<wire x1="-3.2100" y1="0.4000" x2="-3.2100" y2="-5.0500" width="0.2500" layer="21"/>
+<wire x1="4.4800" y1="-1.3300" x2="4.4800" y2="1.0600" width="0.2500" layer="21"/>
+<wire x1="-4.4600" y1="-3.2900" x2="-4.4600" y2="-5.0500" width="0.2500" layer="21"/>
+<wire x1="-4.4600" y1="-5.0500" x2="4.4800" y2="-5.0500" width="0.2500" layer="21"/>
+<wire x1="4.4800" y1="-5.0500" x2="4.4800" y2="-3.2900" width="0.2500" layer="21"/>
+<wire x1="-4.4600" y1="1.0600" x2="-4.4600" y2="-1.3300" width="0.2500" layer="21"/>
+<wire x1="-2.5100" y1="0.5600" x2="-1.1400" y2="0.5600" width="0.2500" layer="21"/>
+<wire x1="-1.1400" y1="0.5600" x2="-1.1400" y2="0.0600" width="0.2500" layer="21"/>
+<wire x1="-1.1400" y1="0.0600" x2="-2.5100" y2="0.0600" width="0.2500" layer="21"/>
+<wire x1="-2.5100" y1="0.0600" x2="-2.5100" y2="0.5600" width="0.2500" layer="21"/>
+<wire x1="1.1400" y1="0.5600" x2="2.5100" y2="0.5600" width="0.2500" layer="21"/>
+<wire x1="2.5100" y1="0.5600" x2="2.5100" y2="0.0600" width="0.2500" layer="21"/>
+<wire x1="2.5100" y1="0.0600" x2="1.1400" y2="0.0600" width="0.2500" layer="21"/>
+<wire x1="1.1400" y1="0.0600" x2="1.1400" y2="0.5600" width="0.2500" layer="21"/>
+<wire x1="-4.4700" y1="2.2900" x2="4.4700" y2="2.2900" width="0.0500" layer="51"/>
+<wire x1="4.4700" y1="2.2900" x2="4.4700" y2="-5.0600" width="0.0500" layer="51"/>
+<wire x1="4.4700" y1="-5.0600" x2="-4.4700" y2="-5.0600" width="0.0500" layer="51"/>
+<wire x1="-4.4700" y1="-5.0600" x2="-4.4700" y2="2.2900" width="0.0500" layer="51"/>
+<circle x="-5.8400" y="2.5900" radius="0.0300" width="0.06" layer="21"/>
+<circle x="2.8900" y="1.2200" radius="0.1200" width="0.06" layer="51"/>
+<circle x="-2.8900" y="1.2200" radius="0.1200" width="0.06" layer="51"/>
+<polygon width="0.01" layer="51"><vertex x="-1.8501" y="2.5910"/><vertex x="-1.6501" y="2.5910"/><vertex x="-1.6501" y="1.9910"/><vertex x="-1.8501" y="1.9910"/><vertex x="-1.8501" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.3500" y="2.5910"/><vertex x="-1.1500" y="2.5910"/><vertex x="-1.1500" y="1.9910"/><vertex x="-1.3500" y="1.9910"/><vertex x="-1.3500" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.8501" y="2.5910"/><vertex x="-0.6501" y="2.5910"/><vertex x="-0.6501" y="1.9910"/><vertex x="-0.8501" y="1.9910"/><vertex x="-0.8501" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.3500" y="2.5910"/><vertex x="-0.1500" y="2.5910"/><vertex x="-0.1500" y="1.9910"/><vertex x="-0.3500" y="1.9910"/><vertex x="-0.3500" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.1499" y="2.5910"/><vertex x="0.3499" y="2.5910"/><vertex x="0.3499" y="1.9910"/><vertex x="0.1499" y="1.9910"/><vertex x="0.1499" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.6500" y="2.5910"/><vertex x="0.8500" y="2.5910"/><vertex x="0.8500" y="1.9910"/><vertex x="0.6500" y="1.9910"/><vertex x="0.6500" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="1.1496" y="2.5910"/><vertex x="1.3496" y="2.5910"/><vertex x="1.3496" y="1.9910"/><vertex x="1.1496" y="1.9910"/><vertex x="1.1496" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="1.6500" y="2.5910"/><vertex x="1.8500" y="2.5910"/><vertex x="1.8500" y="1.9910"/><vertex x="1.6500" y="1.9910"/><vertex x="1.6500" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-2.6000" y="2.5910"/><vertex x="-2.2000" y="2.5910"/><vertex x="-2.2000" y="1.9910"/><vertex x="-2.6000" y="1.9910"/><vertex x="-2.6000" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-3.4000" y="2.5910"/><vertex x="-3.0000" y="2.5910"/><vertex x="-3.0000" y="1.9910"/><vertex x="-3.4000" y="1.9910"/><vertex x="-3.4000" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="2.1999" y="2.5910"/><vertex x="2.5999" y="2.5910"/><vertex x="2.5999" y="1.9910"/><vertex x="2.1999" y="1.9910"/><vertex x="2.1999" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="2.9999" y="2.5910"/><vertex x="3.3999" y="2.5910"/><vertex x="3.3999" y="1.9910"/><vertex x="2.9999" y="1.9910"/><vertex x="2.9999" y="2.5910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="4.3399" y="2.2910"/><vertex x="5.8399" y="2.2910"/><vertex x="5.8399" y="1.4910"/><vertex x="4.3399" y="1.4910"/><vertex x="4.3399" y="2.2910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-5.8401" y="2.2910"/><vertex x="-4.3401" y="2.2910"/><vertex x="-4.3401" y="1.4910"/><vertex x="-5.8401" y="1.4910"/><vertex x="-5.8401" y="2.2910"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="4.3399" y="-1.7590"/><vertex x="5.8399" y="-1.7590"/><vertex x="5.8399" y="-2.8590"/><vertex x="4.3399" y="-2.8590"/><vertex x="4.3399" y="-1.7590"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-5.8401" y="-1.7590"/><vertex x="-4.3401" y="-1.7590"/><vertex x="-4.3401" y="-2.8590"/><vertex x="-5.8401" y="-2.8590"/><vertex x="-5.8401" y="-1.7590"/></polygon>
+<smd name="B1A12" x="3.2000" y="2.3100" dx="0.5000" dy="1.1400" layer="1"/>
+<smd name="B4A9" x="2.4000" y="2.3100" dx="0.5000" dy="1.1400" layer="1"/>
+<smd name="B5" x="1.7500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="A8" x="1.2500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="B6" x="0.7500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="A7" x="0.2500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="A6" x="-0.2500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="B7" x="-0.7500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="A5" x="-1.2500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="B8" x="-1.7500" y="2.3100" dx="0.3000" dy="1.1400" layer="1"/>
+<smd name="A4B9" x="-2.4000" y="2.3100" dx="0.5000" dy="1.1400" layer="1"/>
+<smd name="A1B12" x="-3.2000" y="2.3100" dx="0.5000" dy="1.1400" layer="1"/>
+<smd name="0" x="-5.2000" y="1.8900" dx="1.7000" dy="1.2000" layer="1"/>
+<smd name="0_2" x="5.2000" y="1.8900" dx="1.7000" dy="1.2000" layer="1"/>
+<smd name="0_3" x="-5.2000" y="-2.3100" dx="1.7000" dy="1.5000" layer="1"/>
+<smd name="0_4" x="5.2000" y="-2.3100" dx="1.7000" dy="1.5000" layer="1"/>
+<hole x="2.8900" y="1.2200" drill="0.6000"/>
+<hole x="-2.8900" y="1.2200" drill="0.6000"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
@@ -4081,7 +4141,6 @@
 <pin name="CC2" x="11.4300" y="2.5400" length="short" direction="io" rot="R180" visible="both"/>
 <pin name="VBUS_B4A9" x="11.4300" y="5.0800" length="short" direction="io" rot="R180" visible="both"/>
 <pin name="GND_B1A12" x="11.4300" y="7.6200" length="short" direction="io" rot="R180" visible="both"/>
-<pin name="SHELL" x="0.0000" y="-10.1600" length="short" direction="io" rot="R90" visible="both"/>
 <text x="0" y="12.1600" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="14.1600" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -4206,6 +4265,28 @@
 <pin name="VDD_11" x="-7.6200" y="76.2000" length="short" direction="io" rot="R270" visible="both"/>
 <text x="0" y="75.6600" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="77.6600" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TYPE-C_16P_QTWT_LCSC">
+<wire x1="-3.8100" y1="16.5100" x2="8.8900" y2="16.5100" width="0.2540" layer="94"/>
+<wire x1="8.8900" y1="16.5100" x2="8.8900" y2="-16.5100" width="0.2540" layer="94"/>
+<wire x1="8.8900" y1="-16.5100" x2="-3.8100" y2="-16.5100" width="0.2540" layer="94"/>
+<wire x1="-3.8100" y1="-16.5100" x2="-3.8100" y2="16.5100" width="0.2540" layer="94"/>
+<circle x="-2.5400" y="15.2400" radius="0.3800" width="0.2540" layer="94"/>
+<pin name="VBUS_A4B9" x="-6.3500" y="-11.4300" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="EH" x="11.4300" y="-1.2700" length="short" direction="io" rot="R180" visible="both"/>
+<pin name="GND_A1B12" x="-6.3500" y="-13.9700" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="GND_B1A12" x="-6.3500" y="13.9700" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="VBUS_B4A9" x="-6.3500" y="11.4300" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="CC2" x="-6.3500" y="8.8900" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="DP2" x="-6.3500" y="3.8100" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="SBU1" x="-6.3500" y="6.3500" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="DN1" x="-6.3500" y="1.2700" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="DP1" x="-6.3500" y="-1.2700" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="DN2" x="-6.3500" y="-3.8100" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="CC1" x="-6.3500" y="-6.3500" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="SBU2" x="-6.3500" y="-8.8900" length="short" direction="io" rot="R0" visible="both"/>
+<text x="0" y="18.5100" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="20.5100" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5670,9 +5751,9 @@
 <attribute name="DESCRIPTION" value="Connector Header 2 position 2mm Pitch 2A Through Hole -25℃~+85℃" constant="no"/>
 <attribute name="CATEGORY" value="Headers, Male Pins" constant="no"/>
 <attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/3efc119a91d2f6ddc762f9044b736f27.pdf?productCode=C2683610" constant="no"/>
-<attribute name="PRICING_50" value="$0.0703/unit @ 50" constant="no"/>
-<attribute name="PRICING_1000" value="$0.0418/unit @ 1000" constant="no"/>
-<attribute name="LCSC_STOCK" value="900" constant="no"/>
+<attribute name="PRICING_50" value="$0.0718/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0426/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="910" constant="no"/>
 <attribute name="PITCH" value="2mm" constant="no"/>
 <attribute name="COLOR" value="Gray" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Through Hole" constant="no"/>
@@ -6804,7 +6885,6 @@
 <connect gate="G$1" pin="CC2" pad="B5"/>
 <connect gate="G$1" pin="VBUS_B4A9" pad="B4A9"/>
 <connect gate="G$1" pin="GND_B1A12" pad="B1A12"/>
-<connect gate="G$1" pin="SHELL" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -6817,7 +6897,7 @@
 <attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/4b6d0e528ebcd707a0610c378743aba6.pdf?productCode=C42400252" constant="no"/>
 <attribute name="PRICING_50" value="$0.0524/unit @ 50" constant="no"/>
 <attribute name="PRICING_1000" value="$0.032/unit @ 1000" constant="no"/>
-<attribute name="LCSC_STOCK" value="10530" constant="no"/>
+<attribute name="LCSC_STOCK" value="10570" constant="no"/>
 <attribute name="CONNECTOR_TYPE" value="Type-C" constant="no"/>
 <attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
 <attribute name="PROTOCOL_STANDARD" value="USB 3.1" constant="no"/>
@@ -6988,6 +7068,53 @@
 <attribute name="PRICING_50" value="$1.429/unit @ 50" constant="no"/>
 <attribute name="PRICING_1000" value="$1.429/unit @ 1000" constant="no"/>
 <attribute name="LCSC_STOCK" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TYPE-C_16P_QTWT_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount, Right Angle&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; SHOU HAN&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; TYPE-C 16P QTWT&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C5187472&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; USB, DVI, HDMI Connector Assemblies&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/d3846d73123f7a78a150a5dc80fdd645.pdf?productCode=C5187472</description>
+<gates>
+<gate name="G$1" symbol="TYPE-C_16P_QTWT_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-TYPE-C-SMD_TYPE-C-16P-QTWT">
+<connects>
+<connect gate="G$1" pin="VBUS_A4B9" pad="A4B9"/>
+<connect gate="G$1" pin="EH" pad="0 0_2 0_3 0_4"/>
+<connect gate="G$1" pin="GND_A1B12" pad="A1B12"/>
+<connect gate="G$1" pin="GND_B1A12" pad="B1A12"/>
+<connect gate="G$1" pin="VBUS_B4A9" pad="B4A9"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DP2" pad="B6"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="DN1" pad="A7"/>
+<connect gate="G$1" pin="DP1" pad="A6"/>
+<connect gate="G$1" pin="DN2" pad="B7"/>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C5187472" constant="no"/>
+<attribute name="MPN" value="TYPE-C 16P QTWT" constant="no"/>
+<attribute name="PARTNO" value="TYPE-C 16P QTWT" constant="no"/>
+<attribute name="MANUFACTURER" value="SHOU HAN" constant="no"/>
+<attribute name="DESCRIPTION" value="USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount, Right Angle" constant="no"/>
+<attribute name="CATEGORY" value="USB, DVI, HDMI Connector Assemblies" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/d3846d73123f7a78a150a5dc80fdd645.pdf?productCode=C5187472" constant="no"/>
+<attribute name="PRICING_50" value="$0.0696/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0513/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="66890" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="Type-C" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, Right Angle" constant="no"/>
+<attribute name="GENDER" value="Female" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-25℃~+85℃" constant="no"/>
+<attribute name="NUMBER_OF_PORTS" value="1" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="5V" constant="no"/>
+<attribute name="CURRENT_RATING_POWER" value="3A" constant="no"/>
+<attribute name="NUMBER_OF_CONTACTS" value="16P" constant="no"/>
 </technology>
 </technologies>
 </device>

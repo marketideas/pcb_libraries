@@ -71,7 +71,7 @@
 	(fp_poly (pts (xy 0.650062 -2.750134) (xy 0.850062 -2.750134) (xy 0.850062 -1.950136) (xy 0.650062 -1.950136) (xy 0.650062 -2.750134)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 1.149934 -2.750134) (xy 1.349934 -2.750134) (xy 1.349934 -1.950136) (xy 1.149934 -1.950136) (xy 1.149934 -2.750134)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 1.650060 -2.750134) (xy 1.850060 -2.750134) (xy 1.850060 -1.950136) (xy 1.650060 -1.950136) (xy 1.650060 -2.750134)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${EAGLE_EASYEDA_TOOLS}/kicad/lcsc_parts.3dshapes/USB-C-SMD_HYCW498-USBC16-735B.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/USB-C-SMD_HYCW498-USBC16-735B.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

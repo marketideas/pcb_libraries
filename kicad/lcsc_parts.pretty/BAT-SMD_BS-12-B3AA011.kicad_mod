@@ -41,7 +41,7 @@
 	(fp_line (start 4.26 7.09) (end 7.43 7.09) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 7.43 7.09) (end 7.44 7.10) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 7.44 7.10) (end 7.53 -7.10) (layer F.CrtYd) (width 0.05))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/BAT-SMD_BS-12-B3AA011.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/BAT-SMD_BS-12-B3AA011.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -26,7 +26,7 @@
 	(fp_line (start -5.80 2.05) (end 5.80 2.05) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 5.80 2.05) (end 5.80 -5.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 5.80 -5.45) (end -5.80 -5.45) (layer F.CrtYd) (width 0.05))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/PWRM-TH_3P-L11.6-W7.5-P2.54_TSR1-2433E.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/PWRM-TH_3P-L11.6-W7.5-P2.54_TSR1-2433E.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

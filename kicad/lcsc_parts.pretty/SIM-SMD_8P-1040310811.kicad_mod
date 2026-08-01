@@ -58,7 +58,7 @@
 	(fp_line (start -5.95 5.75) (end -5.95 -5.33) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -5.95 -5.33) (end -5.80 -5.33) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -5.80 -5.33) (end -5.80 -5.65) (layer F.CrtYd) (width 0.05))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/SIM-SMD_8P-1040310811.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/SIM-SMD_8P-1040310811.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

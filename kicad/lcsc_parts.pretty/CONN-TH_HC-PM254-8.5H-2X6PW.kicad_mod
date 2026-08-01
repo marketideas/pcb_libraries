@@ -25,7 +25,7 @@
 	(pad 10 thru_hole circle (at 3.81 -1.27 0.00) (size 1.600 1.600) (layers *.Cu *.Mask)(drill 1.020014))
 	(pad 11 thru_hole circle (at 6.35 1.27 0.00) (size 1.600 1.600) (layers *.Cu *.Mask)(drill 1.020014))
 	(pad 12 thru_hole circle (at 6.35 -1.27 0.00) (size 1.600 1.600) (layers *.Cu *.Mask)(drill 1.020014))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/CONN-TH_HC-PM254-8.5H-2X6PW.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/CONN-TH_HC-PM254-8.5H-2X6PW.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

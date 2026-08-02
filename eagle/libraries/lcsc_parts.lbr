@@ -206,87 +206,41 @@
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="C0603">
-<wire x1="-0.28" y1="-0.71" x2="-1.08" y2="-0.71" width="0.25" layer="21"/>
-<wire x1="0.28" y1="-0.71" x2="1.08" y2="-0.71" width="0.25" layer="21"/>
-<wire x1="-0.28" y1="0.71" x2="-1.08" y2="0.71" width="0.25" layer="21"/>
-<wire x1="0.28" y1="0.71" x2="1.08" y2="0.71" width="0.25" layer="21"/>
-<wire x1="-1.39" y1="-0.4" x2="-1.39" y2="0.4" width="0.25" layer="21"/>
-<wire x1="1.39" y1="0.4" x2="1.39" y2="-0.4" width="0.25" layer="21"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="51"/>
-<circle x="-0.8" y="-0.4" radius="0.03" width="0.06" layer="21"/>
-<polygon width="0.01" layer="51">
-<vertex x="-0.8" y="-0.4"/>
-<vertex x="-0.8" y="0.4"/>
-<vertex x="-0.5" y="0.4"/>
-<vertex x="-0.5" y="-0.4"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="0.8" y="-0.4"/>
-<vertex x="0.8" y="0.4"/>
-<vertex x="0.5" y="0.4"/>
-<vertex x="0.5" y="-0.4"/>
-</polygon>
-<smd name="2" x="0.7" y="0" dx="0.8" dy="0.9" layer="1"/>
-<smd name="1" x="-0.7" y="0" dx="0.8" dy="0.9" layer="1"/>
+<wire x1="-0.2800" y1="-0.7100" x2="-1.0800" y2="-0.7100" width="0.2500" layer="21"/>
+<wire x1="0.2800" y1="-0.7100" x2="1.0800" y2="-0.7100" width="0.2500" layer="21"/>
+<wire x1="-0.2800" y1="0.7100" x2="-1.0800" y2="0.7100" width="0.2500" layer="21"/>
+<wire x1="0.2800" y1="0.7100" x2="1.0800" y2="0.7100" width="0.2500" layer="21"/>
+<wire x1="-1.3900" y1="-0.4000" x2="-1.3900" y2="0.4000" width="0.2500" layer="21"/>
+<wire x1="1.3900" y1="0.4000" x2="1.3900" y2="-0.4000" width="0.2500" layer="21"/>
+<wire x1="-0.8000" y1="-0.4000" x2="-0.8000" y2="0.4000" width="0.0500" layer="51"/>
+<wire x1="-0.8000" y1="0.4000" x2="0.8000" y2="0.4000" width="0.0500" layer="51"/>
+<wire x1="0.8000" y1="0.4000" x2="0.8000" y2="-0.4000" width="0.0500" layer="51"/>
+<wire x1="0.8000" y1="-0.4000" x2="-0.8000" y2="-0.4000" width="0.0500" layer="51"/>
+<circle x="-0.8000" y="-0.4000" radius="0.0300" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-0.8000" y="-0.4000"/><vertex x="-0.8000" y="0.4000"/><vertex x="-0.5000" y="0.4000"/><vertex x="-0.5000" y="-0.4000"/><vertex x="-0.8000" y="-0.4000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.8000" y="-0.4000"/><vertex x="0.8000" y="0.4000"/><vertex x="0.5000" y="0.4000"/><vertex x="0.5000" y="-0.4000"/><vertex x="0.8000" y="-0.4000"/></polygon>
+<smd name="2" x="0.7000" y="-0.0000" dx="0.8000" dy="0.9000" layer="1"/>
+<smd name="1" x="-0.7000" y="-0.0000" dx="0.8000" dy="0.9000" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="R0603">
-<wire x1="0.43" y1="-0.66" x2="1.39" y2="-0.66" width="0.15" layer="21"/>
-<wire x1="1.39" y1="-0.66" x2="1.39" y2="0.66" width="0.15" layer="21"/>
-<wire x1="1.39" y1="0.66" x2="0.43" y2="0.66" width="0.15" layer="21"/>
-<wire x1="-0.43" y1="-0.66" x2="-1.39" y2="-0.66" width="0.15" layer="21"/>
-<wire x1="-1.39" y1="-0.66" x2="-1.39" y2="0.66" width="0.15" layer="21"/>
-<wire x1="-1.39" y1="0.66" x2="-0.43" y2="0.66" width="0.15" layer="21"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="51"/>
-<circle x="-0.8" y="-0.4" radius="0.03" width="0.06" layer="21"/>
-<polygon width="0.01" layer="51">
-<vertex x="-0.8" y="-0.4"/>
-<vertex x="-0.8" y="0.4"/>
-<vertex x="-0.5" y="0.4"/>
-<vertex x="-0.5" y="-0.4"/>
-</polygon>
-<polygon width="0.01" layer="51">
-<vertex x="0.8" y="-0.4"/>
-<vertex x="0.8" y="0.4"/>
-<vertex x="0.5" y="0.4"/>
-<vertex x="0.5" y="-0.4"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="1.195" y="0.45"/>
-<vertex x="0.395" y="0.45"/>
-<vertex x="0.345" y="0.4"/>
-<vertex x="0.345" y="0.172"/>
-<vertex x="0.715" y="0.172"/>
-<vertex x="0.715" y="-0.158"/>
-<vertex x="0.345" y="-0.158"/>
-<vertex x="0.345" y="-0.4"/>
-<vertex x="0.395" y="-0.45"/>
-<vertex x="1.195" y="-0.45"/>
-<vertex x="1.245" y="-0.4"/>
-<vertex x="1.245" y="0.4"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.195" y="-0.45"/>
-<vertex x="-0.395" y="-0.45"/>
-<vertex x="-0.345" y="-0.4"/>
-<vertex x="-0.345" y="-0.172"/>
-<vertex x="-0.715" y="-0.172"/>
-<vertex x="-0.715" y="0.158"/>
-<vertex x="-0.345" y="0.158"/>
-<vertex x="-0.345" y="0.4"/>
-<vertex x="-0.395" y="0.45"/>
-<vertex x="-1.195" y="0.45"/>
-<vertex x="-1.245" y="0.4"/>
-<vertex x="-1.245" y="-0.4"/>
-</polygon>
-<smd name="2" x="0.75" y="0" dx="0.806" dy="0.864" layer="1"/>
-<smd name="1" x="-0.75" y="0" dx="0.806" dy="0.864" layer="1"/>
+<wire x1="0.4300" y1="-0.6600" x2="1.3900" y2="-0.6600" width="0.1500" layer="21"/>
+<wire x1="1.3900" y1="-0.6600" x2="1.3900" y2="0.6600" width="0.1500" layer="21"/>
+<wire x1="1.3900" y1="0.6600" x2="0.4300" y2="0.6600" width="0.1500" layer="21"/>
+<wire x1="-0.4300" y1="-0.6600" x2="-1.3900" y2="-0.6600" width="0.1500" layer="21"/>
+<wire x1="-1.3900" y1="-0.6600" x2="-1.3900" y2="0.6600" width="0.1500" layer="21"/>
+<wire x1="-1.3900" y1="0.6600" x2="-0.4300" y2="0.6600" width="0.1500" layer="21"/>
+<wire x1="-0.8000" y1="-0.4000" x2="-0.8000" y2="0.4000" width="0.0500" layer="51"/>
+<wire x1="-0.8000" y1="0.4000" x2="0.8000" y2="0.4000" width="0.0500" layer="51"/>
+<wire x1="0.8000" y1="0.4000" x2="0.8000" y2="-0.4000" width="0.0500" layer="51"/>
+<wire x1="0.8000" y1="-0.4000" x2="-0.8000" y2="-0.4000" width="0.0500" layer="51"/>
+<circle x="-0.8000" y="-0.4000" radius="0.0300" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-0.8000" y="-0.4000"/><vertex x="-0.8000" y="0.4000"/><vertex x="-0.5000" y="0.4000"/><vertex x="-0.5000" y="-0.4000"/><vertex x="-0.8000" y="-0.4000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.8000" y="-0.4000"/><vertex x="0.8000" y="0.4000"/><vertex x="0.5000" y="0.4000"/><vertex x="0.5000" y="-0.4000"/><vertex x="0.8000" y="-0.4000"/></polygon>
+<polygon width="0.01" layer="31"><vertex x="1.1950" y="0.4500"/><vertex x="0.3950" y="0.4500"/><vertex x="0.3450" y="0.4000"/><vertex x="0.3450" y="0.1720"/><vertex x="0.7150" y="0.1720"/><vertex x="0.7150" y="-0.1580"/><vertex x="0.3450" y="-0.1580"/><vertex x="0.3450" y="-0.4000"/><vertex x="0.3950" y="-0.4500"/><vertex x="1.1950" y="-0.4500"/><vertex x="1.2450" y="-0.4000"/><vertex x="1.2450" y="0.4000"/><vertex x="1.1950" y="0.4500"/></polygon>
+<polygon width="0.01" layer="31"><vertex x="-1.1950" y="-0.4500"/><vertex x="-0.3950" y="-0.4500"/><vertex x="-0.3450" y="-0.4000"/><vertex x="-0.3450" y="-0.1720"/><vertex x="-0.7150" y="-0.1720"/><vertex x="-0.7150" y="0.1580"/><vertex x="-0.3450" y="0.1580"/><vertex x="-0.3450" y="0.4000"/><vertex x="-0.3950" y="0.4500"/><vertex x="-1.1950" y="0.4500"/><vertex x="-1.2450" y="0.4000"/><vertex x="-1.2450" y="-0.4000"/><vertex x="-1.1950" y="-0.4500"/></polygon>
+<smd name="2" x="0.7500" y="-0.0000" dx="0.8060" dy="0.8640" layer="1"/>
+<smd name="1" x="-0.7500" y="-0.0000" dx="0.8060" dy="0.8640" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR">
@@ -9697,6 +9651,116 @@
 <smd name="1" x="-1.2" y="-0.8" dx="0.65" dy="0.8" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="C0805">
+<wire x1="1.8100" y1="0.9000" x2="0.4000" y2="0.9000" width="0.1500" layer="21"/>
+<wire x1="0.4000" y1="-0.9000" x2="1.8100" y2="-0.9000" width="0.1500" layer="21"/>
+<wire x1="1.9600" y1="-0.7500" x2="1.9600" y2="0.7500" width="0.1500" layer="21"/>
+<wire x1="-1.8100" y1="0.9000" x2="-0.4000" y2="0.9000" width="0.1500" layer="21"/>
+<wire x1="-0.4000" y1="-0.9000" x2="-1.8100" y2="-0.9000" width="0.1500" layer="21"/>
+<wire x1="-1.9600" y1="-0.7500" x2="-1.9600" y2="0.7500" width="0.1500" layer="21"/>
+<wire x1="-1.0000" y1="-0.6200" x2="-1.0000" y2="0.6200" width="0.0500" layer="51"/>
+<wire x1="-1.0000" y1="0.6200" x2="1.0000" y2="0.6200" width="0.0500" layer="51"/>
+<wire x1="1.0000" y1="0.6200" x2="1.0000" y2="-0.6200" width="0.0500" layer="51"/>
+<wire x1="1.0000" y1="-0.6200" x2="-1.0000" y2="-0.6200" width="0.0500" layer="51"/>
+<circle x="-1.0000" y="-0.6300" radius="0.0300" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-1.0000" y="-0.6250"/><vertex x="-1.0000" y="0.6250"/><vertex x="-0.5000" y="0.6250"/><vertex x="-0.5000" y="-0.6250"/><vertex x="-1.0000" y="-0.6250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="1.0000" y="0.6250"/><vertex x="1.0000" y="-0.6250"/><vertex x="0.5000" y="-0.6250"/><vertex x="0.5000" y="0.6250"/><vertex x="1.0000" y="0.6250"/></polygon>
+<polygon width="0.01" layer="31"><vertex x="-1.7050" y="-0.6400"/><vertex x="-1.7050" y="0.6400"/><vertex x="-1.6550" y="0.6900"/><vertex x="-0.5050" y="0.6900"/><vertex x="-0.4550" y="0.6400"/><vertex x="-0.4499" y="0.2299"/><vertex x="-0.8999" y="0.2299"/><vertex x="-0.8999" y="-0.2200"/><vertex x="-0.4599" y="-0.2200"/><vertex x="-0.4550" y="-0.6400"/><vertex x="-0.5050" y="-0.6900"/><vertex x="-1.6550" y="-0.6900"/><vertex x="-1.7050" y="-0.6400"/></polygon>
+<polygon width="0.01" layer="31"><vertex x="1.7050" y="0.6400"/><vertex x="1.7050" y="-0.6400"/><vertex x="1.6550" y="-0.6900"/><vertex x="0.5050" y="-0.6900"/><vertex x="0.4550" y="-0.6400"/><vertex x="0.4499" y="-0.2299"/><vertex x="0.8999" y="-0.2299"/><vertex x="0.8999" y="0.2200"/><vertex x="0.4599" y="0.2200"/><vertex x="0.4550" y="0.6400"/><vertex x="0.5050" y="0.6900"/><vertex x="1.6550" y="0.6900"/><vertex x="1.7050" y="0.6400"/></polygon>
+<smd name="2" x="1.0000" y="-0.0000" dx="1.4100" dy="1.3500" layer="1"/>
+<smd name="1" x="-1.0000" y="-0.0000" dx="1.4100" dy="1.3500" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="C1206">
+<wire x1="2.4100" y1="1.0900" x2="0.9300" y2="1.0900" width="0.1500" layer="21"/>
+<wire x1="0.9300" y1="-1.0900" x2="2.4100" y2="-1.0900" width="0.1500" layer="21"/>
+<wire x1="2.5600" y1="-0.9400" x2="2.5600" y2="0.9400" width="0.1500" layer="21"/>
+<wire x1="-2.4100" y1="1.0900" x2="-0.9300" y2="1.0900" width="0.1500" layer="21"/>
+<wire x1="-0.9300" y1="-1.0900" x2="-2.4100" y2="-1.0900" width="0.1500" layer="21"/>
+<wire x1="-2.5600" y1="-0.9400" x2="-2.5600" y2="0.9400" width="0.1500" layer="21"/>
+<wire x1="-1.6000" y1="-0.8000" x2="-1.6000" y2="0.8000" width="0.0500" layer="51"/>
+<wire x1="-1.6000" y1="0.8000" x2="1.6000" y2="0.8000" width="0.0500" layer="51"/>
+<wire x1="1.6000" y1="0.8000" x2="1.6000" y2="-0.8000" width="0.0500" layer="51"/>
+<wire x1="1.6000" y1="-0.8000" x2="-1.6000" y2="-0.8000" width="0.0500" layer="51"/>
+<circle x="-1.6000" y="-0.8000" radius="0.0300" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-1.6000" y="-0.8000"/><vertex x="-1.6000" y="0.8000"/><vertex x="-1.1000" y="0.8000"/><vertex x="-1.1000" y="-0.8000"/><vertex x="-1.6000" y="-0.8000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="1.6000" y="-0.8000"/><vertex x="1.6000" y="0.8000"/><vertex x="1.1000" y="0.8000"/><vertex x="1.1000" y="-0.8000"/><vertex x="1.6000" y="-0.8000"/></polygon>
+<polygon width="0.01" layer="31"><vertex x="0.8500" y="-0.7640"/><vertex x="0.8500" y="-0.3938"/><vertex x="0.9500" y="-0.2938"/><vertex x="1.2549" y="-0.2938"/><vertex x="1.3549" y="-0.1938"/><vertex x="1.3549" y="0.1938"/><vertex x="1.2549" y="0.2938"/><vertex x="0.9500" y="0.2938"/><vertex x="0.8500" y="0.3938"/><vertex x="0.8500" y="0.7640"/><vertex x="0.9500" y="0.8640"/><vertex x="2.2350" y="0.8640"/><vertex x="2.3350" y="0.7640"/><vertex x="2.3350" y="-0.7640"/><vertex x="2.2350" y="-0.8640"/><vertex x="0.9500" y="-0.8640"/><vertex x="0.8500" y="-0.7640"/></polygon>
+<polygon width="0.01" layer="31"><vertex x="-0.8500" y="-0.7640"/><vertex x="-0.8500" y="-0.3938"/><vertex x="-0.9500" y="-0.2938"/><vertex x="-1.2549" y="-0.2938"/><vertex x="-1.3549" y="-0.1938"/><vertex x="-1.3549" y="0.1938"/><vertex x="-1.2549" y="0.2938"/><vertex x="-0.9500" y="0.2938"/><vertex x="-0.8500" y="0.3938"/><vertex x="-0.8500" y="0.7640"/><vertex x="-0.9500" y="0.8640"/><vertex x="-2.2350" y="0.8640"/><vertex x="-2.3350" y="0.7640"/><vertex x="-2.3350" y="-0.7640"/><vertex x="-2.2350" y="-0.8640"/><vertex x="-0.9500" y="-0.8640"/><vertex x="-0.8500" y="-0.7640"/></polygon>
+<smd name="2" x="1.5900" y="-0.0000" dx="1.4850" dy="1.7280" layer="1"/>
+<smd name="1" x="-1.5900" y="-0.0000" dx="1.4850" dy="1.7280" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL">
+<wire x1="1.5400" y1="-0.8900" x2="1.5400" y2="0.8900" width="0.1500" layer="21"/>
+<wire x1="-1.5400" y1="-0.8900" x2="-1.5400" y2="0.8900" width="0.1500" layer="21"/>
+<wire x1="-1.4600" y1="0.8100" x2="1.4600" y2="0.8100" width="0.0500" layer="51"/>
+<wire x1="1.4600" y1="0.8100" x2="1.4600" y2="-0.8100" width="0.0500" layer="51"/>
+<wire x1="1.4600" y1="-0.8100" x2="-1.4600" y2="-0.8100" width="0.0500" layer="51"/>
+<wire x1="-1.4600" y1="-0.8100" x2="-1.4600" y2="0.8100" width="0.0500" layer="51"/>
+<circle x="-1.4600" y="-1.4000" radius="0.0300" width="0.06" layer="21"/>
+<circle x="-0.9200" y="-1.6800" radius="0.1000" width="0.06" layer="51"/>
+<circle x="-1.6700" y="-1.3000" radius="0.1500" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-1.1650" y="-0.9250"/><vertex x="-0.7350" y="-0.9250"/><vertex x="-0.7350" y="-1.4000"/><vertex x="-1.1650" y="-1.4000"/><vertex x="-1.1650" y="-0.9250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1650" y="-0.8030"/><vertex x="-0.7350" y="-0.8030"/><vertex x="-0.7350" y="-0.9350"/><vertex x="-1.1650" y="-0.9350"/><vertex x="-1.1650" y="-0.8030"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.2150" y="-0.9250"/><vertex x="0.2150" y="-0.9250"/><vertex x="0.2150" y="-1.4000"/><vertex x="-0.2150" y="-1.4000"/><vertex x="-0.2150" y="-0.9250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.2150" y="-0.8030"/><vertex x="0.2150" y="-0.8030"/><vertex x="0.2150" y="-0.9350"/><vertex x="-0.2150" y="-0.9350"/><vertex x="-0.2150" y="-0.8030"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7350" y="-0.9250"/><vertex x="1.1650" y="-0.9250"/><vertex x="1.1650" y="-1.4000"/><vertex x="0.7350" y="-1.4000"/><vertex x="0.7350" y="-0.9250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7350" y="-0.8030"/><vertex x="1.1650" y="-0.8030"/><vertex x="1.1650" y="-0.9350"/><vertex x="0.7350" y="-0.9350"/><vertex x="0.7350" y="-0.8030"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7350" y="0.9250"/><vertex x="1.1650" y="0.9250"/><vertex x="1.1650" y="1.4000"/><vertex x="0.7350" y="1.4000"/><vertex x="0.7350" y="0.9250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="0.7350" y="0.9350"/><vertex x="1.1650" y="0.9350"/><vertex x="1.1650" y="0.8030"/><vertex x="0.7350" y="0.8030"/><vertex x="0.7350" y="0.9350"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.2150" y="0.9250"/><vertex x="0.2150" y="0.9250"/><vertex x="0.2150" y="1.4000"/><vertex x="-0.2150" y="1.4000"/><vertex x="-0.2150" y="0.9250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-0.2150" y="0.9350"/><vertex x="0.2150" y="0.9350"/><vertex x="0.2150" y="0.8030"/><vertex x="-0.2150" y="0.8030"/><vertex x="-0.2150" y="0.9350"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1650" y="0.9250"/><vertex x="-0.7350" y="0.9250"/><vertex x="-0.7350" y="1.4000"/><vertex x="-1.1650" y="1.4000"/><vertex x="-1.1650" y="0.9250"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-1.1650" y="0.9350"/><vertex x="-0.7350" y="0.9350"/><vertex x="-0.7350" y="0.8030"/><vertex x="-1.1650" y="0.8030"/><vertex x="-1.1650" y="0.9350"/></polygon>
+<smd name="1" x="-0.9500" y="-1.1500" dx="0.5320" dy="1.0720" layer="1"/>
+<smd name="2" x="0.0000" y="-1.1500" dx="0.5320" dy="1.0720" layer="1"/>
+<smd name="3" x="0.9500" y="-1.1500" dx="0.5320" dy="1.0720" layer="1"/>
+<smd name="4" x="0.9500" y="1.1500" dx="0.5320" dy="1.0720" layer="1"/>
+<smd name="5" x="0.0000" y="1.1500" dx="0.5320" dy="1.0720" layer="1"/>
+<smd name="6" x="-0.9500" y="1.1500" dx="0.5320" dy="1.0720" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="IND-SMD_L6.0-W6.0_VLS6045EX-2R0N">
+<wire x1="-0.0000" y1="3.0000" x2="3.0000" y2="3.0000" width="0.2500" layer="21"/>
+<wire x1="3.0000" y1="3.0000" x2="3.0000" y2="2.6300" width="0.2500" layer="21"/>
+<wire x1="3.0000" y1="-2.6300" x2="3.0000" y2="-3.0000" width="0.2500" layer="21"/>
+<wire x1="3.0000" y1="-3.0000" x2="-3.0000" y2="-3.0000" width="0.2500" layer="21"/>
+<wire x1="-3.0000" y1="-3.0000" x2="-3.0000" y2="-2.6300" width="0.2500" layer="21"/>
+<wire x1="-3.0000" y1="2.6300" x2="-3.0000" y2="3.0000" width="0.2500" layer="21"/>
+<wire x1="-3.0000" y1="3.0000" x2="-0.0000" y2="3.0000" width="0.2500" layer="21"/>
+<wire x1="-3.0000" y1="-3.0000" x2="-3.0000" y2="3.0000" width="0.0500" layer="51"/>
+<wire x1="-3.0000" y1="3.0000" x2="3.0000" y2="3.0000" width="0.0500" layer="51"/>
+<wire x1="3.0000" y1="3.0000" x2="3.0000" y2="-3.0000" width="0.0500" layer="51"/>
+<wire x1="3.0000" y1="-3.0000" x2="-3.0000" y2="-3.0000" width="0.0500" layer="51"/>
+<circle x="-3.0000" y="-3.0000" radius="0.0300" width="0.06" layer="21"/>
+<circle x="-1.5200" y="0.2200" radius="0.2000" width="0.06" layer="51"/>
+<polygon width="0.01" layer="51"><vertex x="-3.0001" y="2.4000"/><vertex x="-1.3001" y="2.4000"/><vertex x="-1.3001" y="-2.4000"/><vertex x="-3.0001" y="-2.4000"/><vertex x="-3.0001" y="2.4000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="1.2999" y="2.4000"/><vertex x="2.9999" y="2.4000"/><vertex x="2.9999" y="-2.4000"/><vertex x="1.2999" y="-2.4000"/><vertex x="1.2999" y="2.4000"/></polygon>
+<smd name="1" x="-2.5000" y="-0.0000" dx="2.4000" dy="4.9000" layer="1"/>
+<smd name="2" x="2.5000" y="-0.0000" dx="2.4000" dy="4.9000" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="DC-IN-TH_XDJK-0051-025">
+<wire x1="2.0200" y1="-2.2900" x2="3.4200" y2="-2.2900" width="0.2500" layer="21"/>
+<wire x1="3.4200" y1="-2.2900" x2="3.4200" y2="0.4100" width="0.2500" layer="21"/>
+<wire x1="3.4200" y1="4.2900" x2="3.4200" y2="6.8600" width="0.2500" layer="21"/>
+<wire x1="3.4200" y1="6.8600" x2="-10.8000" y2="6.8600" width="0.2500" layer="21"/>
+<wire x1="-10.8000" y1="6.8600" x2="-10.8000" y2="-2.2900" width="0.2500" layer="21"/>
+<wire x1="-10.8000" y1="-2.2900" x2="-2.0300" y2="-2.2900" width="0.2500" layer="21"/>
+<wire x1="-10.7000" y1="-2.1500" x2="-10.7000" y2="6.8500" width="0.0500" layer="51"/>
+<wire x1="-10.7000" y1="6.8500" x2="3.4000" y2="6.8500" width="0.0500" layer="51"/>
+<wire x1="3.4000" y1="6.8500" x2="3.4000" y2="-2.1500" width="0.0500" layer="51"/>
+<wire x1="3.4000" y1="-2.1500" x2="-10.7000" y2="-2.1500" width="0.0500" layer="51"/>
+<circle x="-10.7000" y="6.8500" radius="0.0200" width="0.06" layer="21"/>
+<polygon width="0.01" layer="51"><vertex x="-1.1500" y="-2.0999"/><vertex x="1.3500" y="-2.0999"/><vertex x="1.3500" y="-2.5999"/><vertex x="-1.1500" y="-2.5999"/><vertex x="-1.1500" y="-2.0999"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="2.8500" y="3.6000"/><vertex x="3.3500" y="3.6000"/><vertex x="3.3500" y="1.1000"/><vertex x="2.8500" y="1.1000"/><vertex x="2.8500" y="3.6000"/></polygon>
+<polygon width="0.01" layer="51"><vertex x="-3.3500" y="3.6000"/><vertex x="-2.8500" y="3.6000"/><vertex x="-2.8500" y="1.1000"/><vertex x="-3.3500" y="1.1000"/><vertex x="-3.3500" y="3.6000"/></polygon>
+<pad name="2" x="-3.1000" y="2.3500" drill="1.0000" diameter="3.6000" shape="long" rot="R270"/>
+<pad name="1" x="3.1000" y="2.3500" drill="1.0000" diameter="3.6000" shape="long" rot="R90"/>
+<pad name="3" x="0.1000" y="-2.3500" drill="1.0000" diameter="3.6000" shape="long" rot="R180"/>
+<text x="0" y="0" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AMS1117-3.3_LCSC">
@@ -11482,6 +11546,100 @@
 <pin name="8" x="8.89" y="3.81" direction="in" rot="R180"/>
 <text x="0" y="8.35" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="10.35" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="0603WAF1372T5E_LCSC">
+<wire x1="-2.5400" y1="1.0200" x2="2.5400" y2="1.0200" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="1.0200" x2="2.5400" y2="-1.0200" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="-1.0200" x2="-2.5400" y2="-1.0200" width="0.2540" layer="94"/>
+<wire x1="-2.5400" y1="-1.0200" x2="-2.5400" y2="1.0200" width="0.2540" layer="94"/>
+<pin name="2" x="5.0800" y="-0.0000" length="short" direction="in" rot="R180" visible="both"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="short" direction="in" rot="R0" visible="both"/>
+<text x="0" y="3.0200" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="5.0200" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="0603WAF1003T5E_LCSC">
+<wire x1="-2.5400" y1="1.0200" x2="2.5400" y2="1.0200" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="1.0200" x2="2.5400" y2="-1.0200" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="-1.0200" x2="-2.5400" y2="-1.0200" width="0.2540" layer="94"/>
+<wire x1="-2.5400" y1="-1.0200" x2="-2.5400" y2="1.0200" width="0.2540" layer="94"/>
+<pin name="2" x="5.0800" y="-0.0000" length="short" direction="in" rot="R180" visible="both"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="short" direction="in" rot="R0" visible="both"/>
+<text x="0" y="3.0200" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="5.0200" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CL21A226MAQNNNE_LCSC">
+<wire x1="-0.5100" y1="-2.0300" x2="-0.5100" y2="2.0300" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="-0.0000" x2="0.5100" y2="-0.0000" width="0.2540" layer="94"/>
+<wire x1="0.5100" y1="2.0300" x2="0.5100" y2="-2.0300" width="0.2540" layer="94"/>
+<wire x1="-0.5100" y1="-0.0000" x2="-2.5400" y2="-0.0000" width="0.2540" layer="94"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="2" x="5.0800" y="-0.0000" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="4.0300" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="6.0300" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CL31B106KBHNNNE_LCSC">
+<wire x1="-0.5100" y1="-2.0300" x2="-0.5100" y2="2.0300" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="-0.0000" x2="0.5100" y2="-0.0000" width="0.2540" layer="94"/>
+<wire x1="0.5100" y1="2.0300" x2="0.5100" y2="-2.0300" width="0.2540" layer="94"/>
+<wire x1="-0.5100" y1="-0.0000" x2="-2.5400" y2="-0.0000" width="0.2540" layer="94"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="2" x="5.0800" y="-0.0000" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="4.0300" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="6.0300" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TPS54302DDCR_LCSC">
+<wire x1="-10.1600" y1="5.0800" x2="10.1600" y2="5.0800" width="0.2540" layer="94"/>
+<wire x1="10.1600" y1="5.0800" x2="10.1600" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="10.1600" y1="-5.0800" x2="-10.1600" y2="-5.0800" width="0.2540" layer="94"/>
+<wire x1="-10.1600" y1="-5.0800" x2="-10.1600" y2="5.0800" width="0.2540" layer="94"/>
+<circle x="-8.8900" y="3.8100" radius="0.3800" width="0.2540" layer="94"/>
+<pin name="GND" x="-12.7000" y="2.5400" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="SW" x="-12.7000" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="VIN" x="-12.7000" y="-2.5400" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="FB" x="12.7000" y="-2.5400" length="short" direction="io" rot="R180" visible="both"/>
+<pin name="EN" x="12.7000" y="-0.0000" length="short" direction="io" rot="R180" visible="both"/>
+<pin name="BOOT" x="12.7000" y="2.5400" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="7.0800" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="9.0800" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="VLS6045EX-100M_LCSC">
+<pin name="2" x="5.0800" y="-0.0000" length="middle" direction="io" rot="R180" visible="both"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="middle" direction="io" rot="R0" visible="both"/>
+<text x="0" y="2.0000" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="4.0000" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CC0603FRNPO9BN750_LCSC">
+<wire x1="-0.5100" y1="-2.0300" x2="-0.5100" y2="2.0300" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="-0.0000" x2="0.5100" y2="-0.0000" width="0.2540" layer="94"/>
+<wire x1="0.5100" y1="2.0300" x2="0.5100" y2="-2.0300" width="0.2540" layer="94"/>
+<wire x1="-0.5100" y1="-0.0000" x2="-2.5400" y2="-0.0000" width="0.2540" layer="94"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="2" x="5.0800" y="-0.0000" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="4.0300" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="6.0300" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="XDJK-0051-025_LCSC">
+<wire x1="-1.7800" y1="2.5400" x2="-1.0200" y2="2.5400" width="0.2540" layer="94"/>
+<wire x1="-1.0200" y1="2.5400" x2="-1.0200" y2="0.0000" width="0.2540" layer="94"/>
+<wire x1="-1.0200" y1="0.0000" x2="-1.7800" y2="0.0000" width="0.2540" layer="94"/>
+<wire x1="-1.7800" y1="0.0000" x2="-1.7800" y2="2.5400" width="0.2540" layer="94"/>
+<wire x1="-1.2700" y1="-3.8100" x2="-1.0200" y2="-2.5400" width="0.2540" layer="94"/>
+<wire x1="1.2700" y1="-1.2700" x2="-1.2700" y2="-1.2700" width="0.2540" layer="94"/>
+<wire x1="-1.2700" y1="-1.2700" x2="-1.2700" y2="-3.8100" width="0.2540" layer="94"/>
+<wire x1="-1.2700" y1="-3.8100" x2="-1.5200" y2="-2.5400" width="0.2540" layer="94"/>
+<wire x1="1.2700" y1="-3.8100" x2="-5.5900" y2="-3.8100" width="0.2540" layer="94"/>
+<wire x1="-5.5900" y1="-3.8100" x2="-6.1000" y2="-3.0500" width="0.2540" layer="94"/>
+<wire x1="-6.1000" y1="-3.0500" x2="-6.6000" y2="-3.8100" width="0.2540" layer="94"/>
+<wire x1="-1.7800" y1="1.7800" x2="-6.3500" y2="1.7800" width="0.2540" layer="94"/>
+<wire x1="-6.3500" y1="1.7800" x2="-7.3700" y2="1.2700" width="0.2540" layer="94"/>
+<wire x1="-7.3700" y1="1.2700" x2="-6.3500" y2="0.7600" width="0.2540" layer="94"/>
+<wire x1="-6.3500" y1="0.7600" x2="-1.7800" y2="0.7600" width="0.2540" layer="94"/>
+<wire x1="1.2700" y1="1.2700" x2="-1.0200" y2="1.2700" width="0.2540" layer="94"/>
+<pin name="3" x="6.3500" y="-1.2700" length="long" direction="io" rot="R180" visible="both"/>
+<pin name="2" x="6.3500" y="-3.8100" length="long" direction="io" rot="R180" visible="both"/>
+<pin name="1" x="6.3500" y="1.2700" length="long" direction="io" rot="R180" visible="both"/>
+<text x="0" y="4.5400" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="6.5400" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -15049,6 +15207,282 @@
 <attribute name="RESISTANCE" value="100Ω" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="±200ppm/℃" constant="no"/>
 <attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0603WAF1372T5E_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 13.7kΩ ±1% 100mW 0603 Thick Film Resistor&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; UNI-ROYAL&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; 0603WAF1372T5E&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C22793&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Chip Resistor - Surface Mount&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22793</description>
+<gates>
+<gate name="G$1" symbol="0603WAF1372T5E_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C22793" constant="no"/>
+<attribute name="MPN" value="0603WAF1372T5E" constant="no"/>
+<attribute name="PARTNO" value="0603WAF1372T5E" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="DESCRIPTION" value="13.7kΩ ±1% 100mW 0603 Thick Film Resistor" constant="no"/>
+<attribute name="CATEGORY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22793" constant="no"/>
+<attribute name="PRICING_50" value="$0.0032/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0028/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="102100" constant="no"/>
+<attribute name="TYPE" value="Thick Film Resistor" constant="no"/>
+<attribute name="RESISTANCE" value="13.7kΩ" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="75V" constant="no"/>
+<attribute name="POWER_WATTS" value="100mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/℃" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0603WAF1003T5E_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 100kΩ ±1% 100mW 0603 Thick Film Resistor&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; UNI-ROYAL&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; 0603WAF1003T5E&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C25803&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Chip Resistor - Surface Mount&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25803</description>
+<gates>
+<gate name="G$1" symbol="0603WAF1003T5E_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C25803" constant="no"/>
+<attribute name="MPN" value="0603WAF1003T5E" constant="no"/>
+<attribute name="PARTNO" value="0603WAF1003T5E" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="DESCRIPTION" value="100kΩ ±1% 100mW 0603 Thick Film Resistor" constant="no"/>
+<attribute name="CATEGORY" value="Chip Resistor - Surface Mount" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25803" constant="no"/>
+<attribute name="PRICING_50" value="$0.008/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0071/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="5710700" constant="no"/>
+<attribute name="TYPE" value="Thick Film Resistor" constant="no"/>
+<attribute name="RESISTANCE" value="100kΩ" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="75V" constant="no"/>
+<attribute name="POWER_WATTS" value="100mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="±100ppm/℃" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL21A226MAQNNNE_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 22uF ±20% 25V Ceramic Capacitor X5R 0805&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Samsung Electro-Mechanics&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; CL21A226MAQNNNE&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C45783&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Ceramic Capacitors&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C45783</description>
+<gates>
+<gate name="G$1" symbol="CL21A226MAQNNNE_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C45783" constant="no"/>
+<attribute name="MPN" value="CL21A226MAQNNNE" constant="no"/>
+<attribute name="PARTNO" value="CL21A226MAQNNNE" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="DESCRIPTION" value="22uF ±20% 25V Ceramic Capacitor X5R 0805" constant="no"/>
+<attribute name="CATEGORY" value="Ceramic Capacitors" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C45783" constant="no"/>
+<attribute name="PRICING_50" value="$0.3402/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.2674/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="4400" constant="no"/>
+<attribute name="CAPACITANCE" value="22uF" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="25V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X5R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL31B106KBHNNNE_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 10uF ±10% 50V Ceramic Capacitor X7R 1206&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Samsung Electro-Mechanics&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; CL31B106KBHNNNE&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C89632&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Ceramic Capacitors&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/a1390a51092e4f3c84866ab492516a00.pdf?productCode=C89632</description>
+<gates>
+<gate name="G$1" symbol="CL31B106KBHNNNE_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C89632" constant="no"/>
+<attribute name="MPN" value="CL31B106KBHNNNE" constant="no"/>
+<attribute name="PARTNO" value="CL31B106KBHNNNE" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="DESCRIPTION" value="10uF ±10% 50V Ceramic Capacitor X7R 1206" constant="no"/>
+<attribute name="CATEGORY" value="Ceramic Capacitors" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/a1390a51092e4f3c84866ab492516a00.pdf?productCode=C89632" constant="no"/>
+<attribute name="PRICING_50" value="$0.3621/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.2975/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="0" constant="no"/>
+<attribute name="CAPACITANCE" value="10uF" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS54302DDCR_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; Buck Switching Regulator IC Adjustable 1 Output 3A TSOT-23-6&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; TI&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; TPS54302DDCR&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C311983&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Voltage Regulators - DC DC Switching Regulators&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/dd7a4984f2d3ca9a2264b937537aa471.pdf?productCode=C311983</description>
+<gates>
+<gate name="G$1" symbol="TPS54302DDCR_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="BOOT" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C311983" constant="no"/>
+<attribute name="MPN" value="TPS54302DDCR" constant="no"/>
+<attribute name="PARTNO" value="TPS54302DDCR" constant="no"/>
+<attribute name="MANUFACTURER" value="TI" constant="no"/>
+<attribute name="DESCRIPTION" value="Buck Switching Regulator IC Adjustable 1 Output 3A TSOT-23-6" constant="no"/>
+<attribute name="CATEGORY" value="Voltage Regulators - DC DC Switching Regulators" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/dd7a4984f2d3ca9a2264b937537aa471.pdf?productCode=C311983" constant="no"/>
+<attribute name="PRICING_50" value="$0.2126/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.1774/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="58575" constant="no"/>
+<attribute name="FUNCTION" value="Step-down type" constant="no"/>
+<attribute name="OPERATING_VOLTAGE" value="4.5V~28V" constant="no"/>
+<attribute name="NUMBER_OF_OUTPUTS" value="1" constant="no"/>
+<attribute name="OUTPUT_TYPE" value="Adjustable" constant="no"/>
+<attribute name="OUTPUT_CURRENT" value="3A" constant="no"/>
+<attribute name="QUIESCENT_CURRENT" value="45uA" constant="no"/>
+<attribute name="FREQUENCY_SWITCHING" value="400kHz" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40℃~+125℃@(TJ)" constant="no"/>
+<attribute name="FEATURES" value="Cycle-by-cycle current limiting;Hiccup current limiting;EMI optimization (spread spectrum);Light load efficient mode;Overcurrent Protection" constant="no"/>
+<attribute name="TOPOLOGY" value="Buck" constant="no"/>
+<attribute name="SWITCH_TUBE_BUILT_IN_EXTERNAL" value="Built-in" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VLS6045EX-100M_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 3.4A 10uH ±20% 3.9A 47mΩ SMD,6x6mm Fixed Inductors RoHS&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; TDK&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; VLS6045EX-100M&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C360734&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Fixed Inductors&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/a256e417242218601e919cb125a60f5a.pdf?productCode=C360734</description>
+<gates>
+<gate name="G$1" symbol="VLS6045EX-100M_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IND-SMD_L6.0-W6.0_VLS6045EX-2R0N">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C360734" constant="no"/>
+<attribute name="MPN" value="VLS6045EX-100M" constant="no"/>
+<attribute name="PARTNO" value="VLS6045EX-100M" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="DESCRIPTION" value="3.4A 10uH ±20% 3.9A 47mΩ SMD,6x6mm Fixed Inductors RoHS" constant="no"/>
+<attribute name="CATEGORY" value="Fixed Inductors" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/a256e417242218601e919cb125a60f5a.pdf?productCode=C360734" constant="no"/>
+<attribute name="PRICING_50" value="$0.1271/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.1144/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="6935" constant="no"/>
+<attribute name="INDUCTANCE" value="10uH" constant="no"/>
+<attribute name="CURRENT_SATURATION_ISAT" value="3.9A" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="CURRENT_RATING" value="3.4A" constant="no"/>
+<attribute name="DC_RESISTANCE_DCR" value="47mΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC0603FRNPO9BN750_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 75pF ±1% 50V Ceramic Capacitor NP0 0603&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; YAGEO&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; CC0603FRNPO9BN750&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C519496&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Ceramic Capacitors&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/4eca2bb4b507f1633db47e922d632b95.pdf?productCode=C519496</description>
+<gates>
+<gate name="G$1" symbol="CC0603FRNPO9BN750_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C519496" constant="no"/>
+<attribute name="MPN" value="CC0603FRNPO9BN750" constant="no"/>
+<attribute name="PARTNO" value="CC0603FRNPO9BN750" constant="no"/>
+<attribute name="MANUFACTURER" value="YAGEO" constant="no"/>
+<attribute name="DESCRIPTION" value="75pF ±1% 50V Ceramic Capacitor NP0 0603" constant="no"/>
+<attribute name="CATEGORY" value="Ceramic Capacitors" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/4eca2bb4b507f1633db47e922d632b95.pdf?productCode=C519496" constant="no"/>
+<attribute name="PRICING_50" value="$0.021/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0191/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="2300" constant="no"/>
+<attribute name="CAPACITANCE" value="75pF" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="NP0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XDJK-0051-025_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; Power Barrel Connector Jack 2.1mm ID 6.3mm OD Through Hole, Right Angle&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Lian Xin Technology&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; XDJK-0051-025&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C7498153&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Power Connectors&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/cd206a69b17027c39c50a78955d061a5.pdf?productCode=C7498153</description>
+<gates>
+<gate name="G$1" symbol="XDJK-0051-025_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DC-IN-TH_XDJK-0051-025">
+<connects>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C7498153" constant="no"/>
+<attribute name="MPN" value="XDJK-0051-025" constant="no"/>
+<attribute name="PARTNO" value="XDJK-0051-025" constant="no"/>
+<attribute name="MANUFACTURER" value="Lian Xin Technology" constant="no"/>
+<attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.1mm ID 6.3mm OD Through Hole, Right Angle" constant="no"/>
+<attribute name="CATEGORY" value="Power Connectors" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/cd206a69b17027c39c50a78955d061a5.pdf?productCode=C7498153" constant="no"/>
+<attribute name="PRICING_50" value="$0.0755/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0587/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="13475" constant="no"/>
+<attribute name="CONNECTOR_TYPE" value="DC Power Jack" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Right Angle" constant="no"/>
+<attribute name="INSIDE_CONTACT_DIAMETER" value="2.1mm" constant="no"/>
+<attribute name="OUTSIDE_CONTACT_DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="CURRENT_RATING" value="3A" constant="no"/>
+<attribute name="VOLTAGE_RATING_MAX" value="500V" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40℃~+85℃" constant="no"/>
 </technology>
 </technologies>
 </device>

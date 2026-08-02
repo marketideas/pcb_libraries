@@ -1,0 +1,96 @@
+#usage "<b>Refill / Ripup / Autoroute helper (stage 2 of 2)</b>\n"
+       "<p>Finishes what a_route.ulp started: finds the polygons currently "
+       "on the 'FILL' signal (one on layer 1, Top; one on layer 16, "
+       "Bottom), renames them back to 'GND', fits the board to the window, "
+       "shows the standard layer set, runs RATSNEST (recalculates polygon "
+       "pours and airwires), runs DRC (so any remaining airwires are "
+       "listed in its Errors window/list), and saves the board.</p>"
+       "<p>Run this only after you have finished reviewing/picking the "
+       "Autorouter's job variant from a_route.ulp (Evaluate / End Job).</p>"
+       "<p>Afterward, run <b>RUN a_route_check_airwires.ulp;</b> to get a "
+       "report of any airwires (unrouted connections) still remaining.</p>"
+       "<p>Run from the Board Editor command line with:</p>"
+       "<p><b>RUN a_route_finish.ulp;</b></p>";
+
+real fillX[]    = { 0.0, 0.0 };
+real fillY[]    = { 0.0, 0.0 };
+real sumX[]     = { 0.0, 0.0 };
+real sumY[]     = { 0.0, 0.0 };
+int  vtxCount[] = { 0, 0 };
+int  foundOnTop    = 0;   // 1 if signal 'FILL' has a polygon on layer 1
+int  foundOnBottom = 0;   // 1 if signal 'FILL' has a polygon on layer 16
+
+board(B) {
+  B.signals(S) {
+    if (S.name == "FILL") {
+      S.polygons(P) {
+        int idx = -1;
+        if (P.layer == 1)  idx = 0;
+        if (P.layer == 16) idx = 1;
+
+        if (idx >= 0) {
+          P.wires(W) {
+            sumX[idx] += u2mm(W.x1);
+            sumY[idx] += u2mm(W.y1);
+            vtxCount[idx]++;
+          }
+          if (idx == 0) foundOnTop    = 1;
+          if (idx == 1) foundOnBottom = 1;
+        }
+      }
+    }
+  }
+}
+
+if (!foundOnTop || !foundOnBottom) {
+  // Could not find a 'FILL' polygon on both Top and Bottom - abort
+  // without touching the board. Did you already run a_route.ulp first?
+  exit(EXIT_FAILURE);
+}
+
+// Centroid (average of all vertices) of each polygon - used as the click
+// point for NAME, so the click lands well inside the polygon's fill area
+// rather than on an edge.
+fillX[0] = sumX[0] / vtxCount[0];
+fillY[0] = sumY[0] / vtxCount[0];
+fillX[1] = sumX[1] / vtxCount[1];
+fillY[1] = sumY[1] / vtxCount[1];
+
+string cmd = "";
+string buf;
+
+// Auto-answer the "connect polygon to signal GND?" confirmation dialogs
+// that NAME triggers, so this runs without manual clicks. Restored to
+// OFF further below, per the manual's warning not to leave it enabled
+// generally.
+cmd += "SET CONFIRM YES; ";
+
+// Isolate each layer with DISPLAY before NAME-ing so the coordinate click
+// can only land on that layer's polygon. Renaming a polygon this way
+// (NAME (x y) 'newname';) connects it with another signal - see EAGLE
+// manual. ("NAME 'old' 'new';" only works for elements, not polygons.)
+sprintf(buf, "DISPLAY NONE; DISPLAY 1; NAME (%f %f) 'GND'; ",
+        fillX[0], fillY[0]);
+cmd += buf;
+
+sprintf(buf, "DISPLAY NONE; DISPLAY 16; NAME (%f %f) 'GND'; ",
+        fillX[1], fillY[1]);
+cmd += buf;
+
+cmd += "SET CONFIRM OFF; ";
+
+// Fit the board to the window, show the standard layer set, then let
+// RATSNEST calculate the polygon pours (fills) and the remaining airwires.
+cmd += "WINDOW FIT; ";
+cmd += "DISPLAY NONE; DISPLAY 1 2 15 16 17 18 19 20 21 22 23 24 25 26 39 40 41 42 51 52; ";
+cmd += "RATSNEST; ";
+
+// Run DRC so its Errors list is populated (the "Airwires" branch there
+// lists any remaining unrouted signal wires). "DRC;" (no arguments) runs
+// directly with the board's existing design rules instead of opening the
+// Design Rules window, which only happens with "DRC *;".
+cmd += "DRC; ";
+
+cmd += "WRITE; ";
+
+exit(cmd);

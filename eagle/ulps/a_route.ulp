@@ -1,0 +1,97 @@
+#usage "<b>Refill / Ripup helper (stage 1 of 2)</b>\n"
+       "<p>Finds the two copper-fill polygons marked with rank 4 (Top) and "
+       "rank 5 (Bottom), temporarily renames them to the signal 'FILL' "
+       "(renaming a polygon with NAME moves it to another signal), and "
+       "rips up all routing on every layer.</p>"
+       "<p>AUTO is deliberately NOT run by this script. EAGLE only lets "
+       "you review/pick the Autorouter's job variants (Evaluate / End Job) "
+       "when AUTO is typed at the keyboard - when it's queued from a "
+       "script or ULP it auto-commits a variant instead. After this "
+       "script finishes, type <b>AUTO;</b> yourself on the command line, "
+       "review the routing variants, and pick the best one.</p>"
+       "<p>Once you're happy with the routing, finish up by running "
+       "<b>RUN a_route_finish.ulp;</b>, which renames the polygons back to "
+       "'GND', fits the window, sets the standard layers, runs RATSNEST, "
+       "and saves the board.</p>"
+       "<p>Run from the Board Editor command line with:</p>"
+       "<p><b>RUN a_route.ulp;</b></p>";
+
+int    rankOf[]     = { 4, 5 };      // rank 4 = Top polygon, rank 5 = Bottom polygon
+int    foundLayer[] = { 0, 0 };
+real   sumX[]        = { 0.0, 0.0 };
+real   sumY[]        = { 0.0, 0.0 };
+int    vtxCount[]    = { 0, 0 };
+int    found[]       = { 0, 0 };
+
+board(B) {
+  B.signals(S) {
+    S.polygons(P) {
+      int idx = -1;
+      if (P.rank == rankOf[0]) idx = 0;
+      else if (P.rank == rankOf[1]) idx = 1;
+
+      if (idx >= 0 && !found[idx]) {
+        P.wires(W) {
+          sumX[idx] += u2mm(W.x1);
+          sumY[idx] += u2mm(W.y1);
+          vtxCount[idx]++;
+        }
+        if (vtxCount[idx] > 0) {
+          foundLayer[idx] = P.layer;
+          found[idx]      = 1;
+        }
+      }
+    }
+  }
+}
+
+if (!found[0] || !found[1]) {
+  // Could not find a polygon with both rank 4 and rank 5 - abort without
+  // touching the board.
+  exit(EXIT_FAILURE);
+}
+
+// Centroid (average of all vertices) of each polygon - used as the click
+// point for NAME. Using the centroid instead of just the first vertex
+// keeps the click well inside the polygon's fill area rather than right
+// on an edge, where it could miss or land on a neighboring object.
+real fillX[] = { 0.0, 0.0 };
+real fillY[] = { 0.0, 0.0 };
+fillX[0] = sumX[0] / vtxCount[0];
+fillY[0] = sumY[0] / vtxCount[0];
+fillX[1] = sumX[1] / vtxCount[1];
+fillY[1] = sumY[1] / vtxCount[1];
+
+string cmd = "";
+string buf;
+
+// Auto-answer the "connect polygon to signal FILL?" confirmation dialogs
+// that NAME triggers, so this runs without manual clicks. Restored to
+// OFF further below, per the manual's warning not to leave it enabled
+// generally.
+cmd += "SET CONFIRM YES; ";
+
+// Isolate each layer with DISPLAY before NAME-ing so the coordinate click
+// can only land on that layer's polygon. Renaming a polygon this way
+// (NAME (x y) 'newname';) connects it with another signal - see EAGLE
+// manual. ("NAME 'old' 'new';" only works for elements, not polygons -
+// that form gives "Unknown element" when the first argument isn't an
+// element name.)
+sprintf(buf, "DISPLAY NONE; DISPLAY %d; NAME (%f %f) 'FILL'; ",
+        foundLayer[0], fillX[0], fillY[0]);
+cmd += buf;
+
+sprintf(buf, "DISPLAY NONE; DISPLAY %d; NAME (%f %f) 'FILL'; ",
+        foundLayer[1], fillX[1], fillY[1]);
+cmd += buf;
+
+// Rip up every trace/via on every layer (all signals, all layers visible).
+cmd += "DISPLAY ALL; RIPUP; ";
+
+cmd += "SET CONFIRM OFF; ";
+
+// AUTO is intentionally NOT queued here - see #usage above. Type it
+// yourself on the command line afterward so you can review/pick the
+// Autorouter's job variants.
+
+exit(cmd);

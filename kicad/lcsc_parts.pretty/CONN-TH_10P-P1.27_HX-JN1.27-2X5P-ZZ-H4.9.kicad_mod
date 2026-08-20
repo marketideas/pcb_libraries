@@ -41,7 +41,7 @@
 	(fp_line (start -6.27 -2.50) (end 6.28 -2.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 6.28 -2.50) (end 6.28 2.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 6.28 2.50) (end -6.27 2.50) (layer F.CrtYd) (width 0.05))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/CONN-TH_10P-P1.27_DC3-10P.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/CONN-TH_10P-P1.27_DC3-10P.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

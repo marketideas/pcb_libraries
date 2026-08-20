@@ -1,0 +1,53 @@
+#usage "<b>Airwire check (run after a_route_finish.ulp)</b>\n"
+       "<p>Reads the Design Rule Check results (populated by the DRC; "
+       "command that a_route_finish.ulp already ran) and reports any "
+       "remaining airwires (unrouted connections) via the DRC's dedicated "
+       "'Airwires' error branch.</p>"
+       "<p>If the board hasn't been checked yet, this runs DRC itself "
+       "first.</p>"
+       "<p>Run from the Board Editor command line with:</p>"
+       "<p><b>RUN a_route_check_airwires.ulp;</b></p>";
+
+if (!board) {
+  dlgMessageBox("This ULP must be run in the Board editor.");
+  exit(EXIT_FAILURE);
+}
+
+int haveResults = 0;
+int airwireCount = 0;
+string airwireList = "";
+
+board(B) {
+  haveResults = B.checked;
+  if (haveResults) {
+    B.errors(ER) {
+      // The DRC's "Airwires" branch reports any remaining, unrouted
+      // signal connections. Matching "irwire" catches both "Airwire" and
+      // "airwire" regardless of capitalization, without needing a
+      // separate case-insensitive compare.
+      if (strstr(ER.description, "irwire") >= 0) {
+        ++airwireCount;
+        string line;
+        sprintf(line, "%s\n", ER.description);
+        airwireList += line;
+      }
+    }
+  }
+}
+
+if (!haveResults) {
+  // DRC hasn't been run yet in this session - run it now and ask the
+  // user to re-run this check afterward, since results are only
+  // available to a ULP after DRC has actually completed.
+  exit("DRC; RUN a_route_check_airwires.ulp;");
+}
+
+if (airwireCount == 0) {
+  dlgMessageBox("No airwires found - routing looks complete.");
+} else {
+  string msg;
+  sprintf(msg, "%d airwire(s) remaining:\n\n%s", airwireCount, airwireList);
+  dlgMessageBox(msg);
+}
+
+exit(0);

@@ -56,7 +56,7 @@
 	(fp_poly (pts (xy 0.424993 -2.175002) (xy 0.424993 -1.940001) (xy 0.845007 -1.940001) (xy 0.845007 -2.175002) (xy 0.424993 -2.175002)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 1.694993 -2.999994) (xy 1.694993 -2.164994) (xy 2.115007 -2.164994) (xy 2.115007 -2.999994) (xy 1.694993 -2.999994)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 1.694993 -2.175002) (xy 1.694993 -1.940001) (xy 2.115007 -1.940001) (xy 2.115007 -2.175002) (xy 1.694993 -2.175002)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

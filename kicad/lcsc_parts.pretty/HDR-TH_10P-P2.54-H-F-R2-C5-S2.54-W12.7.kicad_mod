@@ -39,7 +39,7 @@
 	(fp_line (start 6.73 -2.16) (end 6.73 11.56) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 6.73 11.56) (end -6.73 11.56) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -6.73 11.56) (end -6.73 -2.16) (layer F.CrtYd) (width 0.05))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/HDR-TH_10P-P2.54-F-WI-2X5P.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/HDR-TH_10P-P2.54-F-WI-2X5P.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

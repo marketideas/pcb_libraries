@@ -29,7 +29,7 @@
 	(fp_poly (pts (xy 0.899998 1.164971) (xy 0.899998 0.734949) (xy 1.199998 0.734949) (xy 1.199998 1.164971) (xy 0.899998 1.164971)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy -0.910006 0.215011) (xy -0.910006 -0.215011) (xy -0.640004 -0.215011) (xy -0.640004 0.215011) (xy -0.910006 0.215011)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy -1.199998 0.215011) (xy -1.199998 -0.215011) (xy -0.899998 -0.215011) (xy -0.899998 0.215011) (xy -1.199998 0.215011)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

@@ -52,7 +52,7 @@
 	(fp_poly (pts (xy -3.600094 -2.000047) (xy -3.400095 -2.000047) (xy -3.400095 -1.000049) (xy -3.600094 -1.000049) (xy -3.600094 -2.000047)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy -6.300064 0.799922) (xy -5.500065 0.799922) (xy -5.500065 1.999920) (xy -6.300064 1.999920) (xy -6.300064 0.799922)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 5.499913 0.799922) (xy 6.299911 0.799922) (xy 6.299911 1.999920) (xy 5.499913 1.999920) (xy 5.499913 0.799922)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/FPC-SMD_8P-P1.00_FH12S-8S-1SH-55.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/FPC-SMD_8P-P1.00_FH12S-8S-1SH-55.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

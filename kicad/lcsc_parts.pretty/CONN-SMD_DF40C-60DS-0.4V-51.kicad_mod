@@ -150,7 +150,7 @@
 	(fp_poly (pts (xy 4.939868 1.090041) (xy 5.059858 1.090041) (xy 5.059858 1.690040) (xy 4.939868 1.690040) (xy 4.939868 1.090041)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 5.339918 1.090041) (xy 5.459908 1.090041) (xy 5.459908 1.690040) (xy 5.339918 1.690040) (xy 5.339918 1.090041)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
 	(fp_poly (pts (xy 5.739968 1.090041) (xy 5.859958 1.090041) (xy 5.859958 1.690040) (xy 5.739968 1.690040) (xy 5.739968 1.090041)) (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab"))
-	(model "${LCSC_PARTS}/kicad/lcsc_parts.3dshapes/CONN-SMD_DF40C-60DS-0.4V-51.wrl"
+	(model "${LCSC_TOOLS}/kicad/lcsc_parts.3dshapes/CONN-SMD_DF40C-60DS-0.4V-51.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

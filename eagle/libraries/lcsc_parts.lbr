@@ -9965,6 +9965,16 @@
 <text x="0" y="4.5400" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="6.5400" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="CC0603FRNPO9BN150_LCSC">
+<wire x1="-0.5100" y1="-2.0300" x2="-0.5100" y2="2.0300" width="0.2540" layer="94"/>
+<wire x1="2.5400" y1="-0.0000" x2="0.5100" y2="-0.0000" width="0.2540" layer="94"/>
+<wire x1="0.5100" y1="2.0300" x2="0.5100" y2="-2.0300" width="0.2540" layer="94"/>
+<wire x1="-0.5100" y1="-0.0000" x2="-2.5400" y2="-0.0000" width="0.2540" layer="94"/>
+<pin name="1" x="-5.0800" y="-0.0000" length="short" direction="io" rot="R0" visible="both"/>
+<pin name="2" x="5.0800" y="-0.0000" length="short" direction="io" rot="R180" visible="both"/>
+<text x="0" y="4.0300" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="6.0300" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AMS1117-3.3_LCSC" prefix="U">
@@ -13807,6 +13817,38 @@
 <attribute name="CURRENT_RATING" value="3A" constant="no"/>
 <attribute name="VOLTAGE_RATING_MAX" value="500V" constant="no"/>
 <attribute name="OPERATING_TEMPERATURE" value="-40℃~+85℃" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC0603FRNPO9BN150_LCSC" prefix="U">
+<description>&lt;b&gt;Description:&lt;/b&gt; 15pF ±1% 50V Ceramic Capacitor NP0 0603&lt;br/&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; YAGEO&lt;br/&gt;&lt;b&gt;MPN:&lt;/b&gt; CC0603FRNPO9BN150&lt;br/&gt;&lt;b&gt;LCSC Part:&lt;/b&gt; C519483&lt;br/&gt;&lt;b&gt;Category:&lt;/b&gt; Ceramic Capacitors&lt;br/&gt;&lt;b&gt;Datasheet:&lt;/b&gt; https://datasheet.lcsc.com/datasheet/pdf/4eca2bb4b507f1633db47e922d632b95.pdf?productCode=C519483</description>
+<gates>
+<gate name="G$1" symbol="CC0603FRNPO9BN150_LCSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LCSC_PART" value="C519483" constant="no"/>
+<attribute name="MPN" value="CC0603FRNPO9BN150" constant="no"/>
+<attribute name="PARTNO" value="CC0603FRNPO9BN150" constant="no"/>
+<attribute name="MANUFACTURER" value="YAGEO" constant="no"/>
+<attribute name="DESCRIPTION" value="15pF ±1% 50V Ceramic Capacitor NP0 0603" constant="no"/>
+<attribute name="CATEGORY" value="Ceramic Capacitors" constant="no"/>
+<attribute name="DATASHEET" value="https://datasheet.lcsc.com/datasheet/pdf/4eca2bb4b507f1633db47e922d632b95.pdf?productCode=C519483" constant="no"/>
+<attribute name="PRICING_50" value="$0.0255/unit @ 50" constant="no"/>
+<attribute name="PRICING_1000" value="$0.0217/unit @ 1000" constant="no"/>
+<attribute name="LCSC_STOCK" value="264950" constant="no"/>
+<attribute name="CAPACITANCE" value="15pF" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50V" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="NP0" constant="no"/>
 </technology>
 </technologies>
 </device>

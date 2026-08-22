@@ -116,7 +116,7 @@
 <text x="0" y="2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="CAPC1608X85" urn="urn:adsk.eagle:footprint:16290847/6">
+<package name="CAPC1608X85" urn="urn:adsk.eagle:footprint:16290847/6" locally_modified="yes">
 <description>Chip, 1.60 X 0.80 X 0.85 mm body
 &lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.85 mm&lt;/p&gt;</description>
 <wire x1="0.875" y1="0.7991" x2="-0.875" y2="0.7991" width="0.127" layer="21"/>
@@ -129,6 +129,7 @@
 <smd name="2" x="0.7746" y="0" dx="0.9209" dy="0.9702" layer="1"/>
 <text x="0" y="2.54" size="1.27" layer="25" align="top-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.762" width="0.1524" layer="21"/>
 </package>
 <package name="CAPC3225X135" urn="urn:adsk.eagle:footprint:16290843/6">
 <description>Chip, 3.20 X 2.50 X 1.35 mm body
